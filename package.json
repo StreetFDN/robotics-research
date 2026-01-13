@@ -1,0 +1,42 @@
+{
+  "name": "robotics-globe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint",
+    "build:companies": "tsx scripts/build_private_companies_dataset.ts",
+    "validate:companies": "tsx scripts/validate_private_companies_dataset.ts",
+    "build:funding": "tsx scripts/normalize_funding.ts",
+    "build:v2": "tsx scripts/build_private_companies_v2.ts"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/postprocessing": "^2.16.3",
+    "csv-parse": "^6.1.0",
+    "framer-motion": "^11.3.19",
+    "next": "^14.2.5",
+    "postprocessing": "^6.36.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0",
+    "yahoo-finance2": "^3.11.2",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.28",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.169.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.5",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "tsx": "^4.21.0",
+    "typescript": "5.9.3"
+  }
+}

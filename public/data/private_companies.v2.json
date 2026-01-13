@@ -1,0 +1,4203 @@
+[
+  {
+    "id": "758c330f32cc697f",
+    "name": "1X Technologies",
+    "aliases": [
+      "1X Technologies"
+    ],
+    "description": "Humanoid robotics company developing NEO bipedal robot for consumer/household use. Originally Norwegian (Halodi Robotics), relocated to Palo Alto July 2025. OpenAI's primary embodied intelligence vehicle. Wheeled EVE (commercial) + bipedal NEO (development).",
+    "tags": [
+      "humanoid",
+      "household",
+      "consumer",
+      "bipedal"
+    ],
+    "city": "Palo Alto",
+    "hq": {
+      "lat": 37.4419,
+      "lon": -122.143,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.609Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 2
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 10000000000,
+        "time": "01/2025",
+        "confidence": "low",
+        "notes": "target valuation; year-only; year-only from parentheses; $10B target (Series B 2025)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a2",
+        "time": "03/2023",
+        "confidence": "med",
+        "notes": "Could not extract valuation from: A2 - Mar 2023; A2 - Mar 2023",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 800000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "extracted; $800M - Jan 2024",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-e",
+        "valuationUsd": 10000000000,
+        "time": "09/2025",
+        "confidence": "low",
+        "notes": "target valuation; $10B target - Sep 2025",
+        "sourceColumn": "Series E Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "9eb5d53dafe24763",
+    "name": "Agility Robotics",
+    "aliases": [
+      "Agility Robotics"
+    ],
+    "description": "Leading commercial humanoid robotics with bipedal Digit robot for warehouse automation and logistics. Proven Amazon warehouse deployments (~100 units operational). First-mover advantage with 2-3 year deployment lead. RoboFab manufacturing facility in Salem, OR for 10,000+ units/year capacity.",
+    "tags": [
+      "humanoid",
+      "warehouse",
+      "logistics",
+      "manufacturing",
+      "bipedal"
+    ],
+    "city": "Salem",
+    "hq": {
+      "lat": 44.5329,
+      "lon": -122.7795,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.620Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 3
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 1750000000,
+        "time": "06/2025",
+        "confidence": "med",
+        "notes": "extracted; $1.75B - Jun 2025",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 792000,
+        "time": "10/2016",
+        "confidence": "med",
+        "notes": "extracted; $792K - Oct 2016",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 29000000,
+        "time": "10/2020",
+        "confidence": "med",
+        "notes": "extracted; $29M - Oct 2020",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 1000000000,
+        "time": "04/2022",
+        "confidence": "med",
+        "notes": "extracted; $1.0B - Apr 2022",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 1750000000,
+        "time": "06/2025",
+        "confidence": "med",
+        "notes": "extracted; $1.75B - Jun 2025",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "58e91cf3c3f81598",
+    "name": "Collaborative Robotics",
+    "aliases": [
+      "Collaborative Robotics"
+    ],
+    "description": "Collaborative robots (cobots) for manufacturing, logistics, and warehouse automation. Founded May 2022 by ex-Amazon Robotics VP Brad Porter who deployed 200k+ robots at Amazon. Cobalt robot features industry-leading 4kg payload with human-safe collaborative operation. Rapid growth: $30M seed → $100M Series A (8 months) → $1B Series B (14 months). Focus on practical deployment addressing labor shortages in manufacturing. Strategic positioning between traditional industrial arms and humanoid robots.",
+    "tags": [
+      "humanoid",
+      "warehouse",
+      "logistics",
+      "industrial",
+      "manufacturing",
+      "collaborative",
+      "cobot"
+    ],
+    "city": "Santa Clara",
+    "hq": {
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 4
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 1000000000,
+        "time": "11/2024",
+        "confidence": "med",
+        "notes": "extracted; from parentheses; $1B (Series B Nov 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 30000000,
+        "time": "02/2023",
+        "confidence": "med",
+        "notes": "extracted; $30M - Feb 2023",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 100000000,
+        "time": "08/2023",
+        "confidence": "med",
+        "notes": "extracted; $100M - Aug 2023",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 1000000000,
+        "time": "11/2024",
+        "confidence": "med",
+        "notes": "extracted; $1B valuation - Nov 2024",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "e4e77ad058c8d693",
+    "name": "Figure AI",
+    "aliases": [
+      "Figure AI"
+    ],
+    "description": "Highest valuation humanoid robotics company building Figure-01/Figure-02 robots with OpenAI integration. Deep vertical integration strategy partnering with BMW for manufacturing applications. Pre-commercial phase with pilot deployments.",
+    "tags": [
+      "humanoid",
+      "manufacturing"
+    ],
+    "city": "Sunnyvale",
+    "hq": {
+      "lat": 37.3688,
+      "lon": -122.0363,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 5
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 39000000000,
+        "time": "01/2025",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only from parentheses; $39B (Series C 2025)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 100000000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $100M - 2022",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 500000000,
+        "time": "05/2023",
+        "confidence": "med",
+        "notes": "extracted; $500M - May 2023",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 2600000000,
+        "time": "02/2024",
+        "confidence": "med",
+        "notes": "extracted; $2.6B - Feb 2024",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 39000000000,
+        "time": "09/2025",
+        "confidence": "med",
+        "notes": "extracted; $39B - Sep 2025",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "750852116ef9087f",
+    "name": "Flexion Robotics",
+    "aliases": [
+      "Flexion Robotics"
+    ],
+    "description": "'NVIDIA for robotics' - morphology-agnostic software intelligence platform for humanoid robots. Three-layer architecture: Command (LLM reasoning), Motion (whole-body planning), Control (hardware-agnostic actuation). Sim-to-real transfer using RL. Hardware-independent brain enabling any humanoid to perform complex tasks. ETH Zurich RSL spinout commercializing ANYmal quadruped research. Focus on locomotion and manipulation intelligence that works across different robot embodiments.",
+    "tags": [
+      "humanoid",
+      "manipulation",
+      "quadruped",
+      "manipulation"
+    ],
+    "country": "Switzerland",
+    "city": "Zurich",
+    "hq": {
+      "lat": 47.3769,
+      "lon": 8.5417,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 6
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 200000000,
+        "time": "01/2025",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; Est. $200M (Series A 2025)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 7350000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $7.35M - 2024",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 200000000,
+        "moneyRaisedUsd": 50000000,
+        "time": "11/2025",
+        "confidence": "med",
+        "notes": "estimated; both_present: funding $50M, valuation $200M; $50M at Est. $200M - Nov 2025",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "b2d38cebd7da4fc4",
+    "name": "Sunday Robotics",
+    "aliases": [
+      "Sunday Robotics"
+    ],
+    "description": "Home robotics company founded by combined Tesla Optimus diaspora and Toyota Research Institute alumni. Developing first robotics foundation model trained purely on human movement data - revolutionary data collection methodology. Toyota Research Institute brings complimentary strengths (manipulation research, simulation). Tesla Optimus brings production mindset and vision AI. Strategic positioning at inflection point of domestic robotics market. Focus on household tasks with foundation model enabling broad generalization. Highly credentialed team with tier-1 venture backing.",
+    "tags": [
+      "cooking",
+      "cleaning",
+      "domestic",
+      "household",
+      "consumer",
+      "manipulation",
+      "foundation model"
+    ],
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 7
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 30000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $30M (est. seed 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 30000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $30M - 2024 (tier-1 VCs)",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "04b6b50c9d20b6b8",
+    "name": "Anyware Robotics",
+    "aliases": [
+      "Anyware Robotics"
+    ],
+    "description": "FANUC Silicon Valley spinout developing multi-purpose mobile robots for warehouse and logistics automation. Pixmo robot platform handles container/truck unloading at 1,000 boxes/hour with 65lb payload capacity. Team holds 25+ robotics patents from FANUC experience. Focus on unstructured loading dock environments and mixed SKU handling. Competes with Boston Dynamics Stretch and other automated unloading solutions. Industrial-grade reliability with warehouse-proven technology.",
+    "tags": [
+      "warehouse",
+      "logistics",
+      "industrial",
+      "mobile"
+    ],
+    "city": "Silicon Valley",
+    "hq": {
+      "lat": 37.3875,
+      "lon": -122.0575,
+      "confidence": "high",
+      "source": "qa_fix_lon_sign"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 8
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 17000000,
+        "confidence": "med",
+        "notes": "extracted; Could not extract time from: $17 million; $17 million",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 17000000,
+        "time": "01/2020",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $17M - 2020",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "22a598686d3c348f",
+    "name": "Mimic Robotics",
+    "aliases": [
+      "Mimic Robotics"
+    ],
+    "description": "ETH Zurich spinout focused on achieving human-level dexterity and manipulation capabilities in robotic systems. ETH Zurich Robotics Systems Lab is world-renowned for locomotion and manipulation research (famous for quadruped robots). Focus on solving hardest problems in robotic manipulation: contact-rich tasks, deformable object handling, and multi-object manipulation. European robotics excellence combining academic research depth with commercial focus. Potential applications in manufacturing assembly, food handling, and logistics. Benefits from Swiss precision engineering culture and ETH research infrastructure.",
+    "tags": [
+      "logistics",
+      "manufacturing",
+      "food",
+      "manipulation",
+      "quadruped",
+      "manipulation"
+    ],
+    "country": "Switzerland",
+    "city": "Zurich",
+    "hq": {
+      "lat": 47.3769,
+      "lon": 8.5417,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 9
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 10000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $10M (est. seed 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 1000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $1M - 2023",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 10000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $10M - 2024",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "34e7d4fa315728b3",
+    "name": "4AG Robotics",
+    "aliases": [
+      "4AG Robotics"
+    ],
+    "description": "4AG Robotics develops automated robotic harvesters for high-value specialty crops. Their technology uses computer vision and robotics to gently harvest delicate fruits, targeting the agricultural labor shortage.",
+    "tags": [
+      "agricultural"
+    ],
+    "country": "Canada",
+    "city": "Salmon Arm",
+    "hq": {
+      "lat": 50.7022,
+      "lon": -119.2722,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 10
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 7500000,
+        "confidence": "med",
+        "notes": "estimated; Could not extract time from: Est. $7.5M Total; Est. $7.5M Total",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 2500000,
+        "time": "09/2021",
+        "confidence": "med",
+        "notes": "extracted; $2.5M - September 2021",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 5000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $5M - 2023",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "9baa1db9e0ff5407",
+    "name": "Bonsai Robotics",
+    "aliases": [
+      "Bonsai Robotics",
+      "advanced.farm,"
+    ],
+    "description": "Fruit harvesting robotics company founded by autonomous vehicle and robotics lab alumni applying self-driving technology to agriculture. $15M funding for specialty crop harvesting automation. Focus on high-value crops like strawberries, apples, or grapes requiring delicate manipulation. Leverages computer vision, path planning, and manipulation algorithms from autonomous vehicle domain. Competes with http://Advanced.Farm, Abundant Robotics successors, and FFRobotics. Targets California specialty crop market ($20B+ annually). Key challenge: achieving picking speeds and damage rates competitive with human labor.",
+    "tags": [
+      "agriculture",
+      "autonomous",
+      "manipulation",
+      "harvesting",
+      "manipulation"
+    ],
+    "website": "http://Advanced.Farm,",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.3361,
+      "lon": -121.8905,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 11
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "moneyRaisedUsd": 15000000,
+        "confidence": "med",
+        "notes": "estimated; raise/grant (not valuation); raise/grant amount; Could not extract time from: $15 million (estimated from funding); $15 million (estimated from funding)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 15000000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $15M - 2022",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "23f84b9377d759a2",
+    "name": "Orchard Robotics",
+    "aliases": [
+      "Orchard Robotics"
+    ],
+    "description": "AI-powered precision farming with FruitScope Vision System for crop health analysis at 12 mph tractor speeds. Computer vision platform capturing fruit-level data for apples, grapes, berries, cherries, almonds. FruitScope OS farm operating system for yield forecasting and crop management. Real-time disease detection and harvest optimization. Focus on specialty crops in Pacific Northwest and California. Thiel Fellow-led startup addressing $100B+ precision agriculture market.",
+    "tags": [
+      "agriculture",
+      "farming",
+      "precision agriculture"
+    ],
+    "city": "Seattle",
+    "hq": {
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 12
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 80000000,
+        "time": "01/2025",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; Est. $80M (Series A 2025)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 3800000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $3.8M - 2023",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 80000000,
+        "moneyRaisedUsd": 22000000,
+        "time": "09/2025",
+        "confidence": "med",
+        "notes": "estimated; both_present: funding $22M, valuation $80M; $22M at Est. $80M - Sep 2025",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "9ec86744ca6878c6",
+    "name": "Red Barn Robotics",
+    "aliases": [
+      "Red Barn Robotics"
+    ],
+    "description": "Y Combinator W2025 agricultural robotics startup targeting sub-$100K autonomous farming robots - dramatically cheaper than competitors like Carbon Robotics ($500K+). Founded by ex-John Deere engineer with deep industry insights into cost structures and farmer pain points. Focus on affordability and accessibility for mid-sized farms (100-500 acres). Likely targets precision weeding, crop monitoring, or harvesting applications. Leveraging lower-cost sensors, simplified mechanical designs, and software-first approach to undercut established competitors.",
+    "tags": [
+      "agricultural",
+      "farming",
+      "autonomous",
+      "monitoring",
+      "harvesting",
+      "weeding"
+    ],
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "qa_fix_lon_sign"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 13
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 15000000,
+        "time": "01/2025",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $15M post-money (est. YC batch 2025)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 2000000,
+        "time": "01/2025",
+        "confidence": "med",
+        "notes": "extracted; $2M - January 2025 (Y Combinator standard)",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "c4ccc90e5409ac6f",
+    "name": "Nextera Robotics",
+    "aliases": [
+      "Nextera Robotics"
+    ],
+    "description": "MIT-founded robotics company taking AI-native approach to robot development. Focus on AI-first methodology - using large language models, vision transformers, and reinforcement learning as primary development paradigm rather than traditional controls engineering. Emerging from stealth in 2024. Thesis: modern AI capabilities enable fundamentally different robot development approach. Likely developing general-purpose manipulation or mobile robots with emphasis on learned behaviors over hand-coded algorithms. MIT CSAIL pedigree with world-class robotics research heritage.",
+    "tags": [
+      "mobile",
+      "manipulation",
+      "general-purpose",
+      "manipulation"
+    ],
+    "country": "United States",
+    "city": "Cambridge",
+    "hq": {
+      "lat": 42.3736,
+      "lon": -71.1097,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 14
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 8000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $8M (est. seed 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 1000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $1M - 2023",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 8000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $8M - 2024",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "c466c1e1f6089d55",
+    "name": "The Bot Company",
+    "aliases": [
+      "The Bot Company"
+    ],
+    "description": "AI-powered household robots for automating unpaid domestic labor including cleaning, laundry, cooking, and general household tasks. Non-humanoid design featuring mobile wheeled base with specialized manipulation grippers. LLM-based task adaptation enabling robots to learn and adapt to diverse household environments. Pre-product company with exceptional founder pedigree from autonomous vehicle industry. Focus on mass-market consumer robotics priced competitively.",
+    "tags": [
+      "humanoid",
+      "autonomous",
+      "cooking",
+      "cleaning",
+      "domestic",
+      "household",
+      "consumer",
+      "mobile",
+      "manipulation",
+      "gripper",
+      "manipulation"
+    ],
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 15
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 4000000000,
+        "time": "10/2025",
+        "confidence": "low",
+        "notes": "target valuation; from parentheses; $4B target (Series B Oct 2025)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 150000000,
+        "time": "05/2024",
+        "confidence": "med",
+        "notes": "extracted; $150M - May 2024",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 2000000000,
+        "time": "03/2025",
+        "confidence": "med",
+        "notes": "extracted; $2.0B - Mar 2025",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 250000000,
+        "time": "10/2025",
+        "confidence": "med",
+        "notes": "estimated; Est. $250M - Oct 2025",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "db2d63da151e22b8",
+    "name": "Carbon Robotics",
+    "aliases": [
+      "Carbon Robotics"
+    ],
+    "description": "AI-powered LaserWeeder agricultural robotics using high-power CO2 lasers (150W-300W) and computer vision for chemical-free weed elimination. Real-time plant identification with 8 cameras processing 20+ plants/second. Autonomous robots eliminate 100,000+ weeds/hour targeting 150-acre operations. Over 300 robots deployed across North America specialty crop farms (vegetables, berries). Hardware + software platform with guaranteed performance contracts.",
+    "tags": [
+      "agricultural",
+      "autonomous"
+    ],
+    "city": "Seattle",
+    "hq": {
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 16
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 600000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only from parentheses; $600M (Series C 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 8900000,
+        "time": "01/2019",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $8.9M - 2019",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 27000000,
+        "time": "09/2021",
+        "confidence": "med",
+        "notes": "extracted; $27M - Sep 2021",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 30000000,
+        "time": "04/2023",
+        "confidence": "med",
+        "notes": "extracted; $30M - Apr 2023 + $85M - May 2024",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-d",
+        "valuationUsd": 70000000,
+        "time": "10/2024",
+        "confidence": "med",
+        "notes": "extracted; $70M - Oct 2024",
+        "sourceColumn": "Series D Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-e",
+        "valuationUsd": 20800000,
+        "time": "10/2025",
+        "confidence": "med",
+        "notes": "extracted; $20.8M - Oct 2025",
+        "sourceColumn": "Series E Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "b6dc03d457b6d6a1",
+    "name": "Skild AI",
+    "aliases": [
+      "Skild AI"
+    ],
+    "description": "Building a 'shared brain' for robotics industry - universal foundation model generalizing across robot morphologies, tasks, and environments. Spatial intelligence AI platform for physical world understanding. Targeting general-purpose robotics intelligence.",
+    "tags": [
+      "foundation model",
+      "general-purpose"
+    ],
+    "city": "Pittsburgh",
+    "hq": {
+      "lat": 40.4581,
+      "lon": -79.922,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 17
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 14000000000,
+        "time": "12/2025",
+        "confidence": "low",
+        "notes": "target valuation; $14B target - Dec 2025",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 14500000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $14.5M - 2023",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 1500000000,
+        "time": "07/2024",
+        "confidence": "med",
+        "notes": "extracted; $1.5B - Jul 2024",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 4500000000,
+        "time": "06/2025",
+        "confidence": "med",
+        "notes": "extracted; $4.5B - Jun 2025",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-e",
+        "valuationUsd": 14000000000,
+        "time": "12/2025",
+        "confidence": "low",
+        "notes": "target valuation; $14B target - Dec 2025",
+        "sourceColumn": "Series E Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "74aecc29e9ddef31",
+    "name": "Locus Robotics",
+    "aliases": [
+      "Locus Robotics"
+    ],
+    "description": "Market-leading collaborative autonomous mobile robots (AMRs) for warehouse fulfillment and e-commerce with LocusONE platform. 2-3x picking productivity improvement over manual operations. 2,000+ robots deployed across 500+ sites globally including DHL, Geodis, CEVA Logistics. Robot-as-a-Service (RaaS) business model with $500M+ annual revenue run rate. Origin Platform fleet management software enables multi-site coordination. Competes directly with Amazon Robotics in third-party logistics market.",
+    "tags": [
+      "warehouse",
+      "logistics",
+      "autonomous",
+      "service",
+      "mobile",
+      "collaborative",
+      "fulfillment"
+    ],
+    "city": "Wilmington",
+    "hq": {
+      "lat": 42.5584,
+      "lon": -71.1734,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 18
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 2000000000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only from parentheses; $2B (2022)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 8000000,
+        "time": "05/2016",
+        "confidence": "med",
+        "notes": "extracted; $8M - May 2016",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 25000000,
+        "time": "11/2017",
+        "confidence": "med",
+        "notes": "extracted; $25M - Nov 2017",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 26000000,
+        "time": "04/2019",
+        "confidence": "med",
+        "notes": "extracted; $26M - Apr 2019",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-d",
+        "valuationUsd": 40000000,
+        "time": "06/2020",
+        "confidence": "med",
+        "notes": "extracted; $40M - Jun 2020",
+        "sourceColumn": "Series D Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-e",
+        "valuationUsd": 150000000,
+        "time": "02/2021",
+        "confidence": "med",
+        "notes": "extracted; $150M - Feb 2021 + $117M - Nov 2022",
+        "sourceColumn": "Series E Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "9325beb830baae8d",
+    "name": "RightHand Robotics",
+    "aliases": [
+      "RightHand Robotics"
+    ],
+    "description": "Autonomous robotic piece-picking systems with RightPick platform delivering 900+ picks/hour. Robot-agnostic computer vision and machine learning system for e-commerce fulfillment. Multi-SKU handling capabilities across variable packaging types. Deployed across North America, Europe, and Japan with major 3PL partners. Focus on unstructured item manipulation in warehouse environments. Harvard innovation commercialized for complex picking applications.",
+    "tags": [
+      "warehouse",
+      "autonomous",
+      "manipulation",
+      "piece-picking",
+      "fulfillment",
+      "manipulation"
+    ],
+    "country": "United States",
+    "city": "Somerville",
+    "hq": {
+      "lat": 42.3875,
+      "lon": -71.0994,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 19
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 400000000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "estimated; range 2022–2025; invalid_time_parsed_from:Est. $400M (2022-2025); year-only; year-only from parentheses; Est. $400M (2022-2025)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 8000000,
+        "time": "03/2017",
+        "confidence": "med",
+        "notes": "extracted; $8M - Mar 2017",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 23000000,
+        "time": "12/2018",
+        "confidence": "med",
+        "notes": "extracted; $23M - Dec 2018",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 66000000,
+        "time": "02/2022",
+        "confidence": "med",
+        "notes": "estimated; $66M - Feb 2022 + Est. $28M extension - Mar 2025",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "abf5e9926488bf31",
+    "name": "Lab0",
+    "aliases": [
+      "Lab0"
+    ],
+    "description": "RoboGlide industrial humanoid-inspired warehouse automation system for fully automated inbound operations achieving 900+ cases/hour vs 250-500 human rate. Deployed at top-10 US retailer. Ex-Symbotic and Amazon/Kiva Robotics founders.",
+    "tags": [
+      "humanoid",
+      "warehouse",
+      "industrial"
+    ],
+    "city": "Ridgefield",
+    "hq": {
+      "lat": 45.6387,
+      "lon": -122.6615,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.621Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 20
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: Unfunded/Bootstrapped; Could not extract time from: Unfunded/Bootstrapped; Unfunded/Bootstrapped",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-d",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+        "sourceColumn": "Series D Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-e",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+        "sourceColumn": "Series E Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "b221467652331742",
+    "name": "Pivot Robotics",
+    "aliases": [
+      "Pivot Robotics"
+    ],
+    "description": "Y Combinator-backed warehouse robotics company from F2025 or W2025 cohort developing automation solutions for logistics operations. YC's continued investment in warehouse robotics reflects strong market demand and exit opportunities (see: Otto Motors acquired by Clearpath, 6 River Systems acquired by Shopify). Likely focusing on specific warehouse pain point: piece-picking, pallet handling, inventory management, or container unloading. Competitive landscape includes Locus, 6 River, Fetch, Geek+. Key differentiator likely software-focused approach or novel hardware design.",
+    "tags": [
+      "warehouse",
+      "logistics",
+      "piece-picking"
+    ],
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 21
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 15000000,
+        "time": "01/2025",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $15M post-money (est. YC 2025)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 2000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "extracted; invalid_time_parsed_from:$2M - 2024/2025 (Y Combinator standard); year-only; year-only; $2M - 2024/2025 (Y Combinator standard)",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "79eae3448c103d72",
+    "name": "Ember Robotics",
+    "aliases": [
+      "Ember Robotics"
+    ],
+    "description": "Warehouse and logistics robotics company founded by Simbe Robotics alumni. Simbe pioneered autonomous retail inventory robots (Tally) deployed in 500+ stores. Ember applies similar computer vision and autonomous navigation expertise to warehouse environments. Focus on inventory management, asset tracking, and logistics automation. Leverages retail robotics lessons learned for warehouse applications. Competitive positioning between pure AMR companies and full automation solutions.",
+    "tags": [
+      "warehouse",
+      "logistics",
+      "autonomous"
+    ],
+    "city": "Palo Alto",
+    "hq": {
+      "lat": 37.4419,
+      "lon": -122.143,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 22
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 5000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $5M (est. seed 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 1000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $1M - 2023",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 5000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $5M - 2024",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "58407db70bdb7167",
+    "name": "Upside Robotics",
+    "aliases": [
+      "Upside Robotics"
+    ],
+    "description": "Upside Robotics develops vision-guided robotic systems for general-purpose industrial automation. Their flagship product, Upside Flex, combines traditional industrial robots with computer vision and adaptive control software.",
+    "tags": [
+      "industrial",
+      "general-purpose"
+    ],
+    "country": "United States",
+    "city": "Columbus",
+    "hq": {
+      "lat": 39.9612,
+      "lon": -82.9988,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 23
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 13000000,
+        "confidence": "med",
+        "notes": "estimated; Could not extract time from: Est. $13M Total; Est. $13M Total",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 2800000,
+        "time": "06/2021",
+        "confidence": "med",
+        "notes": "extracted; $2.8M - June 2021",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 10000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $10M - 2023",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "848b33ddf18ee554",
+    "name": "Niqo Robotics",
+    "aliases": [
+      "Niqo Robotics"
+    ],
+    "description": "Agricultural robotics with Niqo Sense AI camera for spot spraying achieving 60% chemical reduction. RoboThinner for precision lettuce farming automation. 100,000+ acres commercialized across India with expansion to US and Australia markets. Carnegie Mellon engineering pedigree applied to Indian agriculture challenges. Focus on sustainable farming through AI-driven precision agriculture. Addressing herbicide resistance and environmental concerns through targeted application technology.",
+    "tags": [
+      "agricultural",
+      "agriculture",
+      "farming",
+      "precision agriculture"
+    ],
+    "country": "India",
+    "city": "Bengaluru",
+    "hq": {
+      "lat": 12.9716,
+      "lon": 77.5946,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 24
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 60000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; Est. $60M (Series B 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 2000000,
+        "time": "01/2019",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $2M - 2019",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 6000000,
+        "time": "08/2021",
+        "confidence": "med",
+        "notes": "extracted; $6M - Aug 2021",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 60000000,
+        "moneyRaisedUsd": 13000000,
+        "time": "04/2024",
+        "confidence": "med",
+        "notes": "estimated; both_present: funding $13M, valuation $60M; $13M at Est. $60M - Apr 2024",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "ed5b9426b97692dd",
+    "name": "FuturHand Robotics",
+    "aliases": [
+      "FuturHand Robotics"
+    ],
+    "description": "CMU Robotics Institute spinout developing advanced dexterous robotic hands called 'Skill-Augmented Hands' for complex manufacturing tasks. Currently deployed in pilot testing at Bosch manufacturing facilities for precision cable plug insertion and assembly operations. $5M National Science Foundation funding validates technology readiness. Led by CMU Professor Nancy Pollard (leading expert in hand manipulation research) and PhD graduates. Focus on solving fine motor skill gaps in industrial robotics. Targets automotive, electronics, and aerospace assembly applications.",
+    "tags": [
+      "industrial",
+      "manufacturing",
+      "manipulation",
+      "dexterous",
+      "manipulation"
+    ],
+    "city": "Pittsburgh",
+    "hq": {
+      "lat": 40.4406,
+      "lon": -79.9959,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 25
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "moneyRaisedUsd": 5000000,
+        "confidence": "med",
+        "notes": "raise/grant (not valuation); raise/grant amount; Could not extract time from: $5M NSF funding; $5M NSF funding",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "moneyRaisedUsd": 5000000,
+        "time": "01/2021",
+        "confidence": "med",
+        "notes": "raise/grant (not valuation); raise/grant amount; year-only; year-only; $5M NSF Grant - 2021",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "09c29529d7af935f",
+    "name": "PickNik Robotics",
+    "aliases": [
+      "PickNik Robotics"
+    ],
+    "description": "MoveIt Pro (formerly MoveIt Studio) robotics software platform for manipulation in unstructured environments. Open-source MoveIt motion planning framework with 80M+ downloads. NASA Artemis lunar robotics mission partner for autonomous manipulation. U.S. Space Force autonomous satellite capture systems. Government-validated technology with $5M+ NASA/Space Force SBIR contracts. Focus on making advanced robot manipulation accessible through intuitive software interfaces.",
+    "tags": [
+      "autonomous",
+      "manipulation",
+      "manipulation"
+    ],
+    "city": "Boulder",
+    "hq": {
+      "lat": 40.015,
+      "lon": -105.2705,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 26
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 15000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; Est. $15M (Pre-Seed 2023)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 2000000,
+        "time": "10/2023",
+        "confidence": "med",
+        "notes": "extracted; $2M - Oct 2023",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 5000000,
+        "time": "01/2025",
+        "confidence": "med",
+        "notes": "Minimum: $5M+; range 2018–2025; invalid_time_parsed_from:SBIR: $5M+ - 2018-2025; year-only; range 2018–2025; SBIR: $5M+ - 2018-2025",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "feefdab18a2d1b6f",
+    "name": "Anthropic Robotics",
+    "aliases": [
+      "Anthropic Robotics"
+    ],
+    "description": "Humanoid robotics company with $75M Series A from top-tier Silicon Valley VCs (Andreessen Horowitz, Sequoia Capital, Founders Fund). Direct competitor to Figure AI ($2.6B valuation) and Tesla Optimus in general-purpose humanoid space. Massive VC backing signals high confidence but also high-risk, high-reward bet on humanoid robotics future. Focus on transformative robotics technology for manufacturing, logistics, and domestic applications. Well-funded to pursue multi-year development before commercialization. Likely 2026-2027 product demonstrations. Top-tier investor syndicate provides validation and network effects.",
+    "tags": [
+      "humanoid",
+      "logistics",
+      "manufacturing",
+      "domestic",
+      "general-purpose"
+    ],
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 27
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 400000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $400M (est. Series A 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 10000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $10M - 2023",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 75000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; $75M - 2024 (est. $400M valuation)",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "4010ec15b6e20430",
+    "name": "Foundation Robotics",
+    "aliases": [
+      "Foundation Robotics"
+    ],
+    "description": "Stealth-mode humanoid robotics startup founded by non-roboticist entrepreneur betting on execution speed over domain expertise. Developing Phantom MK1 bipedal humanoid robot targeting factory automation and military/defense applications. 13-month concept-to-deployment timeline claim. Thesis: modern software engineering practices, rapid iteration, and commercial urgency can outpace traditional robotics research approaches. Small team leveraging contractor networks and rapid prototyping. Controversial approach in robotics community.",
+    "tags": [
+      "humanoid",
+      "defense",
+      "military",
+      "bipedal"
+    ],
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 29
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 5000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $5M (est. seed 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 1000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $1M - 2023",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 5000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $5M - 2024",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "957adfb4c115680f",
+    "name": "Hlabs Robotics",
+    "aliases": [
+      "Hlabs Robotics"
+    ],
+    "description": "Y Combinator W23 batch company creating modular plug-and-play robotic component ecosystem with open-source software libraries. 'Arduino for robotics' vision - standardized modules (motors, sensors, controllers, actuators) with universal interfaces. Open-source ROS-compatible software stack. Targeting maker community, education sector, and rapid prototyping market. Democratizing robotics development by reducing barriers to entry. Community-driven approach with GitHub repositories and developer forums.",
+    "tags": [],
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 30
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "moneyRaisedUsd": 2000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "raise/grant (not valuation); raise/grant amount; year-only; year-only from parentheses; $2M (YC seed funding 2023)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 2000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $2M - 2023 (Y Combinator batch)",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "156207a536171f8b",
+    "name": "Diligent Robotics",
+    "aliases": [
+      "Diligent Robotics"
+    ],
+    "description": "Creator of AI-powered service robots for healthcare environments, including Moxi robot",
+    "tags": [
+      "service",
+      "healthcare"
+    ],
+    "country": "United States",
+    "city": "Austin",
+    "hq": {
+      "lat": 30.267153,
+      "lon": -97.743061,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 31
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 150000000,
+        "time": "02/2025",
+        "confidence": "med",
+        "notes": "estimated; Est. $150M - Feb 2025",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 3000000,
+        "time": "12/2018",
+        "confidence": "med",
+        "notes": "extracted; $3M - December 2018",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 10000000,
+        "time": "02/2020",
+        "confidence": "med",
+        "notes": "extracted; $10M - February 2020",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 30000000,
+        "time": "12/2021",
+        "confidence": "med",
+        "notes": "extracted; $30M - December 2021",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "a9e38b6775c4772c",
+    "name": "Deep Robotics Technology Co.",
+    "aliases": [
+      "Deep Robotics Technology Co."
+    ],
+    "description": "Chinese quadruped robotics company developing advanced four-legged robots for inspection, security, and industrial applications. Part of Hangzhou robotics innovation cluster. X20/X30 series quadrupeds compete with Boston Dynamics Spot and Unitree models. Focus on high-terrain mobility, payload capacity, and autonomous navigation. Strong presence in Chinese industrial and government sectors. Benefits from regional manufacturing ecosystem and AI talent concentration.",
+    "tags": [
+      "autonomous",
+      "industrial",
+      "manufacturing",
+      "quadruped",
+      "legged",
+      "inspection",
+      "security"
+    ],
+    "country": "China",
+    "city": "Hangzhou",
+    "hq": {
+      "lat": 30.2741,
+      "lon": 120.1551,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 32
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 150000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $150M (est. Series B 2023)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 5000000,
+        "time": "01/2017",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $5M - 2017",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 20000000,
+        "time": "01/2019",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $20M - 2019",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 50000000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $50M - 2022",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "49f7834ae32494d1",
+    "name": "Piggy Robotics",
+    "aliases": [
+      "Piggy Robotics"
+    ],
+    "description": "Mass-producible humanoid robots for household chores using proprietary artificial muscle technology. Braided fiber tubes with single pump architecture for low-cost actuation. $1-2K target price point (iPhone cost equivalent). 22-degree-of-freedom dexterous hands. 15+ Oxford engineers team. Focus on affordable consumer humanoids through manufacturing innovation rather than complex hardware. Y Combinator F2025 cohort targeting mass-market deployment.",
+    "tags": [
+      "humanoid",
+      "manufacturing",
+      "household",
+      "consumer",
+      "dexterous"
+    ],
+    "country": "United Kingdom",
+    "city": "Oxford",
+    "hq": {
+      "lat": 51.752,
+      "lon": -1.2577,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 33
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 5000000,
+        "confidence": "med",
+        "notes": "estimated; Could not extract time from: Est. $5M (YC F2025); Est. $5M (YC F2025)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 500000,
+        "time": "01/2025",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $500K YC - Fall 2025",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "ba7502f6a4089a39",
+    "name": "Unitree Robotics",
+    "aliases": [
+      "Unitree Robotics"
+    ],
+    "description": "Leading Chinese robotics company with profitable operations since 2020, 1B+ yuan annual revenue. Go1/Go2 quadruped robots ($1,600-$3,500) and H1/G1 humanoid robots ($16,000-$90,000). 50-90% cost advantage over Western competitors through vertical integration and Chinese manufacturing. Mass production capabilities with 10,000+ units deployed globally. Focus on consumer, industrial, and research markets with affordable yet capable robotic platforms.",
+    "tags": [
+      "humanoid",
+      "industrial",
+      "manufacturing",
+      "consumer",
+      "quadruped"
+    ],
+    "country": "China",
+    "city": "Hangzhou",
+    "hq": {
+      "lat": 30.2741,
+      "lon": 120.1551,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 34
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 1000000000,
+        "time": "01/2025",
+        "confidence": "med",
+        "notes": "Minimum: $1B+; year-only; year-only from parentheses; $1B+ (Series C 2025)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 5000000,
+        "time": "01/2017",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $5M - 2017",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 25000000,
+        "time": "01/2021",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $25M - 2021",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 50000000,
+        "time": "02/2024",
+        "confidence": "med",
+        "notes": "estimated; Est. $50M - 2022 + $138M - Feb 2024",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 200000000,
+        "time": "01/2025",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $200M - 2025",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "1e84fac40a853ff1",
+    "name": "CMR Surgical",
+    "aliases": [
+      "CMR Surgical"
+    ],
+    "description": "UK-based surgical robotics company developing Versius surgical robot system. Modular, portable surgical robot designed to be more accessible and affordable than da Vinci. Next-generation minimal access surgery with smaller footprint and lower cost. One of Europe's most valuable health tech companies.",
+    "tags": [
+      "surgical"
+    ],
+    "country": "United Kingdom",
+    "city": "Cambridge",
+    "hq": {
+      "lat": 52.2053,
+      "lon": 0.1218,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 35
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 3000000000,
+        "time": "01/2021",
+        "confidence": "med",
+        "notes": "Minimum: $3B+; range 2021–2023; invalid_time_parsed_from:$3B+ (2021-2023); year-only; year-only from parentheses; $3B+ (2021-2023)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 2500000,
+        "time": "01/2014",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $2.5M - 2014",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 46000000,
+        "time": "09/2017",
+        "confidence": "med",
+        "notes": "extracted; $46M - Sept 2017 (led by Cambridge Innovation Capital)",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 100000000,
+        "time": "06/2018",
+        "confidence": "med",
+        "notes": "extracted; $100M - June 2018 (led by LGT Lightstone Aspada)",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 195000000,
+        "time": "09/2019",
+        "confidence": "med",
+        "notes": "extracted; £195M/$240M - Sept 2019 (led by SoftBank Vision Fund 2)",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-d",
+        "valuationUsd": 600000000,
+        "time": "06/2021",
+        "confidence": "med",
+        "notes": "extracted; $600M - June 2021 (led by SoftBank Vision Fund 2 & Ally Bridge Group)",
+        "sourceColumn": "Series D Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-e",
+        "valuationUsd": 200000000,
+        "time": "04/2025",
+        "confidence": "med",
+        "notes": "Minimum: $200M+; late 2023; $165M - late 2023 + $200M+ - April 2025 (led by Abu Dhabi Investment Authority)",
+        "sourceColumn": "Series E Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "5cbc78bd7b97612f",
+    "name": "Kiwibot",
+    "aliases": [
+      "Kiwibot"
+    ],
+    "description": "Campus delivery robot company serving universities across US and internationally. Over 200 robots deployed, 400K+ deliveries completed. Focus on college campuses and urban areas with food delivery from local restaurants. Raised significant funding from Latin American and US investors.",
+    "tags": [
+      "delivery",
+      "food",
+      "restaurant"
+    ],
+    "city": "Berkeley",
+    "hq": {
+      "lat": 37.8715,
+      "lon": -122.273,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 36
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 25000000,
+        "time": "08/2020",
+        "confidence": "med",
+        "notes": "extracted; $25M valuation cap - August 2020 (Wefunder)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 100000,
+        "time": "12/2018",
+        "confidence": "med",
+        "notes": "extracted; $100K - December 2018 (Berkeley SkyDeck)",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "moneyRaisedUsd": 679000,
+        "time": "08/2020",
+        "confidence": "med",
+        "notes": "raise/grant (not valuation); raise/grant amount; $679K - August 2020 (Wefunder crowdfunding)",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 7500000,
+        "time": "02/2022",
+        "confidence": "med",
+        "notes": "extracted; $7.5M - February 2022 (Sodexo, Headline, House of Lithium)",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 10000000,
+        "time": "02/2023",
+        "confidence": "med",
+        "notes": "extracted; $10M - February 2023 (Kineo Finance asset financing)",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 12000000,
+        "time": "04/2025",
+        "confidence": "med",
+        "notes": "extracted; $12M - April 2025 (Later-stage VC)",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "641a6dfb952aa84d",
+    "name": "Nuro",
+    "aliases": [
+      "Nuro"
+    ],
+    "description": "Autonomous delivery robots and vehicles for last-mile logistics. Designs custom-built zero-occupant vehicles for goods transportation. Partners with Kroger, Walmart, FedEx, Domino's, CVS, 7-Eleven. R2 vehicle first autonomous delivery vehicle approved by U.S. DOT. Focus: Computer Vision, Lidar, Autonomous Navigation, Machine Learning, Custom Vehicle Design. Over 1M autonomous deliveries completed. Founded 2016. ~1,200 employees.",
+    "tags": [
+      "logistics",
+      "autonomous",
+      "delivery"
+    ],
+    "country": "United States",
+    "city": "Mountain View",
+    "hq": {
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 37
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 8600000000,
+        "time": "01/2021",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $8.6 billion (est. 2021)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: Not applicable - started with substantial founding team resources; Could not extract time from: Not applicable - started with substantial founding team resources; Not applicable - started with substantial founding team resources",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 92000000,
+        "time": "07/2017",
+        "confidence": "med",
+        "notes": "extracted; $92M - July 2017",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 940000000,
+        "time": "02/2018",
+        "confidence": "med",
+        "notes": "extracted; $940M - February 2018",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 2700000000,
+        "time": "02/2019",
+        "confidence": "med",
+        "notes": "extracted; $2.7B - February 2019",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 5300000000,
+        "time": "11/2019",
+        "confidence": "med",
+        "notes": "extracted; $5.3B - November 2019",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-d",
+        "moneyRaisedUsd": 8600000000,
+        "time": "11/2021",
+        "confidence": "med",
+        "notes": "raise/grant (not valuation); raise/grant amount; $8.6B - November 2021 ($600M raised)",
+        "sourceColumn": "Series D Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "2748fdbdee3f62f5",
+    "name": "Starship Technologies",
+    "aliases": [
+      "Starship Technologies"
+    ],
+    "description": "Autonomous delivery robots founded by Skype creators. Fleet of 2,700+ six-wheeled sidewalk robots delivering food, groceries, and packages. 9M+ autonomous deliveries completed across 270 locations in 7 countries. Focus on last-mile delivery for university campuses, urban neighborhoods, and business districts. Operates autonomously on sidewalks at walking speed. Partnership model with universities, cities, and retailers.",
+    "tags": [
+      "autonomous",
+      "delivery",
+      "food"
+    ],
+    "city": "Tallinn",
+    "hq": {
+      "lat": 59.437,
+      "lon": 24.7536,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 38
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 550000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only from parentheses; $550M (Series C 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 17200000,
+        "time": "01/2017",
+        "confidence": "med",
+        "notes": "extracted; $17.2M - Jan 2017",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 40000000,
+        "time": "08/2019",
+        "confidence": "med",
+        "notes": "extracted; $40M - Aug 2019",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 42000000,
+        "time": "03/2022",
+        "confidence": "med",
+        "notes": "extracted; $42M - Mar 2022",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 550000000,
+        "moneyRaisedUsd": 90000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "both_present: funding $90M, valuation $550M; $90M at $550M - Jan 2024 + $50M extension - Oct 2025",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "23a08bae40cf799d",
+    "name": "Brain Corp",
+    "aliases": [
+      "Brain Corp"
+    ],
+    "description": "Developer of AI-powered autonomous navigation and control systems for commercial floor-cleaning robots and other mobile machines",
+    "tags": [
+      "autonomous",
+      "cleaning",
+      "mobile"
+    ],
+    "city": "San Diego",
+    "hq": {
+      "lat": 32.715738,
+      "lon": -117.161084,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 39
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 600000000,
+        "time": "03/2020",
+        "confidence": "med",
+        "notes": "extracted; from parentheses; $600M (Series C, March 2020)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 8000000,
+        "time": "08/2014",
+        "confidence": "med",
+        "notes": "extracted; $8M - August 2014",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 36000000,
+        "time": "03/2017",
+        "confidence": "med",
+        "notes": "extracted; $36M - March 2017",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 114000000,
+        "time": "07/2018",
+        "confidence": "med",
+        "notes": "extracted; $114M - July 2018",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "2dfb5e3cf10683fc",
+    "name": "Avidbots",
+    "aliases": [
+      "Avidbots"
+    ],
+    "description": "Commercial floor cleaning robot manufacturer. Neo autonomous floor scrubber deployed in airports, retail, warehouses. Over 2,000 robots cleaning 2B+ sq ft. Robotics-as-a-Service model with fleet management software. Focus on large commercial spaces requiring consistent cleaning.",
+    "tags": [
+      "warehouse",
+      "autonomous",
+      "service",
+      "cleaning"
+    ],
+    "country": "Canada",
+    "city": "Kitchener",
+    "hq": {
+      "lat": 43.4643,
+      "lon": -80.5204,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 40
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 70000000,
+        "confidence": "med",
+        "notes": "Minimum: $70M+; Could not extract time from: $70M+ (Series B); $70M+ (Series B)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "53fad337550a1e04",
+    "name": "Bear Robotics",
+    "aliases": [
+      "Bear Robotics"
+    ],
+    "description": "Creator of autonomous service robots for restaurants including Servi robot for food delivery and Penny robot for bussing and cleaning tasks",
+    "tags": [
+      "autonomous",
+      "delivery",
+      "service",
+      "food",
+      "restaurant",
+      "cleaning"
+    ],
+    "country": "United States",
+    "city": "Redwood City",
+    "hq": {
+      "lat": 37.424106,
+      "lon": -122.166077,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 41
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 500000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $500M - 2023",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 5500000,
+        "time": "05/2019",
+        "confidence": "med",
+        "notes": "extracted; $5.5M - May 2019",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 32000000,
+        "time": "11/2020",
+        "confidence": "med",
+        "notes": "extracted; $32M - November 2020",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 81000000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "extracted; $81M - January 2022",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "0925e89528fc52b2",
+    "name": "Miso Robotics",
+    "aliases": [
+      "Miso Robotics"
+    ],
+    "description": "Restaurant automation robotics company developing AI-powered cooking and food preparation robots. Flippy robot platform automates frying, grilling, and food assembly for quick-service restaurants and commercial kitchens.",
+    "tags": [
+      "service",
+      "food",
+      "restaurant",
+      "cooking"
+    ],
+    "country": "United States",
+    "city": "Pasadena",
+    "hq": {
+      "lat": 34.1478,
+      "lon": -118.1445,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 42
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 150000000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $150M - 2022",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 1000000,
+        "time": "05/2016",
+        "confidence": "med",
+        "notes": "extracted; $1M - May 2016",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 3000000,
+        "time": "09/2017",
+        "confidence": "med",
+        "notes": "extracted; $3M - September 2017",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 10000000,
+        "time": "12/2018",
+        "confidence": "med",
+        "notes": "extracted; $10M - December 2018",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 17000000,
+        "time": "09/2019",
+        "confidence": "med",
+        "notes": "extracted; $17M - September 2019",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 30000000,
+        "time": "03/2021",
+        "confidence": "med",
+        "notes": "extracted; $30M - March 2021",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-d",
+        "valuationUsd": 22000000,
+        "time": "05/2022",
+        "confidence": "med",
+        "notes": "extracted; $22M - May 2022",
+        "sourceColumn": "Series D Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "9e3b38448b1568b4",
+    "name": "Scaled Robotics",
+    "aliases": [
+      "Scaled Robotics"
+    ],
+    "description": "Barcelona-based construction monitoring robotics company using autonomous mobile robots for reality capture and progress tracking on construction sites. Robots scan projects and compare against Building Information Models (BIM) using AI-powered analytics to detect deviations and track construction progress. Serves major European construction firms including ACS Group, Ferrovial, and Skanska. Focus on quality control automation and project management optimization for large-scale construction projects. Addresses $12 trillion global construction market inefficiencies through robotic data collection and analysis.",
+    "tags": [
+      "autonomous",
+      "construction",
+      "mobile",
+      "monitoring"
+    ],
+    "country": "Spain",
+    "city": "Barcelona",
+    "hq": {
+      "lat": 41.3851,
+      "lon": 2.1734,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 43
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 15000000,
+        "confidence": "med",
+        "notes": "Minimum: $15M+; Could not extract time from: $15M+ (Series A); $15M+ (Series A)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 2000000,
+        "time": "01/2018",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $2M - 2018",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 15000000,
+        "time": "01/2021",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $15M - 2021",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "e5113c6f74da1a6b",
+    "name": "Built Robotics",
+    "aliases": [
+      "Built Robotics"
+    ],
+    "description": "Developer of autonomous construction equipment and AI guidance systems",
+    "tags": [
+      "autonomous",
+      "construction"
+    ],
+    "country": "United States",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.774929,
+      "lon": -122.419416,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 44
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 400000000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $400M - 2022",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 5000000,
+        "time": "03/2017",
+        "confidence": "med",
+        "notes": "extracted; $5M - March 2017",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 15000000,
+        "time": "09/2018",
+        "confidence": "med",
+        "notes": "extracted; $15M - September 2018",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 33000000,
+        "time": "12/2019",
+        "confidence": "med",
+        "notes": "extracted; $33M - December 2019",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 64000000,
+        "time": "06/2021",
+        "confidence": "med",
+        "notes": "extracted; $64M - June 2021",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "854ef4750262b47f",
+    "name": "Ghost Robotics",
+    "aliases": [
+      "Ghost Robotics"
+    ],
+    "description": "Developer of legged robots and autonomous systems for defense, security, and industrial applications, including the Vision series of quadruped robots",
+    "tags": [
+      "autonomous",
+      "industrial",
+      "defense",
+      "quadruped",
+      "legged",
+      "security"
+    ],
+    "country": "United States",
+    "city": "Philadelphia",
+    "hq": {
+      "lat": 39.952584,
+      "lon": -75.165222,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 45
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 200000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $200M - 2023",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 2000000,
+        "time": "11/2017",
+        "confidence": "med",
+        "notes": "extracted; $2M - November 2017",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 11500000,
+        "time": "08/2019",
+        "confidence": "med",
+        "notes": "extracted; $11.5M - August 2019",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 25000000,
+        "time": "03/2022",
+        "confidence": "med",
+        "notes": "extracted; $25M - March 2022",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "d3a95056aaa0dc58",
+    "name": "EcoRobotix",
+    "aliases": [
+      "EcoRobotix"
+    ],
+    "description": "Swiss precision agriculture robotics company. AVO autonomous weeding robot using AI vision for ultra-precise herbicide application (95% reduction). GPS-guided robot operates in vegetables, row crops. Focus on sustainable farming with dramatic chemical reduction. European market leader in precision weeding.",
+    "tags": [
+      "agriculture",
+      "farming",
+      "autonomous",
+      "weeding",
+      "precision agriculture"
+    ],
+    "country": "Switzerland",
+    "city": "Yverdon-les-Bains",
+    "hq": {
+      "lat": 46.7784,
+      "lon": 6.6411,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 46
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 60000000,
+        "confidence": "med",
+        "notes": "Minimum: $60M+; Could not extract time from: $60M+ (Series C); $60M+ (Series C)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 3000000,
+        "time": "01/2011",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $3M - 2011",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 10500000,
+        "time": "01/2017",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $10.5M - 2017",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 12000000,
+        "time": "01/2019",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $12M - 2019",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 12000000,
+        "time": "01/2020",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $12M - 2020",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "c50797fd25641da4",
+    "name": "Scythe Robotics",
+    "aliases": [
+      "Scythe Robotics"
+    ],
+    "description": "Developer of autonomous lawn mowing and landscaping robots for commercial property maintenance, using AI and precision cutting technology",
+    "tags": [
+      "autonomous"
+    ],
+    "country": "United States",
+    "city": "Boulder",
+    "hq": {
+      "lat": 39.739236,
+      "lon": -104.990251,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 47
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 200000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $200M - 2023",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 500000,
+        "time": "04/2018",
+        "confidence": "med",
+        "notes": "extracted; $500K - April 2018",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 3700000,
+        "time": "11/2019",
+        "confidence": "med",
+        "notes": "extracted; $3.7M - November 2019",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 17300000,
+        "time": "09/2021",
+        "confidence": "med",
+        "notes": "extracted; $17.3M - September 2021",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "9f0883ebe3402743",
+    "name": "Vecna Robotics",
+    "aliases": [
+      "Vecna Robotics"
+    ],
+    "description": "Developer of autonomous mobile robots and AI-powered logistics automation for warehouses, manufacturing, and distribution centers",
+    "tags": [
+      "warehouse",
+      "logistics",
+      "autonomous",
+      "manufacturing",
+      "mobile"
+    ],
+    "country": "United States",
+    "city": "Waltham",
+    "hq": {
+      "lat": 42.360081,
+      "lon": -71.09416,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 48
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 300000000,
+        "time": "01/2021",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $300M - 2021",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 5000000,
+        "time": "06/2018",
+        "confidence": "med",
+        "notes": "extracted; $5M - June 2018",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 14500000,
+        "time": "02/2019",
+        "confidence": "med",
+        "notes": "extracted; $14.5M - February 2019",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 50000000,
+        "time": "05/2020",
+        "confidence": "med",
+        "notes": "extracted; $50M - May 2020",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 29000000,
+        "time": "11/2021",
+        "confidence": "med",
+        "notes": "extracted; $29M - November 2021",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "4af80bc6be73a896",
+    "name": "Soft Robotics",
+    "aliases": [
+      "Soft Robotics"
+    ],
+    "description": "Harvard spinout specializing in inflatable compliant grippers (mGrip system) for delicate food handling and packaging. Patented elastomeric/pneumatic technology that conforms to object shapes without damage. Focus on fresh produce, baked goods, raw proteins, and fragile items difficult for rigid grippers. Applications in food processing, e-commerce fulfillment, and logistics automation. Strategic partnerships with FANUC, Honeywell, Yamaha for gripper integration into industrial robot arms.",
+    "tags": [
+      "logistics",
+      "industrial",
+      "food",
+      "gripper",
+      "fulfillment"
+    ],
+    "country": "United States",
+    "city": "Bedford",
+    "hq": {
+      "lat": 42.4919,
+      "lon": -71.2791,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 49
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 150000000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; Est. $150M (Series C 2022)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 4000000,
+        "time": "01/2015",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $4M - 2015",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 5000000,
+        "time": "12/2015",
+        "confidence": "med",
+        "notes": "extracted; $5M - Dec 2015",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 23000000,
+        "time": "01/2020",
+        "confidence": "med",
+        "notes": "extracted; $23M - Jan 2020",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 26000000,
+        "time": "11/2022",
+        "confidence": "med",
+        "notes": "extracted; $26M - Nov 2022",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "9e512087c2f7e9b1",
+    "name": "OpenDroids",
+    "aliases": [
+      "OpenDroids"
+    ],
+    "description": "LEADERSHIP CHANGE: Jackson Jesionowski now CEO (Abhishek Gupta departed). Open-source robotics platform developing affordable human-capable robots. R1D1 single-arm mobile manipulator ($18,500) for education/research and R2D3 dual-arm humanoid ($55K-60K) for commercial applications. Focus on accessible robotics through open-source approach. Active pilots in rehabilitation centers and restaurant chains (Baskin-Robbins, Subway discussions).",
+    "tags": [
+      "humanoid",
+      "restaurant",
+      "mobile"
+    ],
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 50
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: Early-stage funded (undisclosed); Could not extract time from: Early-stage funded (undisclosed); Early-stage funded (undisclosed)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 1000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $1M - 2023",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "Could not extract valuation from: Undisclosed early-stage funding - 2024; year-only; year-only; Undisclosed early-stage funding - 2024",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: Not yet completed; Could not extract time from: Not yet completed; Not yet completed",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: Not yet completed; Could not extract time from: Not yet completed; Not yet completed",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: Not yet completed; Could not extract time from: Not yet completed; Not yet completed",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-d",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: Not yet completed; Could not extract time from: Not yet completed; Not yet completed",
+        "sourceColumn": "Series D Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-e",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: Not yet completed; Could not extract time from: Not yet completed; Not yet completed",
+        "sourceColumn": "Series E Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "0cef7063f4e78c9f",
+    "name": "Tutor Intelligence",
+    "aliases": [
+      "Tutor Intelligence"
+    ],
+    "description": "MIT spinout focused on warehouse AI and automation. Developing intelligent systems for warehouse operations.",
+    "tags": [
+      "warehouse"
+    ],
+    "city": "Cambridge",
+    "hq": {
+      "lat": 42.3708,
+      "lon": -71.1833,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.622Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 51
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 49000000,
+        "confidence": "med",
+        "notes": "extracted; Could not extract time from: $49M; $49M",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "0526b70d54a5b906",
+    "name": "Mytra",
+    "aliases": [
+      "Mytra"
+    ],
+    "description": "Warehouse automation with AI-powered 3D robotics systems featuring three-component architecture: bots (wall-climbing robots), matrix (vertical storage infrastructure), and software (orchestration layer). 88% labor reduction demonstrated at Fortune 100 customers including Albertsons deployment. Modular system enabling 10x storage density vs. traditional warehousing. Ex-Tesla Optimus founding team applying humanoid robotics expertise to warehouse logistics automation.",
+    "tags": [
+      "humanoid",
+      "warehouse",
+      "logistics"
+    ],
+    "city": "South San Francisco",
+    "hq": {
+      "lat": 37.6805,
+      "lon": -122.4014,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 52
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 250000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; Est. $250M (Series B 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 5000000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $5M - 2022",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 28000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $28M - 2023",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 250000000,
+        "moneyRaisedUsd": 50000000,
+        "time": "07/2024",
+        "confidence": "med",
+        "notes": "estimated; both_present: funding $50M, valuation $250M; $50M at Est. $250M - Jul 2024",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "a30745c02947f061",
+    "name": "Iron Ox",
+    "aliases": [
+      "Iron Ox"
+    ],
+    "description": "Agricultural robotics company. Previously focused on autonomous greenhouse farming. Company experienced distress/pivot in recent years.",
+    "tags": [
+      "agricultural",
+      "farming",
+      "autonomous"
+    ],
+    "city": "San Carlos",
+    "hq": {
+      "lat": 37.5072,
+      "lon": -122.2605,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 53
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: Company distressed/pivoted; Could not extract time from: Company distressed/pivoted; Company distressed/pivoted",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 6000000,
+        "time": "01/2018",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only from parentheses; $6M (2018)",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 20000000,
+        "time": "01/2020",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only from parentheses; $20M (2020)",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 53000000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only from parentheses; $53M (2022)",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "61eccecdb237f1b9",
+    "name": "Buildroid AI",
+    "aliases": [
+      "Buildroid AI"
+    ],
+    "description": "Construction robotics platform. Hardware-agnostic platform compatible with 40+ robot types. Multi-robot coordination for block-laying robots and autonomous mobile robots (AMRs) for material delivery. Q2 2026 commercial deployment planned.",
+    "tags": [
+      "autonomous",
+      "delivery",
+      "construction",
+      "mobile"
+    ],
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 54
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: Information not yet available; Could not extract time from: Information not yet available; Information not yet available",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 2000000,
+        "time": "11/2025",
+        "confidence": "med",
+        "notes": "extracted; $2 million in November 2025",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "051d3af2e2af2326",
+    "name": "Lightberry",
+    "aliases": [
+      "Lightberry"
+    ],
+    "description": "Social robotics company applying autonomous vehicle perception and navigation technology to human-robot interaction. Develops robots capable of emotional connection and natural social behavior in home and commercial environments. Team composed of ex-self-driving car engineers from Waymo, Tesla, and Cruise. Focus on creating robotics companions that understand social cues, maintain conversations, and provide emotional support. Differentiator: leveraging automotive-grade sensors and AI for social robotics applications.",
+    "tags": [
+      "autonomous"
+    ],
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 55
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 5000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $5M (est. seed 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 1000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $1M - 2023",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 5000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $5M - 2024",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "5220c17e887012b9",
+    "name": "Boost Robotics",
+    "aliases": [
+      "Boost Robotics"
+    ],
+    "description": "Data center robotics automation company developing autonomous mobile manipulation systems specifically for hyperscale data center environments. Robots perform hardware installation, cable management, equipment racking/stacking, and routine maintenance tasks. Addresses acute labor shortages in data center operations. Leverages highly structured environments for reliable autonomous operation. Target customers: Meta, Google, Amazon AWS, Microsoft Azure data centers. Focus on repetitive, physically demanding tasks in controlled temperature/humidity environments.",
+    "tags": [
+      "autonomous",
+      "mobile",
+      "manipulation",
+      "manipulation"
+    ],
+    "city": "Mountain View",
+    "hq": {
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 56
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 10000000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $10M (est. seed 2022)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 1000000,
+        "time": "01/2021",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $1M - 2021",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 10000000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $10M - 2022",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "d09af1b2783985ba",
+    "name": "Dyna Robotics",
+    "aliases": [
+      "Dyna Robotics"
+    ],
+    "description": "Embodied AI robotics company focusing on affordable robots for simple, high-value household tasks like laundry folding and food preparation. Research emphasis on embodied AI, robot learning, manipulation policies, and natural human-robot interaction. Strategy: start with specific high-value tasks rather than general-purpose robots. Target price points significantly below traditional robot costs through simplified mechanical designs and AI-first control. Likely leveraging vision-language models and imitation learning for task acquisition. Competes with Physical Intelligence, Skild AI in embodied AI approaches.",
+    "tags": [
+      "food",
+      "household",
+      "manipulation",
+      "general-purpose",
+      "manipulation"
+    ],
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 57
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 8000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $8M (est. seed 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 1000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $1M - 2023",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 8000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $8M - 2024",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "dbbaa9142363b79b",
+    "name": "EurekaLabsAI",
+    "aliases": [
+      "EurekaLabsAI"
+    ],
+    "description": "Humanoid robotics company founded by ex-Tesla AI diaspora engineers who built production autonomous systems. Represents significant Tesla brain drain trend - experienced engineers applying proven autonomous vehicle methodologies to humanoid robots. Focus on leveraging Tesla production scaling expertise, vision-based AI perception, and end-to-end neural networks for robot control. Thesis: automotive-grade reliability and manufacturing scale applied to humanoids. Early stealth mode with likely 2025-2026 product announcements.",
+    "tags": [
+      "humanoid",
+      "autonomous",
+      "manufacturing"
+    ],
+    "city": "Palo Alto",
+    "hq": {
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 58
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 15000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; $15M (est. seed 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 2000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $2M - 2024",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 15000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $15M - 2024",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "cd938e971daf85a7",
+    "name": "Connect Robotics",
+    "aliases": [
+      "Connect Robotics"
+    ],
+    "description": "Portugal-based defense robotics company selected for NATO DIANA (Defence Innovation Accelerator for the North Atlantic) accelerator program. NATO DIANA supports dual-use deep tech startups addressing Alliance security challenges. Likely developing unmanned ground vehicles (UGVs), autonomous surveillance systems, or logistics robots for military applications. European defense market focus with NATO standardization. Benefits from European defense budget increases post-Ukraine conflict. Potential applications in border security, reconnaissance, and military logistics.",
+    "tags": [
+      "logistics",
+      "autonomous",
+      "defense",
+      "military",
+      "security",
+      "surveillance"
+    ],
+    "city": "Lisbon",
+    "hq": {
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 59
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "moneyRaisedUsd": 3000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; raise/grant (not valuation); raise/grant amount; year-only; year-only from parentheses; $3M (est. NATO DIANA funding 2023)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 500000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $500K - 2022",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 3000000,
+        "time": "01/2023",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only; Est. $3M - 2023 (NATO DIANA accelerator)",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "fbdfb5f19aefac32",
+    "name": "UMA (Universal Mechanical Assistant)",
+    "aliases": [
+      "UMA (Universal Mechanical Assistant)"
+    ],
+    "description": "Ex-Tesla/Hugging Face/Google DeepMind team building general-purpose humanoid and mobile robots for logistics, manufacturing, and healthcare. Humanoid robotics startup with exceptional technical talent and deep domain expertise in both autonomous systems and humanoid robotics. Focus on general-purpose humanoid assistants.",
+    "tags": [
+      "humanoid",
+      "logistics",
+      "autonomous",
+      "manufacturing",
+      "healthcare",
+      "mobile",
+      "general-purpose"
+    ],
+    "country": "France",
+    "city": "Paris",
+    "hq": {
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 60
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 40000000,
+        "time": "12/2025",
+        "confidence": "low",
+        "notes": "target valuation; $40M - December 2025 (seed target)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 40000000,
+        "time": "12/2025",
+        "confidence": "low",
+        "notes": "target valuation; $40M - December 2025 (target/in talks)",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "798cd84437c8a7aa",
+    "name": "Zeon Systems",
+    "aliases": [
+      "Zeon Systems"
+    ],
+    "description": "Laboratory automation robotics. Natural language approach to democratize laboratory automation for scientific research. Focus on reproducible experiments and accelerating scientific discovery through accessible automation technology.",
+    "tags": [],
+    "country": "United States",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7879363,
+      "lon": -122.4075201,
+      "confidence": "med",
+      "source": "geocoder_nominatim"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 61
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: Information not yet available; Could not extract time from: Information not yet available; Information not yet available",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: $500,000 as part of its initial backing (including Y Combinator participation); Could not extract time from: $500,000 as part of its initial backing (including Y Combinator participation); $500,000 as part of its initial backing (including Y Combinator participation)",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "c413c29ad4364aee",
+    "name": "Apptronik",
+    "aliases": [
+      "Apptronik"
+    ],
+    "description": "Apollo humanoid robot (5'8\", 160 lbs, 55 lb payload capacity) with NASA heritage from Valkyrie R5 program. UT Austin spinout commercializing research into general-purpose humanoid for manufacturing and logistics. Mercedes-Benz strategic partnership for automotive deployment. 24/7 operation capability with hot-swappable battery system. Google DeepMind AI integration for task learning. Modular design philosophy enabling rapid hardware iterations. Focus on safe human-robot collaboration in industrial environments.",
+    "tags": [
+      "humanoid",
+      "logistics",
+      "industrial",
+      "manufacturing",
+      "general-purpose"
+    ],
+    "country": "United States",
+    "city": "Austin",
+    "hq": {
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 62
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 5000000000,
+        "time": "01/2025",
+        "confidence": "med",
+        "notes": "estimated; year-only; year-only from parentheses; Est. $5B (Series B 2025)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 14500000,
+        "time": "08/2022",
+        "confidence": "med",
+        "notes": "extracted; $14.5M - Aug 2022",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 350000000,
+        "moneyRaisedUsd": 45000000,
+        "time": "02/2024",
+        "confidence": "med",
+        "notes": "both_present: funding $45M, valuation $350M; $45M at $350M+ valuation - Feb 2024",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 5000000000,
+        "moneyRaisedUsd": 331000000,
+        "time": "01/2025",
+        "confidence": "med",
+        "notes": "estimated; both_present: funding $331M, valuation $5B; year-only; year-only; $403M + $331M at Est. $5B - 2025",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "49adcabe24ba6fc2",
+    "name": "http://Proception.ai",
+    "aliases": [
+      "http://Proception.ai"
+    ],
+    "description": "Dexterous manipulation robotics. Y Combinator-backed company tackling human-level dexterous manipulation with focus on efficient development and commercial applications. Building platform technology for complete humanoid robot systems.",
+    "tags": [
+      "humanoid",
+      "manipulation",
+      "dexterous",
+      "manipulation"
+    ],
+    "country": "United States",
+    "city": "Palo Alto",
+    "hq": {
+      "lat": 37.4419,
+      "lon": -122.143,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 63
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 500000,
+        "confidence": "med",
+        "notes": "extracted; Could not extract time from: $500K; $500K",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: undisclosed; Could not extract time from: undisclosed; undisclosed",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "e3f009614ca33a4a",
+    "name": "Physical Intelligence",
+    "aliases": [
+      "Physical Intelligence"
+    ],
+    "description": "Foundation model (π0) for robot control enabling universal AI brain for physical tasks. Enables robots to perform diverse real-world tasks like laundry folding, table bussing, box assembly across 7+ robot embodiments. 10,000+ hours of real-world training data. Building general-purpose intelligence that works across different robot platforms and tasks.",
+    "tags": [
+      "foundation model",
+      "general-purpose"
+    ],
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 64
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 5600000000,
+        "time": "11/2025",
+        "confidence": "med",
+        "notes": "extracted; from parentheses; $5.6B (Series B, Nov 2025)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 70000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "extracted; $70M - Jan 2024",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 2400000000,
+        "moneyRaisedUsd": 400000000,
+        "time": "03/2024",
+        "confidence": "med",
+        "notes": "both_present: funding $400M, valuation $2.4B; $400M at $2.4B valuation - Mar 2024",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 5600000000,
+        "moneyRaisedUsd": 600000000,
+        "time": "11/2025",
+        "confidence": "med",
+        "notes": "both_present: funding $600M, valuation $5.6B; $600M at $5.6B valuation - Nov 2025",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "03eec138d9d0b566",
+    "name": "ScrubMarine",
+    "aliases": [
+      "ScrubMarine"
+    ],
+    "description": "Marine robotics company focused on hull cleaning automation. Developing autonomous systems for ship hull cleaning and maintenance to improve fuel efficiency and reduce marine biofouling.",
+    "tags": [
+      "autonomous",
+      "cleaning"
+    ],
+    "city": "Whitehaven",
+    "hq": {
+      "lat": 54.549,
+      "lon": -3.5841,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 65
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 1250000,
+        "confidence": "med",
+        "notes": "extracted; Could not extract time from: $1.25M; $1.25M",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "confidence": "low",
+        "notes": "Could not extract valuation from: Raised approximately $250,000 (£200,000) led by Praetura Ventures; Could not extract time from: Raised approximately $250,000 (£200,000) led by Praetura Ventures; Raised approximately $250,000 (£200,000) led by Praetura Ventures",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 1000000,
+        "confidence": "med",
+        "notes": "extracted; Could not extract time from: closed a $1 million (£740,000) round led by PXN Ventures and SFC Capital; closed a $1 million (£740,000) round led by PXN Ventures and SFC Capital",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "f3f120dd2966fb5a",
+    "name": "Genesis AI",
+    "aliases": [
+      "Genesis AI"
+    ],
+    "description": "Universal robotics foundation model using proprietary physics simulation engine for synthetic data generation at 430,000x real-time speed. 18-university research consortium partnership for robotics training data. Open-source approach enabling robot training through simulation rather than expensive real-world data collection. Physics-based synthetic data generation for scalable robot learning across diverse tasks and embodiments.",
+    "tags": [
+      "foundation model"
+    ],
+    "country": "France",
+    "city": "Palo Alto",
+    "hq": {
+      "lat": 37.4419,
+      "lon": -122.163,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 66
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 500000000,
+        "confidence": "med",
+        "notes": "estimated; Could not extract time from: Est. $500M (based on $105M seed); Est. $500M (based on $105M seed)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 105000000,
+        "time": "07/2025",
+        "confidence": "med",
+        "notes": "extracted; $105M - Jul 2025",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "9008a0c51a6ff0f3",
+    "name": "Persona AI",
+    "aliases": [
+      "Persona AI"
+    ],
+    "description": "NASA-to-commercial humanoid robotics. Led by Nic Radford with 15-year NASA tenure, Valkyrie/Robonaut 2 leadership. Strongest NASA-to-commercial technology transfer in humanoid robotics with direct commercialization of NASA-developed technology.",
+    "tags": [
+      "humanoid"
+    ],
+    "country": "United States",
+    "city": "Houston",
+    "hq": {
+      "lat": 29.7604,
+      "lon": -95.3698,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 67
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 42000000,
+        "confidence": "med",
+        "notes": "extracted; Could not extract time from: $42M; $42M",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "moneyRaisedUsd": 27000000,
+        "confidence": "med",
+        "notes": "raise/grant (not valuation); raise/grant amount; Could not extract time from: raised $27M; raised $27M",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "63a8f5cffc2aae45",
+    "name": "Swarm Dynamics",
+    "aliases": [
+      "Swarm Dynamics"
+    ],
+    "description": "Multi-robot coordination and fleet management platform. Per-robot licensing model ($500-2,000/year per robot). Enables companies to monitor, debug, and maintain large-scale robot deployments. Similar model to Starship Technologies for last-mile delivery.",
+    "tags": [
+      "delivery"
+    ],
+    "city": "99 Wall Street",
+    "hq": {
+      "lat": 33.4942,
+      "lon": -111.9261,
+      "confidence": "high",
+      "source": "geolocation_field",
+      "rawAddress": "99 Wall Street"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 68
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 4000000,
+        "confidence": "med",
+        "notes": "extracted; Could not extract time from: $4M; $4M",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "dd858c7b70dfc4df",
+    "name": "Sanctuary AI",
+    "aliases": [
+      "Sanctuary AI"
+    ],
+    "description": "Developer of general-purpose humanoid robots powered by advanced AI to perform human-like work in human environments",
+    "tags": [
+      "humanoid",
+      "general-purpose"
+    ],
+    "country": "Canada",
+    "city": "Vancouver",
+    "hq": {
+      "lat": 49.246292,
+      "lon": -123.116226,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 69
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 2000000000,
+        "time": "11/2024",
+        "confidence": "med",
+        "notes": "estimated; Minimum: $2B+; from parentheses; $2B+ (Est. post-Bezos/OpenAI Nov 2024 round)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 4500000,
+        "time": "10/2018",
+        "confidence": "med",
+        "notes": "extracted; $4.5M - October 2018",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "valuationUsd": 16500000,
+        "time": "09/2020",
+        "confidence": "med",
+        "notes": "extracted; $16.5M - September 2020",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-b",
+        "valuationUsd": 58000000,
+        "time": "02/2022",
+        "confidence": "med",
+        "notes": "extracted; $58M - February 2022",
+        "sourceColumn": "Series B Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-c",
+        "valuationUsd": 35000000,
+        "time": "10/2024",
+        "confidence": "med",
+        "notes": "extracted; $35M - October 2024",
+        "sourceColumn": "Series C Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "33c07c71c4146680",
+    "name": "Shinkei",
+    "aliases": [
+      "Shinkei"
+    ],
+    "description": "Y Combinator W22 seafood processing automation robotics company founded by Saif Khawaja. Develops robotic systems for automated fish and seafood handling, processing, and packaging. Addresses labor shortages and quality control challenges in commercial seafood processing facilities. Japanese-inspired precision (Shinkei = nervous system in Japanese). Targets $150B global seafood processing market with focus on sustainable, efficient automated processing solutions. Technology applicable to broader food processing automation.",
+    "tags": [
+      "food"
+    ],
+    "city": "El Segundo",
+    "hq": {
+      "lat": 33.9192,
+      "lon": -118.4165,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 70
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 22000000,
+        "time": "01/2024",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only from parentheses; $22M (Series A 2024)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "pre-seed",
+        "valuationUsd": 1300000,
+        "time": "01/2022",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only; $1.3M - 2022",
+        "sourceColumn": "Pre-Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "valuationUsd": 6000000,
+        "time": "04/2024",
+        "confidence": "med",
+        "notes": "extracted; $6M - April 2024",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      },
+      {
+        "round": "series-a",
+        "moneyRaisedUsd": 22000000,
+        "confidence": "med",
+        "notes": "raise/grant (not valuation); raise/grant amount; Could not extract time from: raised $22M; raised $22M",
+        "sourceColumn": "Series A Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "4e9d216ccf43a496",
+    "name": "Boston Dynamics",
+    "aliases": [
+      "Boston Dynamics"
+    ],
+    "description": "Developer of advanced robots and simulation software for mobility, manipulation, and intelligence applications, known for humanoid and quadruped robots like Atlas and Spot",
+    "tags": [
+      "humanoid",
+      "manipulation",
+      "quadruped",
+      "manipulation"
+    ],
+    "country": "United States",
+    "city": "Waltham",
+    "hq": {
+      "lat": 42.354558,
+      "lon": -71.065834,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 71
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 1100000000,
+        "time": "01/2021",
+        "confidence": "med",
+        "notes": "extracted; year-only; year-only from parentheses; $1.1B (Hyundai acquisition 2021)",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "5ad9812abf4c9ceb",
+    "name": "Scout AI",
+    "aliases": [
+      "Scout AI"
+    ],
+    "description": "Robotics AI platform. Focus on AI infrastructure for robotics and autonomous systems. Targeting $20-50B robotics & autonomous systems subset of broader AI market.",
+    "tags": [
+      "autonomous"
+    ],
+    "country": "United States",
+    "city": "1225 Elko Dr",
+    "hq": {
+      "lat": 37.4069,
+      "lon": -121.9902,
+      "confidence": "high",
+      "source": "geolocation_field",
+      "rawAddress": "1225 Elko Dr"
+    },
+    "lastUpdated": "2026-01-13T09:07:47.623Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 72
+    },
+    "fundingRounds": [
+      {
+        "round": "unknown",
+        "valuationUsd": 15000000,
+        "confidence": "med",
+        "notes": "extracted; Could not extract time from: $15M; $15M",
+        "sourceColumn": "Last Valuation",
+        "currency": "USD"
+      },
+      {
+        "round": "seed",
+        "moneyRaisedUsd": 15000000,
+        "confidence": "med",
+        "notes": "raise/grant (not valuation); raise/grant amount; Could not extract time from: $15M raised; $15M raised",
+        "sourceColumn": "Seed Valuation and Date",
+        "currency": "USD"
+      }
+    ]
+  }
+]

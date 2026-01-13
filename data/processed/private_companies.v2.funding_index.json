@@ -1,0 +1,1878 @@
+{
+  "generatedAt": "2026-01-13T09:07:47.625Z",
+  "version": "2.0",
+  "entries": [
+    {
+      "companyId": "d3a95056aaa0dc58",
+      "companyName": "EcoRobotix",
+      "round": "seed",
+      "valuationUsd": 3000000,
+      "time": "01/2011",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "1e84fac40a853ff1",
+      "companyName": "CMR Surgical",
+      "round": "seed",
+      "valuationUsd": 2500000,
+      "time": "01/2014",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "4af80bc6be73a896",
+      "companyName": "Soft Robotics",
+      "round": "seed",
+      "valuationUsd": 4000000,
+      "time": "01/2015",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "a9e38b6775c4772c",
+      "companyName": "Deep Robotics Technology Co.",
+      "round": "seed",
+      "valuationUsd": 5000000,
+      "time": "01/2017",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "d3a95056aaa0dc58",
+      "companyName": "EcoRobotix",
+      "round": "series-a",
+      "valuationUsd": 10500000,
+      "time": "01/2017",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "2748fdbdee3f62f5",
+      "companyName": "Starship Technologies",
+      "round": "seed",
+      "valuationUsd": 17200000,
+      "time": "01/2017",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "ba7502f6a4089a39",
+      "companyName": "Unitree Robotics",
+      "round": "seed",
+      "valuationUsd": 5000000,
+      "time": "01/2017",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "a30745c02947f061",
+      "companyName": "Iron Ox",
+      "round": "series-a",
+      "valuationUsd": 6000000,
+      "time": "01/2018",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "9e3b38448b1568b4",
+      "companyName": "Scaled Robotics",
+      "round": "seed",
+      "valuationUsd": 2000000,
+      "time": "01/2018",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "db2d63da151e22b8",
+      "companyName": "Carbon Robotics",
+      "round": "series-a",
+      "valuationUsd": 8900000,
+      "time": "01/2019",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "a9e38b6775c4772c",
+      "companyName": "Deep Robotics Technology Co.",
+      "round": "series-a",
+      "valuationUsd": 20000000,
+      "time": "01/2019",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "d3a95056aaa0dc58",
+      "companyName": "EcoRobotix",
+      "round": "series-b",
+      "valuationUsd": 12000000,
+      "time": "01/2019",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "848b33ddf18ee554",
+      "companyName": "Niqo Robotics",
+      "round": "seed",
+      "valuationUsd": 2000000,
+      "time": "01/2019",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "04b6b50c9d20b6b8",
+      "companyName": "Anyware Robotics",
+      "round": "seed",
+      "valuationUsd": 17000000,
+      "time": "01/2020",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "d3a95056aaa0dc58",
+      "companyName": "EcoRobotix",
+      "round": "series-c",
+      "valuationUsd": 12000000,
+      "time": "01/2020",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "a30745c02947f061",
+      "companyName": "Iron Ox",
+      "round": "series-b",
+      "valuationUsd": 20000000,
+      "time": "01/2020",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "4af80bc6be73a896",
+      "companyName": "Soft Robotics",
+      "round": "series-b",
+      "valuationUsd": 23000000,
+      "time": "01/2020",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "5220c17e887012b9",
+      "companyName": "Boost Robotics",
+      "round": "pre-seed",
+      "valuationUsd": 1000000,
+      "time": "01/2021",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "4e9d216ccf43a496",
+      "companyName": "Boston Dynamics",
+      "round": "unknown",
+      "valuationUsd": 1100000000,
+      "time": "01/2021",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "1e84fac40a853ff1",
+      "companyName": "CMR Surgical",
+      "round": "unknown",
+      "valuationUsd": 3000000000,
+      "time": "01/2021",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "641a6dfb952aa84d",
+      "companyName": "Nuro",
+      "round": "unknown",
+      "valuationUsd": 8600000000,
+      "time": "01/2021",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "9e3b38448b1568b4",
+      "companyName": "Scaled Robotics",
+      "round": "series-a",
+      "valuationUsd": 15000000,
+      "time": "01/2021",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "ba7502f6a4089a39",
+      "companyName": "Unitree Robotics",
+      "round": "series-a",
+      "valuationUsd": 25000000,
+      "time": "01/2021",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "9f0883ebe3402743",
+      "companyName": "Vecna Robotics",
+      "round": "unknown",
+      "valuationUsd": 300000000,
+      "time": "01/2021",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "53fad337550a1e04",
+      "companyName": "Bear Robotics",
+      "round": "series-b",
+      "valuationUsd": 81000000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "9baa1db9e0ff5407",
+      "companyName": "Bonsai Robotics",
+      "round": "seed",
+      "valuationUsd": 15000000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "5220c17e887012b9",
+      "companyName": "Boost Robotics",
+      "round": "unknown",
+      "valuationUsd": 10000000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "5220c17e887012b9",
+      "companyName": "Boost Robotics",
+      "round": "seed",
+      "valuationUsd": 10000000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "e5113c6f74da1a6b",
+      "companyName": "Built Robotics",
+      "round": "unknown",
+      "valuationUsd": 400000000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "cd938e971daf85a7",
+      "companyName": "Connect Robotics",
+      "round": "pre-seed",
+      "valuationUsd": 500000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "a9e38b6775c4772c",
+      "companyName": "Deep Robotics Technology Co.",
+      "round": "series-b",
+      "valuationUsd": 50000000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "e4e77ad058c8d693",
+      "companyName": "Figure AI",
+      "round": "seed",
+      "valuationUsd": 100000000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "a30745c02947f061",
+      "companyName": "Iron Ox",
+      "round": "series-c",
+      "valuationUsd": 53000000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "74aecc29e9ddef31",
+      "companyName": "Locus Robotics",
+      "round": "unknown",
+      "valuationUsd": 2000000000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "0925e89528fc52b2",
+      "companyName": "Miso Robotics",
+      "round": "unknown",
+      "valuationUsd": 150000000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "0526b70d54a5b906",
+      "companyName": "Mytra",
+      "round": "seed",
+      "valuationUsd": 5000000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "9325beb830baae8d",
+      "companyName": "RightHand Robotics",
+      "round": "unknown",
+      "valuationUsd": 400000000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "33c07c71c4146680",
+      "companyName": "Shinkei",
+      "round": "pre-seed",
+      "valuationUsd": 1300000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "4af80bc6be73a896",
+      "companyName": "Soft Robotics",
+      "round": "unknown",
+      "valuationUsd": 150000000,
+      "time": "01/2022",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "34e7d4fa315728b3",
+      "companyName": "4AG Robotics",
+      "round": "series-a",
+      "valuationUsd": 5000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "feefdab18a2d1b6f",
+      "companyName": "Anthropic Robotics",
+      "round": "seed",
+      "valuationUsd": 10000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "53fad337550a1e04",
+      "companyName": "Bear Robotics",
+      "round": "unknown",
+      "valuationUsd": 500000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "cd938e971daf85a7",
+      "companyName": "Connect Robotics",
+      "round": "seed",
+      "valuationUsd": 3000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "a9e38b6775c4772c",
+      "companyName": "Deep Robotics Technology Co.",
+      "round": "unknown",
+      "valuationUsd": 150000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "d09af1b2783985ba",
+      "companyName": "Dyna Robotics",
+      "round": "pre-seed",
+      "valuationUsd": 1000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "79eae3448c103d72",
+      "companyName": "Ember Robotics",
+      "round": "pre-seed",
+      "valuationUsd": 1000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "4010ec15b6e20430",
+      "companyName": "Foundation Robotics",
+      "round": "pre-seed",
+      "valuationUsd": 1000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "854ef4750262b47f",
+      "companyName": "Ghost Robotics",
+      "round": "unknown",
+      "valuationUsd": 200000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "957adfb4c115680f",
+      "companyName": "Hlabs Robotics",
+      "round": "seed",
+      "valuationUsd": 2000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "051d3af2e2af2326",
+      "companyName": "Lightberry",
+      "round": "pre-seed",
+      "valuationUsd": 1000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "22a598686d3c348f",
+      "companyName": "Mimic Robotics",
+      "round": "pre-seed",
+      "valuationUsd": 1000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "0526b70d54a5b906",
+      "companyName": "Mytra",
+      "round": "series-a",
+      "valuationUsd": 28000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "c4ccc90e5409ac6f",
+      "companyName": "Nextera Robotics",
+      "round": "pre-seed",
+      "valuationUsd": 1000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "9e512087c2f7e9b1",
+      "companyName": "OpenDroids",
+      "round": "pre-seed",
+      "valuationUsd": 1000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "23f84b9377d759a2",
+      "companyName": "Orchard Robotics",
+      "round": "seed",
+      "valuationUsd": 3800000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "09c29529d7af935f",
+      "companyName": "PickNik Robotics",
+      "round": "unknown",
+      "valuationUsd": 15000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "c50797fd25641da4",
+      "companyName": "Scythe Robotics",
+      "round": "unknown",
+      "valuationUsd": 200000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "b6dc03d457b6d6a1",
+      "companyName": "Skild AI",
+      "round": "seed",
+      "valuationUsd": 14500000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "58407db70bdb7167",
+      "companyName": "Upside Robotics",
+      "round": "series-a",
+      "valuationUsd": 10000000,
+      "time": "01/2023",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "758c330f32cc697f",
+      "companyName": "1X Technologies",
+      "round": "series-b",
+      "valuationUsd": 800000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "feefdab18a2d1b6f",
+      "companyName": "Anthropic Robotics",
+      "round": "unknown",
+      "valuationUsd": 400000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "feefdab18a2d1b6f",
+      "companyName": "Anthropic Robotics",
+      "round": "series-a",
+      "valuationUsd": 75000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "db2d63da151e22b8",
+      "companyName": "Carbon Robotics",
+      "round": "unknown",
+      "valuationUsd": 600000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "d09af1b2783985ba",
+      "companyName": "Dyna Robotics",
+      "round": "unknown",
+      "valuationUsd": 8000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "d09af1b2783985ba",
+      "companyName": "Dyna Robotics",
+      "round": "seed",
+      "valuationUsd": 8000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "79eae3448c103d72",
+      "companyName": "Ember Robotics",
+      "round": "unknown",
+      "valuationUsd": 5000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "79eae3448c103d72",
+      "companyName": "Ember Robotics",
+      "round": "seed",
+      "valuationUsd": 5000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "dbbaa9142363b79b",
+      "companyName": "EurekaLabsAI",
+      "round": "unknown",
+      "valuationUsd": 15000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "dbbaa9142363b79b",
+      "companyName": "EurekaLabsAI",
+      "round": "pre-seed",
+      "valuationUsd": 2000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "dbbaa9142363b79b",
+      "companyName": "EurekaLabsAI",
+      "round": "seed",
+      "valuationUsd": 15000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "750852116ef9087f",
+      "companyName": "Flexion Robotics",
+      "round": "seed",
+      "valuationUsd": 7350000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "4010ec15b6e20430",
+      "companyName": "Foundation Robotics",
+      "round": "unknown",
+      "valuationUsd": 5000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "4010ec15b6e20430",
+      "companyName": "Foundation Robotics",
+      "round": "seed",
+      "valuationUsd": 5000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "051d3af2e2af2326",
+      "companyName": "Lightberry",
+      "round": "unknown",
+      "valuationUsd": 5000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "051d3af2e2af2326",
+      "companyName": "Lightberry",
+      "round": "seed",
+      "valuationUsd": 5000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "22a598686d3c348f",
+      "companyName": "Mimic Robotics",
+      "round": "unknown",
+      "valuationUsd": 10000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "22a598686d3c348f",
+      "companyName": "Mimic Robotics",
+      "round": "seed",
+      "valuationUsd": 10000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "0526b70d54a5b906",
+      "companyName": "Mytra",
+      "round": "unknown",
+      "valuationUsd": 250000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "c4ccc90e5409ac6f",
+      "companyName": "Nextera Robotics",
+      "round": "unknown",
+      "valuationUsd": 8000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "c4ccc90e5409ac6f",
+      "companyName": "Nextera Robotics",
+      "round": "seed",
+      "valuationUsd": 8000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "848b33ddf18ee554",
+      "companyName": "Niqo Robotics",
+      "round": "unknown",
+      "valuationUsd": 60000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "e3f009614ca33a4a",
+      "companyName": "Physical Intelligence",
+      "round": "seed",
+      "valuationUsd": 70000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "b221467652331742",
+      "companyName": "Pivot Robotics",
+      "round": "seed",
+      "valuationUsd": 2000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "33c07c71c4146680",
+      "companyName": "Shinkei",
+      "round": "unknown",
+      "valuationUsd": 22000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "2748fdbdee3f62f5",
+      "companyName": "Starship Technologies",
+      "round": "unknown",
+      "valuationUsd": 550000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "2748fdbdee3f62f5",
+      "companyName": "Starship Technologies",
+      "round": "series-c",
+      "valuationUsd": 550000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "b2d38cebd7da4fc4",
+      "companyName": "Sunday Robotics",
+      "round": "unknown",
+      "valuationUsd": 30000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "b2d38cebd7da4fc4",
+      "companyName": "Sunday Robotics",
+      "round": "seed",
+      "valuationUsd": 30000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "b2d38cebd7da4fc4",
+      "companyName": "Sunday Robotics",
+      "round": "unknown",
+      "valuationUsd": 30000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "b2d38cebd7da4fc4",
+      "companyName": "Sunday Robotics",
+      "round": "seed",
+      "valuationUsd": 30000000,
+      "time": "01/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "758c330f32cc697f",
+      "companyName": "1X Technologies",
+      "round": "unknown",
+      "valuationUsd": 10000000000,
+      "time": "01/2025",
+      "confidence": "low",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "c413c29ad4364aee",
+      "companyName": "Apptronik",
+      "round": "unknown",
+      "valuationUsd": 5000000000,
+      "time": "01/2025",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "c413c29ad4364aee",
+      "companyName": "Apptronik",
+      "round": "series-b",
+      "valuationUsd": 5000000000,
+      "time": "01/2025",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "e4e77ad058c8d693",
+      "companyName": "Figure AI",
+      "round": "unknown",
+      "valuationUsd": 39000000000,
+      "time": "01/2025",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "750852116ef9087f",
+      "companyName": "Flexion Robotics",
+      "round": "unknown",
+      "valuationUsd": 200000000,
+      "time": "01/2025",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "23f84b9377d759a2",
+      "companyName": "Orchard Robotics",
+      "round": "unknown",
+      "valuationUsd": 80000000,
+      "time": "01/2025",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "09c29529d7af935f",
+      "companyName": "PickNik Robotics",
+      "round": "seed",
+      "valuationUsd": 5000000,
+      "time": "01/2025",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "49f7834ae32494d1",
+      "companyName": "Piggy Robotics",
+      "round": "seed",
+      "valuationUsd": 500000,
+      "time": "01/2025",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "b221467652331742",
+      "companyName": "Pivot Robotics",
+      "round": "unknown",
+      "valuationUsd": 15000000,
+      "time": "01/2025",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "9ec86744ca6878c6",
+      "companyName": "Red Barn Robotics",
+      "round": "unknown",
+      "valuationUsd": 15000000,
+      "time": "01/2025",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "9ec86744ca6878c6",
+      "companyName": "Red Barn Robotics",
+      "round": "seed",
+      "valuationUsd": 2000000,
+      "time": "01/2025",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "ba7502f6a4089a39",
+      "companyName": "Unitree Robotics",
+      "round": "unknown",
+      "valuationUsd": 1000000000,
+      "time": "01/2025",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "ba7502f6a4089a39",
+      "companyName": "Unitree Robotics",
+      "round": "series-c",
+      "valuationUsd": 200000000,
+      "time": "01/2025",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "641a6dfb952aa84d",
+      "companyName": "Nuro",
+      "round": "series-a",
+      "valuationUsd": 940000000,
+      "time": "02/2018",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "641a6dfb952aa84d",
+      "companyName": "Nuro",
+      "round": "series-b",
+      "valuationUsd": 2700000000,
+      "time": "02/2019",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "9f0883ebe3402743",
+      "companyName": "Vecna Robotics",
+      "round": "series-a",
+      "valuationUsd": 14500000,
+      "time": "02/2019",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "156207a536171f8b",
+      "companyName": "Diligent Robotics",
+      "round": "seed",
+      "valuationUsd": 10000000,
+      "time": "02/2020",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "74aecc29e9ddef31",
+      "companyName": "Locus Robotics",
+      "round": "series-e",
+      "valuationUsd": 150000000,
+      "time": "02/2021",
+      "confidence": "med",
+      "sourceColumn": "Series E Valuation and Date"
+    },
+    {
+      "companyId": "5cbc78bd7b97612f",
+      "companyName": "Kiwibot",
+      "round": "series-a",
+      "valuationUsd": 7500000,
+      "time": "02/2022",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "9325beb830baae8d",
+      "companyName": "RightHand Robotics",
+      "round": "series-c",
+      "valuationUsd": 66000000,
+      "time": "02/2022",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "dd858c7b70dfc4df",
+      "companyName": "Sanctuary AI",
+      "round": "series-b",
+      "valuationUsd": 58000000,
+      "time": "02/2022",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "58e91cf3c3f81598",
+      "companyName": "Collaborative Robotics",
+      "round": "seed",
+      "valuationUsd": 30000000,
+      "time": "02/2023",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "5cbc78bd7b97612f",
+      "companyName": "Kiwibot",
+      "round": "series-b",
+      "valuationUsd": 10000000,
+      "time": "02/2023",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "c413c29ad4364aee",
+      "companyName": "Apptronik",
+      "round": "series-a",
+      "valuationUsd": 350000000,
+      "time": "02/2024",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "e4e77ad058c8d693",
+      "companyName": "Figure AI",
+      "round": "series-b",
+      "valuationUsd": 2600000000,
+      "time": "02/2024",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "ba7502f6a4089a39",
+      "companyName": "Unitree Robotics",
+      "round": "series-b",
+      "valuationUsd": 50000000,
+      "time": "02/2024",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "156207a536171f8b",
+      "companyName": "Diligent Robotics",
+      "round": "unknown",
+      "valuationUsd": 150000000,
+      "time": "02/2025",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "23a08bae40cf799d",
+      "companyName": "Brain Corp",
+      "round": "series-a",
+      "valuationUsd": 36000000,
+      "time": "03/2017",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "e5113c6f74da1a6b",
+      "companyName": "Built Robotics",
+      "round": "seed",
+      "valuationUsd": 5000000,
+      "time": "03/2017",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "9325beb830baae8d",
+      "companyName": "RightHand Robotics",
+      "round": "series-a",
+      "valuationUsd": 8000000,
+      "time": "03/2017",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "23a08bae40cf799d",
+      "companyName": "Brain Corp",
+      "round": "unknown",
+      "valuationUsd": 600000000,
+      "time": "03/2020",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "0925e89528fc52b2",
+      "companyName": "Miso Robotics",
+      "round": "series-c",
+      "valuationUsd": 30000000,
+      "time": "03/2021",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "854ef4750262b47f",
+      "companyName": "Ghost Robotics",
+      "round": "series-b",
+      "valuationUsd": 25000000,
+      "time": "03/2022",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "2748fdbdee3f62f5",
+      "companyName": "Starship Technologies",
+      "round": "series-b",
+      "valuationUsd": 42000000,
+      "time": "03/2022",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "e3f009614ca33a4a",
+      "companyName": "Physical Intelligence",
+      "round": "series-a",
+      "valuationUsd": 2400000000,
+      "time": "03/2024",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "c466c1e1f6089d55",
+      "companyName": "The Bot Company",
+      "round": "series-a",
+      "valuationUsd": 2000000000,
+      "time": "03/2025",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "c50797fd25641da4",
+      "companyName": "Scythe Robotics",
+      "round": "pre-seed",
+      "valuationUsd": 500000,
+      "time": "04/2018",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "74aecc29e9ddef31",
+      "companyName": "Locus Robotics",
+      "round": "series-c",
+      "valuationUsd": 26000000,
+      "time": "04/2019",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "9eb5d53dafe24763",
+      "companyName": "Agility Robotics",
+      "round": "series-b",
+      "valuationUsd": 1000000000,
+      "time": "04/2022",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "db2d63da151e22b8",
+      "companyName": "Carbon Robotics",
+      "round": "series-c",
+      "valuationUsd": 30000000,
+      "time": "04/2023",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "848b33ddf18ee554",
+      "companyName": "Niqo Robotics",
+      "round": "series-b",
+      "valuationUsd": 60000000,
+      "time": "04/2024",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "33c07c71c4146680",
+      "companyName": "Shinkei",
+      "round": "seed",
+      "valuationUsd": 6000000,
+      "time": "04/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "1e84fac40a853ff1",
+      "companyName": "CMR Surgical",
+      "round": "series-e",
+      "valuationUsd": 200000000,
+      "time": "04/2025",
+      "confidence": "med",
+      "sourceColumn": "Series E Valuation and Date"
+    },
+    {
+      "companyId": "5cbc78bd7b97612f",
+      "companyName": "Kiwibot",
+      "round": "series-c",
+      "valuationUsd": 12000000,
+      "time": "04/2025",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "74aecc29e9ddef31",
+      "companyName": "Locus Robotics",
+      "round": "series-a",
+      "valuationUsd": 8000000,
+      "time": "05/2016",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "0925e89528fc52b2",
+      "companyName": "Miso Robotics",
+      "round": "pre-seed",
+      "valuationUsd": 1000000,
+      "time": "05/2016",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "53fad337550a1e04",
+      "companyName": "Bear Robotics",
+      "round": "seed",
+      "valuationUsd": 5500000,
+      "time": "05/2019",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "9f0883ebe3402743",
+      "companyName": "Vecna Robotics",
+      "round": "series-b",
+      "valuationUsd": 50000000,
+      "time": "05/2020",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "0925e89528fc52b2",
+      "companyName": "Miso Robotics",
+      "round": "series-d",
+      "valuationUsd": 22000000,
+      "time": "05/2022",
+      "confidence": "med",
+      "sourceColumn": "Series D Valuation and Date"
+    },
+    {
+      "companyId": "e4e77ad058c8d693",
+      "companyName": "Figure AI",
+      "round": "series-a",
+      "valuationUsd": 500000000,
+      "time": "05/2023",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "c466c1e1f6089d55",
+      "companyName": "The Bot Company",
+      "round": "seed",
+      "valuationUsd": 150000000,
+      "time": "05/2024",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "1e84fac40a853ff1",
+      "companyName": "CMR Surgical",
+      "round": "series-b",
+      "valuationUsd": 100000000,
+      "time": "06/2018",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "9f0883ebe3402743",
+      "companyName": "Vecna Robotics",
+      "round": "seed",
+      "valuationUsd": 5000000,
+      "time": "06/2018",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "74aecc29e9ddef31",
+      "companyName": "Locus Robotics",
+      "round": "series-d",
+      "valuationUsd": 40000000,
+      "time": "06/2020",
+      "confidence": "med",
+      "sourceColumn": "Series D Valuation and Date"
+    },
+    {
+      "companyId": "e5113c6f74da1a6b",
+      "companyName": "Built Robotics",
+      "round": "series-c",
+      "valuationUsd": 64000000,
+      "time": "06/2021",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "1e84fac40a853ff1",
+      "companyName": "CMR Surgical",
+      "round": "series-d",
+      "valuationUsd": 600000000,
+      "time": "06/2021",
+      "confidence": "med",
+      "sourceColumn": "Series D Valuation and Date"
+    },
+    {
+      "companyId": "58407db70bdb7167",
+      "companyName": "Upside Robotics",
+      "round": "seed",
+      "valuationUsd": 2800000,
+      "time": "06/2021",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "9eb5d53dafe24763",
+      "companyName": "Agility Robotics",
+      "round": "unknown",
+      "valuationUsd": 1750000000,
+      "time": "06/2025",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "9eb5d53dafe24763",
+      "companyName": "Agility Robotics",
+      "round": "series-c",
+      "valuationUsd": 1750000000,
+      "time": "06/2025",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "b6dc03d457b6d6a1",
+      "companyName": "Skild AI",
+      "round": "series-b",
+      "valuationUsd": 4500000000,
+      "time": "06/2025",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "641a6dfb952aa84d",
+      "companyName": "Nuro",
+      "round": "seed",
+      "valuationUsd": 92000000,
+      "time": "07/2017",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "23a08bae40cf799d",
+      "companyName": "Brain Corp",
+      "round": "series-b",
+      "valuationUsd": 114000000,
+      "time": "07/2018",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "0526b70d54a5b906",
+      "companyName": "Mytra",
+      "round": "series-b",
+      "valuationUsd": 250000000,
+      "time": "07/2024",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "b6dc03d457b6d6a1",
+      "companyName": "Skild AI",
+      "round": "series-a",
+      "valuationUsd": 1500000000,
+      "time": "07/2024",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "f3f120dd2966fb5a",
+      "companyName": "Genesis AI",
+      "round": "seed",
+      "valuationUsd": 105000000,
+      "time": "07/2025",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "23a08bae40cf799d",
+      "companyName": "Brain Corp",
+      "round": "seed",
+      "valuationUsd": 8000000,
+      "time": "08/2014",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "854ef4750262b47f",
+      "companyName": "Ghost Robotics",
+      "round": "series-a",
+      "valuationUsd": 11500000,
+      "time": "08/2019",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "2748fdbdee3f62f5",
+      "companyName": "Starship Technologies",
+      "round": "series-a",
+      "valuationUsd": 40000000,
+      "time": "08/2019",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "5cbc78bd7b97612f",
+      "companyName": "Kiwibot",
+      "round": "unknown",
+      "valuationUsd": 25000000,
+      "time": "08/2020",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "848b33ddf18ee554",
+      "companyName": "Niqo Robotics",
+      "round": "series-a",
+      "valuationUsd": 6000000,
+      "time": "08/2021",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "c413c29ad4364aee",
+      "companyName": "Apptronik",
+      "round": "seed",
+      "valuationUsd": 14500000,
+      "time": "08/2022",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "58e91cf3c3f81598",
+      "companyName": "Collaborative Robotics",
+      "round": "series-a",
+      "valuationUsd": 100000000,
+      "time": "08/2023",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "1e84fac40a853ff1",
+      "companyName": "CMR Surgical",
+      "round": "series-a",
+      "valuationUsd": 46000000,
+      "time": "09/2017",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "0925e89528fc52b2",
+      "companyName": "Miso Robotics",
+      "round": "seed",
+      "valuationUsd": 3000000,
+      "time": "09/2017",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "e5113c6f74da1a6b",
+      "companyName": "Built Robotics",
+      "round": "series-a",
+      "valuationUsd": 15000000,
+      "time": "09/2018",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "1e84fac40a853ff1",
+      "companyName": "CMR Surgical",
+      "round": "series-c",
+      "valuationUsd": 195000000,
+      "time": "09/2019",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "0925e89528fc52b2",
+      "companyName": "Miso Robotics",
+      "round": "series-b",
+      "valuationUsd": 17000000,
+      "time": "09/2019",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "dd858c7b70dfc4df",
+      "companyName": "Sanctuary AI",
+      "round": "series-a",
+      "valuationUsd": 16500000,
+      "time": "09/2020",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "34e7d4fa315728b3",
+      "companyName": "4AG Robotics",
+      "round": "seed",
+      "valuationUsd": 2500000,
+      "time": "09/2021",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "db2d63da151e22b8",
+      "companyName": "Carbon Robotics",
+      "round": "series-b",
+      "valuationUsd": 27000000,
+      "time": "09/2021",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "c50797fd25641da4",
+      "companyName": "Scythe Robotics",
+      "round": "series-a",
+      "valuationUsd": 17300000,
+      "time": "09/2021",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "758c330f32cc697f",
+      "companyName": "1X Technologies",
+      "round": "series-e",
+      "valuationUsd": 10000000000,
+      "time": "09/2025",
+      "confidence": "low",
+      "sourceColumn": "Series E Valuation and Date"
+    },
+    {
+      "companyId": "e4e77ad058c8d693",
+      "companyName": "Figure AI",
+      "round": "series-c",
+      "valuationUsd": 39000000000,
+      "time": "09/2025",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "23f84b9377d759a2",
+      "companyName": "Orchard Robotics",
+      "round": "series-a",
+      "valuationUsd": 80000000,
+      "time": "09/2025",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "9eb5d53dafe24763",
+      "companyName": "Agility Robotics",
+      "round": "seed",
+      "valuationUsd": 792000,
+      "time": "10/2016",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "dd858c7b70dfc4df",
+      "companyName": "Sanctuary AI",
+      "round": "seed",
+      "valuationUsd": 4500000,
+      "time": "10/2018",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "9eb5d53dafe24763",
+      "companyName": "Agility Robotics",
+      "round": "series-a",
+      "valuationUsd": 29000000,
+      "time": "10/2020",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "09c29529d7af935f",
+      "companyName": "PickNik Robotics",
+      "round": "pre-seed",
+      "valuationUsd": 2000000,
+      "time": "10/2023",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "db2d63da151e22b8",
+      "companyName": "Carbon Robotics",
+      "round": "series-d",
+      "valuationUsd": 70000000,
+      "time": "10/2024",
+      "confidence": "med",
+      "sourceColumn": "Series D Valuation and Date"
+    },
+    {
+      "companyId": "dd858c7b70dfc4df",
+      "companyName": "Sanctuary AI",
+      "round": "series-c",
+      "valuationUsd": 35000000,
+      "time": "10/2024",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "db2d63da151e22b8",
+      "companyName": "Carbon Robotics",
+      "round": "series-e",
+      "valuationUsd": 20800000,
+      "time": "10/2025",
+      "confidence": "med",
+      "sourceColumn": "Series E Valuation and Date"
+    },
+    {
+      "companyId": "c466c1e1f6089d55",
+      "companyName": "The Bot Company",
+      "round": "unknown",
+      "valuationUsd": 4000000000,
+      "time": "10/2025",
+      "confidence": "low",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "c466c1e1f6089d55",
+      "companyName": "The Bot Company",
+      "round": "series-b",
+      "valuationUsd": 250000000,
+      "time": "10/2025",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "854ef4750262b47f",
+      "companyName": "Ghost Robotics",
+      "round": "seed",
+      "valuationUsd": 2000000,
+      "time": "11/2017",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "74aecc29e9ddef31",
+      "companyName": "Locus Robotics",
+      "round": "series-b",
+      "valuationUsd": 25000000,
+      "time": "11/2017",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "641a6dfb952aa84d",
+      "companyName": "Nuro",
+      "round": "series-c",
+      "valuationUsd": 5300000000,
+      "time": "11/2019",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "c50797fd25641da4",
+      "companyName": "Scythe Robotics",
+      "round": "seed",
+      "valuationUsd": 3700000,
+      "time": "11/2019",
+      "confidence": "med",
+      "sourceColumn": "Seed Valuation and Date"
+    },
+    {
+      "companyId": "53fad337550a1e04",
+      "companyName": "Bear Robotics",
+      "round": "series-a",
+      "valuationUsd": 32000000,
+      "time": "11/2020",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "9f0883ebe3402743",
+      "companyName": "Vecna Robotics",
+      "round": "series-c",
+      "valuationUsd": 29000000,
+      "time": "11/2021",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "4af80bc6be73a896",
+      "companyName": "Soft Robotics",
+      "round": "series-c",
+      "valuationUsd": 26000000,
+      "time": "11/2022",
+      "confidence": "med",
+      "sourceColumn": "Series C Valuation and Date"
+    },
+    {
+      "companyId": "58e91cf3c3f81598",
+      "companyName": "Collaborative Robotics",
+      "round": "unknown",
+      "valuationUsd": 1000000000,
+      "time": "11/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "58e91cf3c3f81598",
+      "companyName": "Collaborative Robotics",
+      "round": "series-b",
+      "valuationUsd": 1000000000,
+      "time": "11/2024",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "dd858c7b70dfc4df",
+      "companyName": "Sanctuary AI",
+      "round": "unknown",
+      "valuationUsd": 2000000000,
+      "time": "11/2024",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "61eccecdb237f1b9",
+      "companyName": "Buildroid AI",
+      "round": "pre-seed",
+      "valuationUsd": 2000000,
+      "time": "11/2025",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "750852116ef9087f",
+      "companyName": "Flexion Robotics",
+      "round": "series-a",
+      "valuationUsd": 200000000,
+      "time": "11/2025",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "e3f009614ca33a4a",
+      "companyName": "Physical Intelligence",
+      "round": "unknown",
+      "valuationUsd": 5600000000,
+      "time": "11/2025",
+      "confidence": "med",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "e3f009614ca33a4a",
+      "companyName": "Physical Intelligence",
+      "round": "series-b",
+      "valuationUsd": 5600000000,
+      "time": "11/2025",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "4af80bc6be73a896",
+      "companyName": "Soft Robotics",
+      "round": "series-a",
+      "valuationUsd": 5000000,
+      "time": "12/2015",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "156207a536171f8b",
+      "companyName": "Diligent Robotics",
+      "round": "pre-seed",
+      "valuationUsd": 3000000,
+      "time": "12/2018",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "5cbc78bd7b97612f",
+      "companyName": "Kiwibot",
+      "round": "pre-seed",
+      "valuationUsd": 100000,
+      "time": "12/2018",
+      "confidence": "med",
+      "sourceColumn": "Pre-Seed Valuation and Date"
+    },
+    {
+      "companyId": "0925e89528fc52b2",
+      "companyName": "Miso Robotics",
+      "round": "series-a",
+      "valuationUsd": 10000000,
+      "time": "12/2018",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "9325beb830baae8d",
+      "companyName": "RightHand Robotics",
+      "round": "series-b",
+      "valuationUsd": 23000000,
+      "time": "12/2018",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "e5113c6f74da1a6b",
+      "companyName": "Built Robotics",
+      "round": "series-b",
+      "valuationUsd": 33000000,
+      "time": "12/2019",
+      "confidence": "med",
+      "sourceColumn": "Series B Valuation and Date"
+    },
+    {
+      "companyId": "156207a536171f8b",
+      "companyName": "Diligent Robotics",
+      "round": "series-a",
+      "valuationUsd": 30000000,
+      "time": "12/2021",
+      "confidence": "med",
+      "sourceColumn": "Series A Valuation and Date"
+    },
+    {
+      "companyId": "b6dc03d457b6d6a1",
+      "companyName": "Skild AI",
+      "round": "unknown",
+      "valuationUsd": 14000000000,
+      "time": "12/2025",
+      "confidence": "low",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "b6dc03d457b6d6a1",
+      "companyName": "Skild AI",
+      "round": "series-e",
+      "valuationUsd": 14000000000,
+      "time": "12/2025",
+      "confidence": "low",
+      "sourceColumn": "Series E Valuation and Date"
+    },
+    {
+      "companyId": "fbdfb5f19aefac32",
+      "companyName": "UMA (Universal Mechanical Assistant)",
+      "round": "unknown",
+      "valuationUsd": 40000000,
+      "time": "12/2025",
+      "confidence": "low",
+      "sourceColumn": "Last Valuation"
+    },
+    {
+      "companyId": "fbdfb5f19aefac32",
+      "companyName": "UMA (Universal Mechanical Assistant)",
+      "round": "seed",
+      "valuationUsd": 40000000,
+      "time": "12/2025",
+      "confidence": "low",
+      "sourceColumn": "Seed Valuation and Date"
+    }
+  ]
+}

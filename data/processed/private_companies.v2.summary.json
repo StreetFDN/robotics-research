@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-01-13T09:07:47.625Z",
+  "version": "2.0",
+  "totalCompanies": 70,
+  "totalRounds": 256,
+  "roundsByStage": {
+    "unknown": 71,
+    "series-a2": 1,
+    "series-b": 31,
+    "series-e": 7,
+    "seed": 58,
+    "series-a": 39,
+    "series-c": 19,
+    "pre-seed": 23,
+    "series-d": 7
+  },
+  "okCount": 213,
+  "partialCount": 22,
+  "failedCount": 21,
+  "withMoneyRaised": 19,
+  "withTargetValuations": 7,
+  "withYearOnlyDates": 100,
+  "invalidTimeCount": 0,
+  "stageMismatchCount": 0,
+  "hqRegressionCount": 0,
+  "duplicatesMerged": 1
+}

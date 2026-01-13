@@ -1,0 +1,835 @@
+{
+  "generatedAt": "2026-01-13T09:07:47.625Z",
+  "version": "2.0",
+  "totalRows": 256,
+  "okCount": 213,
+  "partialCount": 22,
+  "failedCount": 21,
+  "llmAssistedCount": 0,
+  "entries": [
+    {
+      "companyId": "758c330f32cc697f",
+      "companyName": "1X Technologies",
+      "sourceColumn": "Series A Valuation and Date",
+      "rawCell": "A2 - Mar 2023",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: series-a2, Valuation: N/A, Time: 03/2023",
+      "parsedRounds": [
+        {
+          "round": "series-a2",
+          "time": "03/2023",
+          "confidence": "med",
+          "notes": "Could not extract valuation from: A2 - Mar 2023; A2 - Mar 2023",
+          "sourceColumn": "Series A Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "04b6b50c9d20b6b8",
+      "companyName": "Anyware Robotics",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "$17 million",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $17,000,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 17000000,
+          "confidence": "med",
+          "notes": "extracted; Could not extract time from: $17 million; $17 million",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "34e7d4fa315728b3",
+      "companyName": "4AG Robotics",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "Est. $7.5M Total",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $7,500,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 7500000,
+          "confidence": "med",
+          "notes": "estimated; Could not extract time from: Est. $7.5M Total; Est. $7.5M Total",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "9baa1db9e0ff5407",
+      "companyName": "Bonsai Robotics",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "$15 million (estimated from funding)",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "moneyRaisedUsd": 15000000,
+          "confidence": "med",
+          "notes": "estimated; raise/grant (not valuation); raise/grant amount; Could not extract time from: $15 million (estimated from funding); $15 million (estimated from funding)",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "abf5e9926488bf31",
+      "companyName": "Lab0",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "Unfunded/Bootstrapped",
+      "parseStatus": "FAILED",
+      "reason": "Round: unknown, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: Unfunded/Bootstrapped; Could not extract time from: Unfunded/Bootstrapped; Unfunded/Bootstrapped",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "abf5e9926488bf31",
+      "companyName": "Lab0",
+      "sourceColumn": "Pre-Seed Valuation and Date",
+      "rawCell": "N/A - Bootstrapped company",
+      "parseStatus": "FAILED",
+      "reason": "Round: pre-seed, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "pre-seed",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+          "sourceColumn": "Pre-Seed Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "abf5e9926488bf31",
+      "companyName": "Lab0",
+      "sourceColumn": "Seed Valuation and Date",
+      "rawCell": "N/A - Bootstrapped company",
+      "parseStatus": "FAILED",
+      "reason": "Round: seed, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "seed",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+          "sourceColumn": "Seed Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "abf5e9926488bf31",
+      "companyName": "Lab0",
+      "sourceColumn": "Series A Valuation and Date",
+      "rawCell": "N/A - Bootstrapped company",
+      "parseStatus": "FAILED",
+      "reason": "Round: series-a, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "series-a",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+          "sourceColumn": "Series A Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "abf5e9926488bf31",
+      "companyName": "Lab0",
+      "sourceColumn": "Series B Valuation and Date",
+      "rawCell": "N/A - Bootstrapped company",
+      "parseStatus": "FAILED",
+      "reason": "Round: series-b, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "series-b",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+          "sourceColumn": "Series B Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "abf5e9926488bf31",
+      "companyName": "Lab0",
+      "sourceColumn": "Series C Valuation and Date",
+      "rawCell": "N/A - Bootstrapped company",
+      "parseStatus": "FAILED",
+      "reason": "Round: series-c, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "series-c",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+          "sourceColumn": "Series C Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "abf5e9926488bf31",
+      "companyName": "Lab0",
+      "sourceColumn": "Series D Valuation and Date",
+      "rawCell": "N/A - Bootstrapped company",
+      "parseStatus": "FAILED",
+      "reason": "Round: series-d, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "series-d",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+          "sourceColumn": "Series D Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "abf5e9926488bf31",
+      "companyName": "Lab0",
+      "sourceColumn": "Series E Valuation and Date",
+      "rawCell": "N/A - Bootstrapped company",
+      "parseStatus": "FAILED",
+      "reason": "Round: series-e, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "series-e",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: N/A - Bootstrapped company; Could not extract time from: N/A - Bootstrapped company; N/A - Bootstrapped company",
+          "sourceColumn": "Series E Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "58407db70bdb7167",
+      "companyName": "Upside Robotics",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "Est. $13M Total",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $13,000,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 13000000,
+          "confidence": "med",
+          "notes": "estimated; Could not extract time from: Est. $13M Total; Est. $13M Total",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "ed5b9426b97692dd",
+      "companyName": "FuturHand Robotics",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "$5M NSF funding",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "moneyRaisedUsd": 5000000,
+          "confidence": "med",
+          "notes": "raise/grant (not valuation); raise/grant amount; Could not extract time from: $5M NSF funding; $5M NSF funding",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "49f7834ae32494d1",
+      "companyName": "Piggy Robotics",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "Est. $5M (YC F2025)",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $5,000,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 5000000,
+          "confidence": "med",
+          "notes": "estimated; Could not extract time from: Est. $5M (YC F2025); Est. $5M (YC F2025)",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "641a6dfb952aa84d",
+      "companyName": "Nuro",
+      "sourceColumn": "Pre-Seed Valuation and Date",
+      "rawCell": "Not applicable - started with substantial founding team resources",
+      "parseStatus": "FAILED",
+      "reason": "Round: pre-seed, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "pre-seed",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: Not applicable - started with substantial founding team resources; Could not extract time from: Not applicable - started with substantial founding team resources; Not applicable - started with substantial founding team resources",
+          "sourceColumn": "Pre-Seed Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "2dfb5e3cf10683fc",
+      "companyName": "Avidbots",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "$70M+ (Series B)",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $70,000,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 70000000,
+          "confidence": "med",
+          "notes": "Minimum: $70M+; Could not extract time from: $70M+ (Series B); $70M+ (Series B)",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "9e3b38448b1568b4",
+      "companyName": "Scaled Robotics",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "$15M+ (Series A)",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $15,000,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 15000000,
+          "confidence": "med",
+          "notes": "Minimum: $15M+; Could not extract time from: $15M+ (Series A); $15M+ (Series A)",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "d3a95056aaa0dc58",
+      "companyName": "EcoRobotix",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "$60M+ (Series C)",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $60,000,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 60000000,
+          "confidence": "med",
+          "notes": "Minimum: $60M+; Could not extract time from: $60M+ (Series C); $60M+ (Series C)",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "9e512087c2f7e9b1",
+      "companyName": "OpenDroids",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "Early-stage funded (undisclosed)",
+      "parseStatus": "FAILED",
+      "reason": "Round: unknown, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: Early-stage funded (undisclosed); Could not extract time from: Early-stage funded (undisclosed); Early-stage funded (undisclosed)",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "9e512087c2f7e9b1",
+      "companyName": "OpenDroids",
+      "sourceColumn": "Seed Valuation and Date",
+      "rawCell": "Undisclosed early-stage funding - 2024",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: seed, Valuation: N/A, Time: 01/2024",
+      "parsedRounds": [
+        {
+          "round": "seed",
+          "time": "01/2024",
+          "confidence": "med",
+          "notes": "Could not extract valuation from: Undisclosed early-stage funding - 2024; year-only; year-only; Undisclosed early-stage funding - 2024",
+          "sourceColumn": "Seed Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "9e512087c2f7e9b1",
+      "companyName": "OpenDroids",
+      "sourceColumn": "Series A Valuation and Date",
+      "rawCell": "Not yet completed",
+      "parseStatus": "FAILED",
+      "reason": "Round: series-a, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "series-a",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: Not yet completed; Could not extract time from: Not yet completed; Not yet completed",
+          "sourceColumn": "Series A Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "9e512087c2f7e9b1",
+      "companyName": "OpenDroids",
+      "sourceColumn": "Series B Valuation and Date",
+      "rawCell": "Not yet completed",
+      "parseStatus": "FAILED",
+      "reason": "Round: series-b, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "series-b",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: Not yet completed; Could not extract time from: Not yet completed; Not yet completed",
+          "sourceColumn": "Series B Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "9e512087c2f7e9b1",
+      "companyName": "OpenDroids",
+      "sourceColumn": "Series C Valuation and Date",
+      "rawCell": "Not yet completed",
+      "parseStatus": "FAILED",
+      "reason": "Round: series-c, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "series-c",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: Not yet completed; Could not extract time from: Not yet completed; Not yet completed",
+          "sourceColumn": "Series C Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "9e512087c2f7e9b1",
+      "companyName": "OpenDroids",
+      "sourceColumn": "Series D Valuation and Date",
+      "rawCell": "Not yet completed",
+      "parseStatus": "FAILED",
+      "reason": "Round: series-d, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "series-d",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: Not yet completed; Could not extract time from: Not yet completed; Not yet completed",
+          "sourceColumn": "Series D Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "9e512087c2f7e9b1",
+      "companyName": "OpenDroids",
+      "sourceColumn": "Series E Valuation and Date",
+      "rawCell": "Not yet completed",
+      "parseStatus": "FAILED",
+      "reason": "Round: series-e, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "series-e",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: Not yet completed; Could not extract time from: Not yet completed; Not yet completed",
+          "sourceColumn": "Series E Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "0cef7063f4e78c9f",
+      "companyName": "Tutor Intelligence",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "$49M",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $49,000,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 49000000,
+          "confidence": "med",
+          "notes": "extracted; Could not extract time from: $49M; $49M",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "a30745c02947f061",
+      "companyName": "Iron Ox",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "Company distressed/pivoted",
+      "parseStatus": "FAILED",
+      "reason": "Round: unknown, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: Company distressed/pivoted; Could not extract time from: Company distressed/pivoted; Company distressed/pivoted",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "61eccecdb237f1b9",
+      "companyName": "Buildroid AI",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "Information not yet available",
+      "parseStatus": "FAILED",
+      "reason": "Round: unknown, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: Information not yet available; Could not extract time from: Information not yet available; Information not yet available",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "798cd84437c8a7aa",
+      "companyName": "Zeon Systems",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "Information not yet available",
+      "parseStatus": "FAILED",
+      "reason": "Round: unknown, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: Information not yet available; Could not extract time from: Information not yet available; Information not yet available",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "798cd84437c8a7aa",
+      "companyName": "Zeon Systems",
+      "sourceColumn": "Pre-Seed Valuation and Date",
+      "rawCell": "$500,000 as part of its initial backing (including Y Combinator participation)",
+      "parseStatus": "FAILED",
+      "reason": "Round: pre-seed, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "pre-seed",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: $500,000 as part of its initial backing (including Y Combinator participation); Could not extract time from: $500,000 as part of its initial backing (including Y Combinator participation); $500,000 as part of its initial backing (including Y Combinator participation)",
+          "sourceColumn": "Pre-Seed Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "49adcabe24ba6fc2",
+      "companyName": "http://Proception.ai",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "$500K",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $500,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 500000,
+          "confidence": "med",
+          "notes": "extracted; Could not extract time from: $500K; $500K",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "49adcabe24ba6fc2",
+      "companyName": "http://Proception.ai",
+      "sourceColumn": "Pre-Seed Valuation and Date",
+      "rawCell": "undisclosed",
+      "parseStatus": "FAILED",
+      "reason": "Round: pre-seed, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "pre-seed",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: undisclosed; Could not extract time from: undisclosed; undisclosed",
+          "sourceColumn": "Pre-Seed Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "03eec138d9d0b566",
+      "companyName": "ScrubMarine",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "$1.25M",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $1,250,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 1250000,
+          "confidence": "med",
+          "notes": "extracted; Could not extract time from: $1.25M; $1.25M",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "03eec138d9d0b566",
+      "companyName": "ScrubMarine",
+      "sourceColumn": "Pre-Seed Valuation and Date",
+      "rawCell": "Raised approximately $250,000 (£200,000) led by Praetura Ventures",
+      "parseStatus": "FAILED",
+      "reason": "Round: pre-seed, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "pre-seed",
+          "confidence": "low",
+          "notes": "Could not extract valuation from: Raised approximately $250,000 (£200,000) led by Praetura Ventures; Could not extract time from: Raised approximately $250,000 (£200,000) led by Praetura Ventures; Raised approximately $250,000 (£200,000) led by Praetura Ventures",
+          "sourceColumn": "Pre-Seed Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "03eec138d9d0b566",
+      "companyName": "ScrubMarine",
+      "sourceColumn": "Seed Valuation and Date",
+      "rawCell": "closed a $1 million (£740,000) round led by PXN Ventures and SFC Capital",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: seed, Valuation: $1,000,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "seed",
+          "valuationUsd": 1000000,
+          "confidence": "med",
+          "notes": "extracted; Could not extract time from: closed a $1 million (£740,000) round led by PXN Ventures and SFC Capital; closed a $1 million (£740,000) round led by PXN Ventures and SFC Capital",
+          "sourceColumn": "Seed Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "f3f120dd2966fb5a",
+      "companyName": "Genesis AI",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "Est. $500M (based on $105M seed)",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $500,000,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 500000000,
+          "confidence": "med",
+          "notes": "estimated; Could not extract time from: Est. $500M (based on $105M seed); Est. $500M (based on $105M seed)",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "9008a0c51a6ff0f3",
+      "companyName": "Persona AI",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "$42M",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $42,000,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 42000000,
+          "confidence": "med",
+          "notes": "extracted; Could not extract time from: $42M; $42M",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "9008a0c51a6ff0f3",
+      "companyName": "Persona AI",
+      "sourceColumn": "Pre-Seed Valuation and Date",
+      "rawCell": "raised $27M",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: pre-seed, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "pre-seed",
+          "moneyRaisedUsd": 27000000,
+          "confidence": "med",
+          "notes": "raise/grant (not valuation); raise/grant amount; Could not extract time from: raised $27M; raised $27M",
+          "sourceColumn": "Pre-Seed Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "63a8f5cffc2aae45",
+      "companyName": "Swarm Dynamics",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "$4M",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $4,000,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 4000000,
+          "confidence": "med",
+          "notes": "extracted; Could not extract time from: $4M; $4M",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "33c07c71c4146680",
+      "companyName": "Shinkei",
+      "sourceColumn": "Series A Valuation and Date",
+      "rawCell": "raised $22M",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: series-a, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "series-a",
+          "moneyRaisedUsd": 22000000,
+          "confidence": "med",
+          "notes": "raise/grant (not valuation); raise/grant amount; Could not extract time from: raised $22M; raised $22M",
+          "sourceColumn": "Series A Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "5ad9812abf4c9ceb",
+      "companyName": "Scout AI",
+      "sourceColumn": "Last Valuation",
+      "rawCell": "$15M",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: unknown, Valuation: $15,000,000, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "unknown",
+          "valuationUsd": 15000000,
+          "confidence": "med",
+          "notes": "extracted; Could not extract time from: $15M; $15M",
+          "sourceColumn": "Last Valuation",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    },
+    {
+      "companyId": "5ad9812abf4c9ceb",
+      "companyName": "Scout AI",
+      "sourceColumn": "Seed Valuation and Date",
+      "rawCell": "$15M raised",
+      "parseStatus": "PARTIAL",
+      "reason": "Round: seed, Valuation: N/A, Time: N/A",
+      "parsedRounds": [
+        {
+          "round": "seed",
+          "moneyRaisedUsd": 15000000,
+          "confidence": "med",
+          "notes": "raise/grant (not valuation); raise/grant amount; Could not extract time from: $15M raised; $15M raised",
+          "sourceColumn": "Seed Valuation and Date",
+          "currency": "USD"
+        }
+      ],
+      "llmAssisted": false
+    }
+  ],
+  "summary": {
+    "withMoneyRaised": 19,
+    "withTargetValuations": 7,
+    "withYearOnlyDates": 100,
+    "roundsByStage": {
+      "unknown": 71,
+      "series-a2": 1,
+      "series-b": 31,
+      "series-e": 7,
+      "seed": 58,
+      "series-a": 39,
+      "series-c": 19,
+      "pre-seed": 23,
+      "series-d": 7
+    },
+    "invalidTimeCount": 0,
+    "stageMismatchCount": 0,
+    "hqRegressionCount": 0,
+    "duplicatesMerged": [
+      {
+        "merged": [
+          "Sunday Robotics",
+          "Sunday Robotics"
+        ],
+        "kept": "Sunday Robotics"
+      }
+    ]
+  }
+}

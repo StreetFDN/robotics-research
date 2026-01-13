@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-01-12T22:32:29.616Z",
+  "version": "1.0",
+  "duplicatesMerged": [
+    {
+      "id": "b2d38cebd7da4fc4",
+      "mergedRecords": 2,
+      "keptDescription": "Home robotics company founded by combined Tesla Optimus diaspora and Toyota Research Institute alumni. Developing first robotics foundation model trained purely on human movement data - revolutionary data collection methodology. Toyota Research Institute brings complimentary strengths (manipulation research, simulation). Tesla Optimus brings production mindset and vision AI. Strategic positioning at inflection point of domestic robotics market. Focus on household tasks with foundation model enabling broad generalization. Highly credentialed team with tier-1 venture backing.",
+      "mergedTags": [
+        "cleaning",
+        "consumer",
+        "cooking",
+        "domestic",
+        "foundation model",
+        "household",
+        "manipulation"
+      ],
+      "mergedAliases": [
+        "First",
+        "Home",
+        "Sunday Robotics",
+        "Tesla Optimus",
+        "Toyota Research Institute",
+        "sunday robotics"
+      ],
+      "keptHQ": {
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "confidence": "high",
+        "source": "geolocation_field"
+      },
+      "sourceRows": [
+        7,
+        28
+      ]
+    }
+  ],
+  "coordsFixed": [
+    {
+      "id": "04b6b50c9d20b6b8",
+      "name": "Anyware Robotics",
+      "before": {
+        "lat": 37.3875,
+        "lon": 122.0575
+      },
+      "after": {
+        "lat": 37.3875,
+        "lon": -122.0575
+      },
+      "reason": "US/Canada location with positive longitude, flipped to negative"
+    },
+    {
+      "id": "9ec86744ca6878c6",
+      "name": "Red Barn Robotics",
+      "before": {
+        "lat": 37.7749,
+        "lon": 122.4194
+      },
+      "after": {
+        "lat": 37.7749,
+        "lon": -122.4194
+      },
+      "reason": "US/Canada location with positive longitude, flipped to negative"
+    }
+  ],
+  "coordsMissing": [
+    {
+      "id": "798cd84437c8a7aa",
+      "name": "Zeon Systems",
+      "lat": 0,
+      "lon": 0,
+      "country": "United States",
+      "issue": "lat=0 and lon=0 (treated as missing)"
+    }
+  ],
+  "suspiciousCoords": [],
+  "lowConfidenceCoords": [],
+  "summary": {
+    "totalMerges": 1,
+    "totalCoordsFixed": 2,
+    "totalCoordsMissing": 1,
+    "totalSuspiciousCoords": 0,
+    "totalLowConfidenceCoords": 0
+  }
+}

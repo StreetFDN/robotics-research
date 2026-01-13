@@ -1,0 +1,2165 @@
+[
+  {
+    "id": "758c330f32cc697f",
+    "name": "1X Technologies",
+    "aliases": [
+      "1X Technologies",
+      "1x technologies",
+      "Humanoid",
+      "Originally Norwegian",
+      "Halodi Robotics"
+    ],
+    "description": "Humanoid robotics company developing NEO bipedal robot for consumer/household use. Originally Norwegian (Halodi Robotics), relocated to Palo Alto July 2025. OpenAI's primary embodied intelligence vehicle. Wheeled EVE (commercial) + bipedal NEO (development).",
+    "tags": [
+      "bipedal",
+      "consumer",
+      "household",
+      "humanoid"
+    ],
+    "country": "Norway",
+    "city": "Palo Alto",
+    "hq": {
+      "lat": 37.4419,
+      "lon": -122.143,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.612Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 2
+    }
+  },
+  {
+    "id": "34e7d4fa315728b3",
+    "name": "4AG Robotics",
+    "aliases": [
+      "4AG Robotics",
+      "4ag robotics",
+      "Robotics",
+      "Their"
+    ],
+    "description": "4AG Robotics develops automated robotic harvesters for high-value specialty crops. Their technology uses computer vision and robotics to gently harvest delicate fruits, targeting the agricultural labor shortage.",
+    "tags": [
+      "agricultural"
+    ],
+    "country": "Canada",
+    "city": "Salmon Arm",
+    "hq": {
+      "lat": 50.7022,
+      "lon": -119.2722,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 10
+    }
+  },
+  {
+    "id": "9eb5d53dafe24763",
+    "name": "Agility Robotics",
+    "aliases": [
+      "Agility Robotics",
+      "agility robotics",
+      "Leading",
+      "Digit",
+      "Proven Amazon"
+    ],
+    "description": "Leading commercial humanoid robotics with bipedal Digit robot for warehouse automation and logistics. Proven Amazon warehouse deployments (~100 units operational). First-mover advantage with 2-3 year deployment lead. RoboFab manufacturing facility in Salem, OR for 10,000+ units/year capacity.",
+    "tags": [
+      "bipedal",
+      "humanoid",
+      "logistics",
+      "manufacturing",
+      "warehouse"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Salem",
+    "hq": {
+      "lat": 44.5329,
+      "lon": -122.7795,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.612Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 3
+    }
+  },
+  {
+    "id": "feefdab18a2d1b6f",
+    "name": "Anthropic Robotics",
+    "aliases": [
+      "Anthropic Robotics",
+      "anthropic robotics",
+      "Humanoid",
+      "Series",
+      "Silicon Valley"
+    ],
+    "description": "Humanoid robotics company with $75M Series A from top-tier Silicon Valley VCs (Andreessen Horowitz, Sequoia Capital, Founders Fund). Direct competitor to Figure AI ($2.6B valuation) and Tesla Optimus in general-purpose humanoid space. Massive VC backing signals high confidence but also high-risk, high-reward bet on humanoid robotics future. Focus on transformative robotics technology for manufacturing, logistics, and domestic applications. Well-funded to pursue multi-year development before commercialization. Likely 2026-2027 product demonstrations. Top-tier investor syndicate provides validation and network effects.",
+    "tags": [
+      "domestic",
+      "general-purpose",
+      "humanoid",
+      "logistics",
+      "manufacturing"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 27
+    }
+  },
+  {
+    "id": "04b6b50c9d20b6b8",
+    "name": "Anyware Robotics",
+    "aliases": [
+      "Anyware Robotics",
+      "anyware robotics",
+      "Silicon Valley",
+      "Pixmo",
+      "Team"
+    ],
+    "description": "FANUC Silicon Valley spinout developing multi-purpose mobile robots for warehouse and logistics automation. Pixmo robot platform handles container/truck unloading at 1,000 boxes/hour with 65lb payload capacity. Team holds 25+ robotics patents from FANUC experience. Focus on unstructured loading dock environments and mixed SKU handling. Competes with Boston Dynamics Stretch and other automated unloading solutions. Industrial-grade reliability with warehouse-proven technology.",
+    "tags": [
+      "industrial",
+      "logistics",
+      "mobile",
+      "warehouse"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Silicon Valley",
+    "hq": {
+      "lat": 37.3875,
+      "lon": -122.0575,
+      "confidence": "high",
+      "source": "qa_fix_lon_sign"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 8
+    }
+  },
+  {
+    "id": "c413c29ad4364aee",
+    "name": "Apptronik",
+    "aliases": [
+      "Apptronik",
+      "apptronik",
+      "Apollo",
+      "Valkyrie",
+      "Austin"
+    ],
+    "description": "Apollo humanoid robot (5'8\", 160 lbs, 55 lb payload capacity) with NASA heritage from Valkyrie R5 program. UT Austin spinout commercializing research into general-purpose humanoid for manufacturing and logistics. Mercedes-Benz strategic partnership for automotive deployment. 24/7 operation capability with hot-swappable battery system. Google DeepMind AI integration for task learning. Modular design philosophy enabling rapid hardware iterations. Focus on safe human-robot collaboration in industrial environments.",
+    "tags": [
+      "general-purpose",
+      "humanoid",
+      "industrial",
+      "logistics",
+      "manufacturing"
+    ],
+    "country": "United States",
+    "region": "South",
+    "city": "Austin",
+    "hq": {
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 62
+    }
+  },
+  {
+    "id": "2dfb5e3cf10683fc",
+    "name": "Avidbots",
+    "aliases": [
+      "Avidbots",
+      "avidbots",
+      "Commercial",
+      "Neo",
+      "Over"
+    ],
+    "description": "Commercial floor cleaning robot manufacturer. Neo autonomous floor scrubber deployed in airports, retail, warehouses. Over 2,000 robots cleaning 2B+ sq ft. Robotics-as-a-Service model with fleet management software. Focus on large commercial spaces requiring consistent cleaning.",
+    "tags": [
+      "autonomous",
+      "cleaning",
+      "service",
+      "warehouse"
+    ],
+    "country": "Canada",
+    "city": "Kitchener",
+    "hq": {
+      "lat": 43.4643,
+      "lon": -80.5204,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 40
+    }
+  },
+  {
+    "id": "53fad337550a1e04",
+    "name": "Bear Robotics",
+    "aliases": [
+      "Bear Robotics",
+      "bear robotics",
+      "Creator",
+      "Servi",
+      "Penny"
+    ],
+    "description": "Creator of autonomous service robots for restaurants including Servi robot for food delivery and Penny robot for bussing and cleaning tasks",
+    "tags": [
+      "autonomous",
+      "cleaning",
+      "delivery",
+      "food",
+      "restaurant",
+      "service"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Redwood City",
+    "hq": {
+      "lat": 37.424106,
+      "lon": -122.166077,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 41
+    }
+  },
+  {
+    "id": "9baa1db9e0ff5407",
+    "name": "Bonsai Robotics",
+    "aliases": [
+      "Bonsai Robotics",
+      "bonsai robotics",
+      "advanced",
+      "Fruit",
+      "Focus",
+      "Leverages"
+    ],
+    "description": "Fruit harvesting robotics company founded by autonomous vehicle and robotics lab alumni applying self-driving technology to agriculture. $15M funding for specialty crop harvesting automation. Focus on high-value crops like strawberries, apples, or grapes requiring delicate manipulation. Leverages computer vision, path planning, and manipulation algorithms from autonomous vehicle domain. Competes with http://Advanced.Farm, Abundant Robotics successors, and FFRobotics. Targets California specialty crop market ($20B+ annually). Key challenge: achieving picking speeds and damage rates competitive with human labor.",
+    "tags": [
+      "agriculture",
+      "autonomous",
+      "harvesting",
+      "manipulation"
+    ],
+    "website": "http://Advanced.Farm,",
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.3361,
+      "lon": -121.8905,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 11
+    }
+  },
+  {
+    "id": "5220c17e887012b9",
+    "name": "Boost Robotics",
+    "aliases": [
+      "Boost Robotics",
+      "boost robotics",
+      "Data",
+      "Robots",
+      "Addresses"
+    ],
+    "description": "Data center robotics automation company developing autonomous mobile manipulation systems specifically for hyperscale data center environments. Robots perform hardware installation, cable management, equipment racking/stacking, and routine maintenance tasks. Addresses acute labor shortages in data center operations. Leverages highly structured environments for reliable autonomous operation. Target customers: Meta, Google, Amazon AWS, Microsoft Azure data centers. Focus on repetitive, physically demanding tasks in controlled temperature/humidity environments.",
+    "tags": [
+      "autonomous",
+      "manipulation",
+      "mobile"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Mountain View",
+    "hq": {
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 56
+    }
+  },
+  {
+    "id": "4e9d216ccf43a496",
+    "name": "Boston Dynamics",
+    "aliases": [
+      "Boston Dynamics",
+      "boston dynamics",
+      "Developer",
+      "Atlas",
+      "Spot"
+    ],
+    "description": "Developer of advanced robots and simulation software for mobility, manipulation, and intelligence applications, known for humanoid and quadruped robots like Atlas and Spot",
+    "tags": [
+      "humanoid",
+      "manipulation",
+      "quadruped"
+    ],
+    "country": "United States",
+    "region": "Northeast",
+    "city": "Waltham",
+    "hq": {
+      "lat": 42.354558,
+      "lon": -71.065834,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.615Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 71
+    }
+  },
+  {
+    "id": "23a08bae40cf799d",
+    "name": "Brain Corp",
+    "aliases": [
+      "Brain Corp",
+      "brain corp",
+      "Developer"
+    ],
+    "description": "Developer of AI-powered autonomous navigation and control systems for commercial floor-cleaning robots and other mobile machines",
+    "tags": [
+      "autonomous",
+      "cleaning",
+      "mobile"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Diego",
+    "hq": {
+      "lat": 32.715738,
+      "lon": -117.161084,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 39
+    }
+  },
+  {
+    "id": "61eccecdb237f1b9",
+    "name": "Buildroid AI",
+    "aliases": [
+      "Buildroid AI",
+      "buildroid ai",
+      "Construction",
+      "Hardware",
+      "Multi"
+    ],
+    "description": "Construction robotics platform. Hardware-agnostic platform compatible with 40+ robot types. Multi-robot coordination for block-laying robots and autonomous mobile robots (AMRs) for material delivery. Q2 2026 commercial deployment planned.",
+    "tags": [
+      "autonomous",
+      "construction",
+      "delivery",
+      "mobile"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 54
+    }
+  },
+  {
+    "id": "e5113c6f74da1a6b",
+    "name": "Built Robotics",
+    "aliases": [
+      "Built Robotics",
+      "built robotics",
+      "Developer"
+    ],
+    "description": "Developer of autonomous construction equipment and AI guidance systems",
+    "tags": [
+      "autonomous",
+      "construction"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.774929,
+      "lon": -122.419416,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 44
+    }
+  },
+  {
+    "id": "db2d63da151e22b8",
+    "name": "Carbon Robotics",
+    "aliases": [
+      "Carbon Robotics",
+      "carbon robotics",
+      "Real",
+      "Autonomous",
+      "Over"
+    ],
+    "description": "AI-powered LaserWeeder agricultural robotics using high-power CO2 lasers (150W-300W) and computer vision for chemical-free weed elimination. Real-time plant identification with 8 cameras processing 20+ plants/second. Autonomous robots eliminate 100,000+ weeds/hour targeting 150-acre operations. Over 300 robots deployed across North America specialty crop farms (vegetables, berries). Hardware + software platform with guaranteed performance contracts.",
+    "tags": [
+      "agricultural",
+      "autonomous"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Seattle",
+    "hq": {
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 16
+    }
+  },
+  {
+    "id": "1e84fac40a853ff1",
+    "name": "CMR Surgical",
+    "aliases": [
+      "CMR Surgical",
+      "cmr surgical",
+      "Versius",
+      "Modular",
+      "Vinci"
+    ],
+    "description": "UK-based surgical robotics company developing Versius surgical robot system. Modular, portable surgical robot designed to be more accessible and affordable than da Vinci. Next-generation minimal access surgery with smaller footprint and lower cost. One of Europe's most valuable health tech companies.",
+    "tags": [
+      "surgical"
+    ],
+    "country": "United Kingdom",
+    "city": "Cambridge",
+    "hq": {
+      "lat": 52.2053,
+      "lon": 0.1218,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 35
+    }
+  },
+  {
+    "id": "58e91cf3c3f81598",
+    "name": "Collaborative Robotics",
+    "aliases": [
+      "Collaborative Robotics",
+      "collaborative robotics",
+      "Collaborative",
+      "Founded May",
+      "Amazon Robotics"
+    ],
+    "description": "Collaborative robots (cobots) for manufacturing, logistics, and warehouse automation. Founded May 2022 by ex-Amazon Robotics VP Brad Porter who deployed 200k+ robots at Amazon. Cobalt robot features industry-leading 4kg payload with human-safe collaborative operation. Rapid growth: $30M seed → $100M Series A (8 months) → $1B Series B (14 months). Focus on practical deployment addressing labor shortages in manufacturing. Strategic positioning between traditional industrial arms and humanoid robots.",
+    "tags": [
+      "cobot",
+      "collaborative",
+      "humanoid",
+      "industrial",
+      "logistics",
+      "manufacturing",
+      "warehouse"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Santa Clara",
+    "hq": {
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 4
+    }
+  },
+  {
+    "id": "cd938e971daf85a7",
+    "name": "Connect Robotics",
+    "aliases": [
+      "Connect Robotics",
+      "connect robotics",
+      "Portugal",
+      "North Atlantic"
+    ],
+    "description": "Portugal-based defense robotics company selected for NATO DIANA (Defence Innovation Accelerator for the North Atlantic) accelerator program. NATO DIANA supports dual-use deep tech startups addressing Alliance security challenges. Likely developing unmanned ground vehicles (UGVs), autonomous surveillance systems, or logistics robots for military applications. European defense market focus with NATO standardization. Benefits from European defense budget increases post-Ukraine conflict. Potential applications in border security, reconnaissance, and military logistics.",
+    "tags": [
+      "autonomous",
+      "defense",
+      "logistics",
+      "military",
+      "security",
+      "surveillance"
+    ],
+    "country": "Portugal",
+    "city": "Lisbon",
+    "hq": {
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 59
+    }
+  },
+  {
+    "id": "a9e38b6775c4772c",
+    "name": "Deep Robotics Technology Co.",
+    "aliases": [
+      "Deep Robotics Technology Co.",
+      "Deep Robotics Technology Co",
+      "deep robotics technology co.",
+      "Chinese",
+      "Part",
+      "Hangzhou"
+    ],
+    "description": "Chinese quadruped robotics company developing advanced four-legged robots for inspection, security, and industrial applications. Part of Hangzhou robotics innovation cluster. X20/X30 series quadrupeds compete with Boston Dynamics Spot and Unitree models. Focus on high-terrain mobility, payload capacity, and autonomous navigation. Strong presence in Chinese industrial and government sectors. Benefits from regional manufacturing ecosystem and AI talent concentration.",
+    "tags": [
+      "autonomous",
+      "industrial",
+      "inspection",
+      "legged",
+      "manufacturing",
+      "quadruped",
+      "security"
+    ],
+    "country": "China",
+    "city": "Hangzhou",
+    "hq": {
+      "lat": 30.2741,
+      "lon": 120.1551,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 32
+    }
+  },
+  {
+    "id": "156207a536171f8b",
+    "name": "Diligent Robotics",
+    "aliases": [
+      "Diligent Robotics",
+      "diligent robotics",
+      "Creator",
+      "Moxi"
+    ],
+    "description": "Creator of AI-powered service robots for healthcare environments, including Moxi robot",
+    "tags": [
+      "healthcare",
+      "service"
+    ],
+    "country": "United States",
+    "city": "Austin",
+    "hq": {
+      "lat": 30.267153,
+      "lon": -97.743061,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 31
+    }
+  },
+  {
+    "id": "d09af1b2783985ba",
+    "name": "Dyna Robotics",
+    "aliases": [
+      "Dyna Robotics",
+      "dyna robotics",
+      "Embodied",
+      "Research",
+      "Strategy"
+    ],
+    "description": "Embodied AI robotics company focusing on affordable robots for simple, high-value household tasks like laundry folding and food preparation. Research emphasis on embodied AI, robot learning, manipulation policies, and natural human-robot interaction. Strategy: start with specific high-value tasks rather than general-purpose robots. Target price points significantly below traditional robot costs through simplified mechanical designs and AI-first control. Likely leveraging vision-language models and imitation learning for task acquisition. Competes with Physical Intelligence, Skild AI in embodied AI approaches.",
+    "tags": [
+      "food",
+      "general-purpose",
+      "household",
+      "manipulation"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 57
+    }
+  },
+  {
+    "id": "d3a95056aaa0dc58",
+    "name": "EcoRobotix",
+    "aliases": [
+      "EcoRobotix",
+      "ecorobotix",
+      "Swiss",
+      "Focus",
+      "European"
+    ],
+    "description": "Swiss precision agriculture robotics company. AVO autonomous weeding robot using AI vision for ultra-precise herbicide application (95% reduction). GPS-guided robot operates in vegetables, row crops. Focus on sustainable farming with dramatic chemical reduction. European market leader in precision weeding.",
+    "tags": [
+      "agriculture",
+      "autonomous",
+      "farming",
+      "precision agriculture",
+      "weeding"
+    ],
+    "country": "Switzerland",
+    "city": "Yverdon-les-Bains",
+    "hq": {
+      "lat": 46.7784,
+      "lon": 6.6411,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 46
+    }
+  },
+  {
+    "id": "79eae3448c103d72",
+    "name": "Ember Robotics",
+    "aliases": [
+      "Ember Robotics",
+      "ember robotics",
+      "Warehouse",
+      "Simbe Robotics",
+      "Simbe"
+    ],
+    "description": "Warehouse and logistics robotics company founded by Simbe Robotics alumni. Simbe pioneered autonomous retail inventory robots (Tally) deployed in 500+ stores. Ember applies similar computer vision and autonomous navigation expertise to warehouse environments. Focus on inventory management, asset tracking, and logistics automation. Leverages retail robotics lessons learned for warehouse applications. Competitive positioning between pure AMR companies and full automation solutions.",
+    "tags": [
+      "autonomous",
+      "logistics",
+      "warehouse"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Palo Alto",
+    "hq": {
+      "lat": 37.4419,
+      "lon": -122.143,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 22
+    }
+  },
+  {
+    "id": "dbbaa9142363b79b",
+    "name": "EurekaLabsAI",
+    "aliases": [
+      "EurekaLabsAI",
+      "eurekalabsai",
+      "Humanoid",
+      "Tesla",
+      "Represents"
+    ],
+    "description": "Humanoid robotics company founded by ex-Tesla AI diaspora engineers who built production autonomous systems. Represents significant Tesla brain drain trend - experienced engineers applying proven autonomous vehicle methodologies to humanoid robots. Focus on leveraging Tesla production scaling expertise, vision-based AI perception, and end-to-end neural networks for robot control. Thesis: automotive-grade reliability and manufacturing scale applied to humanoids. Early stealth mode with likely 2025-2026 product announcements.",
+    "tags": [
+      "autonomous",
+      "humanoid",
+      "manufacturing"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Palo Alto",
+    "hq": {
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 58
+    }
+  },
+  {
+    "id": "e4e77ad058c8d693",
+    "name": "Figure AI",
+    "aliases": [
+      "Figure AI",
+      "figure ai",
+      "Highest",
+      "Figure"
+    ],
+    "description": "Highest valuation humanoid robotics company building Figure-01/Figure-02 robots with OpenAI integration. Deep vertical integration strategy partnering with BMW for manufacturing applications. Pre-commercial phase with pilot deployments.",
+    "tags": [
+      "humanoid",
+      "manufacturing"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Sunnyvale",
+    "hq": {
+      "lat": 37.3688,
+      "lon": -122.0363,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 5
+    }
+  },
+  {
+    "id": "750852116ef9087f",
+    "name": "Flexion Robotics",
+    "aliases": [
+      "Flexion Robotics",
+      "flexion robotics",
+      "Three",
+      "Command",
+      "Motion"
+    ],
+    "description": "'NVIDIA for robotics' - morphology-agnostic software intelligence platform for humanoid robots. Three-layer architecture: Command (LLM reasoning), Motion (whole-body planning), Control (hardware-agnostic actuation). Sim-to-real transfer using RL. Hardware-independent brain enabling any humanoid to perform complex tasks. ETH Zurich RSL spinout commercializing ANYmal quadruped research. Focus on locomotion and manipulation intelligence that works across different robot embodiments.",
+    "tags": [
+      "humanoid",
+      "manipulation",
+      "quadruped"
+    ],
+    "country": "Switzerland",
+    "city": "Zurich",
+    "hq": {
+      "lat": 47.3769,
+      "lon": 8.5417,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 6
+    }
+  },
+  {
+    "id": "4010ec15b6e20430",
+    "name": "Foundation Robotics",
+    "aliases": [
+      "Foundation Robotics",
+      "foundation robotics",
+      "Stealth",
+      "Developing Phantom",
+      "Thesis"
+    ],
+    "description": "Stealth-mode humanoid robotics startup founded by non-roboticist entrepreneur betting on execution speed over domain expertise. Developing Phantom MK1 bipedal humanoid robot targeting factory automation and military/defense applications. 13-month concept-to-deployment timeline claim. Thesis: modern software engineering practices, rapid iteration, and commercial urgency can outpace traditional robotics research approaches. Small team leveraging contractor networks and rapid prototyping. Controversial approach in robotics community.",
+    "tags": [
+      "bipedal",
+      "defense",
+      "humanoid",
+      "military"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 29
+    }
+  },
+  {
+    "id": "ed5b9426b97692dd",
+    "name": "FuturHand Robotics",
+    "aliases": [
+      "FuturHand Robotics",
+      "futurhand robotics",
+      "Robotics Institute",
+      "Skill",
+      "Augmented Hands"
+    ],
+    "description": "CMU Robotics Institute spinout developing advanced dexterous robotic hands called 'Skill-Augmented Hands' for complex manufacturing tasks. Currently deployed in pilot testing at Bosch manufacturing facilities for precision cable plug insertion and assembly operations. $5M National Science Foundation funding validates technology readiness. Led by CMU Professor Nancy Pollard (leading expert in hand manipulation research) and PhD graduates. Focus on solving fine motor skill gaps in industrial robotics. Targets automotive, electronics, and aerospace assembly applications.",
+    "tags": [
+      "dexterous",
+      "industrial",
+      "manipulation",
+      "manufacturing"
+    ],
+    "country": "United States",
+    "region": "Northeast",
+    "city": "Pittsburgh",
+    "hq": {
+      "lat": 40.4406,
+      "lon": -79.9959,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 25
+    }
+  },
+  {
+    "id": "f3f120dd2966fb5a",
+    "name": "Genesis AI",
+    "aliases": [
+      "Genesis AI",
+      "genesis ai",
+      "Universal",
+      "Open",
+      "Physics"
+    ],
+    "description": "Universal robotics foundation model using proprietary physics simulation engine for synthetic data generation at 430,000x real-time speed. 18-university research consortium partnership for robotics training data. Open-source approach enabling robot training through simulation rather than expensive real-world data collection. Physics-based synthetic data generation for scalable robot learning across diverse tasks and embodiments.",
+    "tags": [
+      "foundation model"
+    ],
+    "country": "France",
+    "city": "Palo Alto",
+    "hq": {
+      "lat": 37.4419,
+      "lon": -122.163,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.615Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 66
+    }
+  },
+  {
+    "id": "854ef4750262b47f",
+    "name": "Ghost Robotics",
+    "aliases": [
+      "Ghost Robotics",
+      "ghost robotics",
+      "Developer",
+      "Vision"
+    ],
+    "description": "Developer of legged robots and autonomous systems for defense, security, and industrial applications, including the Vision series of quadruped robots",
+    "tags": [
+      "autonomous",
+      "defense",
+      "industrial",
+      "legged",
+      "quadruped",
+      "security"
+    ],
+    "country": "United States",
+    "region": "Northeast",
+    "city": "Philadelphia",
+    "hq": {
+      "lat": 39.952584,
+      "lon": -75.165222,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 45
+    }
+  },
+  {
+    "id": "957adfb4c115680f",
+    "name": "Hlabs Robotics",
+    "aliases": [
+      "Hlabs Robotics",
+      "hlabs robotics",
+      "Combinator",
+      "Arduino",
+      "Open"
+    ],
+    "description": "Y Combinator W23 batch company creating modular plug-and-play robotic component ecosystem with open-source software libraries. 'Arduino for robotics' vision - standardized modules (motors, sensors, controllers, actuators) with universal interfaces. Open-source ROS-compatible software stack. Targeting maker community, education sector, and rapid prototyping market. Democratizing robotics development by reducing barriers to entry. Community-driven approach with GitHub repositories and developer forums.",
+    "tags": [],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 30
+    }
+  },
+  {
+    "id": "49adcabe24ba6fc2",
+    "name": "http://Proception.ai",
+    "aliases": [
+      "http://Proception.ai",
+      "http://Proceptionai",
+      "http://proception.ai",
+      "Dexterous",
+      "Combinator",
+      "Building"
+    ],
+    "description": "Dexterous manipulation robotics. Y Combinator-backed company tackling human-level dexterous manipulation with focus on efficient development and commercial applications. Building platform technology for complete humanoid robot systems.",
+    "tags": [
+      "dexterous",
+      "humanoid",
+      "manipulation"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Palo Alto",
+    "hq": {
+      "lat": 37.4419,
+      "lon": -122.143,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 63
+    }
+  },
+  {
+    "id": "a30745c02947f061",
+    "name": "Iron Ox",
+    "aliases": [
+      "Iron Ox",
+      "iron ox",
+      "Agricultural",
+      "Previously"
+    ],
+    "description": "Agricultural robotics company. Previously focused on autonomous greenhouse farming. Company experienced distress/pivot in recent years.",
+    "tags": [
+      "agricultural",
+      "autonomous",
+      "farming"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Carlos",
+    "hq": {
+      "lat": 37.5072,
+      "lon": -122.2605,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 53
+    }
+  },
+  {
+    "id": "5cbc78bd7b97612f",
+    "name": "Kiwibot",
+    "aliases": [
+      "Kiwibot",
+      "kiwibot",
+      "Campus",
+      "Over",
+      "Focus"
+    ],
+    "description": "Campus delivery robot company serving universities across US and internationally. Over 200 robots deployed, 400K+ deliveries completed. Focus on college campuses and urban areas with food delivery from local restaurants. Raised significant funding from Latin American and US investors.",
+    "tags": [
+      "delivery",
+      "food",
+      "restaurant"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Berkeley",
+    "hq": {
+      "lat": 37.8715,
+      "lon": -122.273,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 36
+    }
+  },
+  {
+    "id": "abf5e9926488bf31",
+    "name": "Lab0",
+    "aliases": [
+      "Lab0",
+      "lab0",
+      "Deployed",
+      "Symbotic"
+    ],
+    "description": "RoboGlide industrial humanoid-inspired warehouse automation system for fully automated inbound operations achieving 900+ cases/hour vs 250-500 human rate. Deployed at top-10 US retailer. Ex-Symbotic and Amazon/Kiva Robotics founders.",
+    "tags": [
+      "humanoid",
+      "industrial",
+      "warehouse"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Ridgefield",
+    "hq": {
+      "lat": 45.6387,
+      "lon": -122.6615,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 20
+    }
+  },
+  {
+    "id": "051d3af2e2af2326",
+    "name": "Lightberry",
+    "aliases": [
+      "Lightberry",
+      "lightberry",
+      "Social",
+      "Develops",
+      "Team"
+    ],
+    "description": "Social robotics company applying autonomous vehicle perception and navigation technology to human-robot interaction. Develops robots capable of emotional connection and natural social behavior in home and commercial environments. Team composed of ex-self-driving car engineers from Waymo, Tesla, and Cruise. Focus on creating robotics companions that understand social cues, maintain conversations, and provide emotional support. Differentiator: leveraging automotive-grade sensors and AI for social robotics applications.",
+    "tags": [
+      "autonomous"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 55
+    }
+  },
+  {
+    "id": "74aecc29e9ddef31",
+    "name": "Locus Robotics",
+    "aliases": [
+      "Locus Robotics",
+      "locus robotics",
+      "Market",
+      "Geodis",
+      "Logistics"
+    ],
+    "description": "Market-leading collaborative autonomous mobile robots (AMRs) for warehouse fulfillment and e-commerce with LocusONE platform. 2-3x picking productivity improvement over manual operations. 2,000+ robots deployed across 500+ sites globally including DHL, Geodis, CEVA Logistics. Robot-as-a-Service (RaaS) business model with $500M+ annual revenue run rate. Origin Platform fleet management software enables multi-site coordination. Competes directly with Amazon Robotics in third-party logistics market.",
+    "tags": [
+      "autonomous",
+      "collaborative",
+      "fulfillment",
+      "logistics",
+      "mobile",
+      "service",
+      "warehouse"
+    ],
+    "country": "United States",
+    "region": "Northeast",
+    "city": "Wilmington",
+    "hq": {
+      "lat": 42.5584,
+      "lon": -71.1734,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 18
+    }
+  },
+  {
+    "id": "22a598686d3c348f",
+    "name": "Mimic Robotics",
+    "aliases": [
+      "Mimic Robotics",
+      "mimic robotics",
+      "Zurich",
+      "Zurich Robotics Systems Lab",
+      "Focus"
+    ],
+    "description": "ETH Zurich spinout focused on achieving human-level dexterity and manipulation capabilities in robotic systems. ETH Zurich Robotics Systems Lab is world-renowned for locomotion and manipulation research (famous for quadruped robots). Focus on solving hardest problems in robotic manipulation: contact-rich tasks, deformable object handling, and multi-object manipulation. European robotics excellence combining academic research depth with commercial focus. Potential applications in manufacturing assembly, food handling, and logistics. Benefits from Swiss precision engineering culture and ETH research infrastructure.",
+    "tags": [
+      "food",
+      "logistics",
+      "manipulation",
+      "manufacturing",
+      "quadruped"
+    ],
+    "country": "Switzerland",
+    "city": "Zurich",
+    "hq": {
+      "lat": 47.3769,
+      "lon": 8.5417,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 9
+    }
+  },
+  {
+    "id": "0925e89528fc52b2",
+    "name": "Miso Robotics",
+    "aliases": [
+      "Miso Robotics",
+      "miso robotics",
+      "Restaurant",
+      "Flippy"
+    ],
+    "description": "Restaurant automation robotics company developing AI-powered cooking and food preparation robots. Flippy robot platform automates frying, grilling, and food assembly for quick-service restaurants and commercial kitchens.",
+    "tags": [
+      "cooking",
+      "food",
+      "restaurant",
+      "service"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Pasadena",
+    "hq": {
+      "lat": 34.1478,
+      "lon": -118.1445,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 42
+    }
+  },
+  {
+    "id": "0526b70d54a5b906",
+    "name": "Mytra",
+    "aliases": [
+      "Mytra",
+      "mytra",
+      "Warehouse",
+      "Fortune",
+      "Albertsons"
+    ],
+    "description": "Warehouse automation with AI-powered 3D robotics systems featuring three-component architecture: bots (wall-climbing robots), matrix (vertical storage infrastructure), and software (orchestration layer). 88% labor reduction demonstrated at Fortune 100 customers including Albertsons deployment. Modular system enabling 10x storage density vs. traditional warehousing. Ex-Tesla Optimus founding team applying humanoid robotics expertise to warehouse logistics automation.",
+    "tags": [
+      "humanoid",
+      "logistics",
+      "warehouse"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "South San Francisco",
+    "hq": {
+      "lat": 37.6805,
+      "lon": -122.4014,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 52
+    }
+  },
+  {
+    "id": "c4ccc90e5409ac6f",
+    "name": "Nextera Robotics",
+    "aliases": [
+      "Nextera Robotics",
+      "nextera robotics",
+      "Focus",
+      "Emerging",
+      "Thesis"
+    ],
+    "description": "MIT-founded robotics company taking AI-native approach to robot development. Focus on AI-first methodology - using large language models, vision transformers, and reinforcement learning as primary development paradigm rather than traditional controls engineering. Emerging from stealth in 2024. Thesis: modern AI capabilities enable fundamentally different robot development approach. Likely developing general-purpose manipulation or mobile robots with emphasis on learned behaviors over hand-coded algorithms. MIT CSAIL pedigree with world-class robotics research heritage.",
+    "tags": [
+      "general-purpose",
+      "manipulation",
+      "mobile"
+    ],
+    "country": "United States",
+    "region": "Northeast",
+    "city": "Cambridge",
+    "hq": {
+      "lat": 42.3736,
+      "lon": -71.1097,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 14
+    }
+  },
+  {
+    "id": "848b33ddf18ee554",
+    "name": "Niqo Robotics",
+    "aliases": [
+      "Niqo Robotics",
+      "niqo robotics",
+      "Agricultural",
+      "Niqo Sense",
+      "India"
+    ],
+    "description": "Agricultural robotics with Niqo Sense AI camera for spot spraying achieving 60% chemical reduction. RoboThinner for precision lettuce farming automation. 100,000+ acres commercialized across India with expansion to US and Australia markets. Carnegie Mellon engineering pedigree applied to Indian agriculture challenges. Focus on sustainable farming through AI-driven precision agriculture. Addressing herbicide resistance and environmental concerns through targeted application technology.",
+    "tags": [
+      "agricultural",
+      "agriculture",
+      "farming",
+      "precision agriculture"
+    ],
+    "country": "India",
+    "city": "Bengaluru",
+    "hq": {
+      "lat": 12.9716,
+      "lon": 77.5946,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 24
+    }
+  },
+  {
+    "id": "641a6dfb952aa84d",
+    "name": "Nuro",
+    "aliases": [
+      "Nuro",
+      "nuro",
+      "Autonomous",
+      "Designs",
+      "Partners"
+    ],
+    "description": "Autonomous delivery robots and vehicles for last-mile logistics. Designs custom-built zero-occupant vehicles for goods transportation. Partners with Kroger, Walmart, FedEx, Domino's, CVS, 7-Eleven. R2 vehicle first autonomous delivery vehicle approved by U.S. DOT. Focus: Computer Vision, Lidar, Autonomous Navigation, Machine Learning, Custom Vehicle Design. Over 1M autonomous deliveries completed. Founded 2016. ~1,200 employees.",
+    "tags": [
+      "autonomous",
+      "delivery",
+      "logistics"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Mountain View",
+    "hq": {
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 37
+    }
+  },
+  {
+    "id": "9e512087c2f7e9b1",
+    "name": "OpenDroids",
+    "aliases": [
+      "OpenDroids",
+      "opendroids",
+      "Jackson Jesionowski",
+      "Abhishek Gupta",
+      "Open"
+    ],
+    "description": "LEADERSHIP CHANGE: Jackson Jesionowski now CEO (Abhishek Gupta departed). Open-source robotics platform developing affordable human-capable robots. R1D1 single-arm mobile manipulator ($18,500) for education/research and R2D3 dual-arm humanoid ($55K-60K) for commercial applications. Focus on accessible robotics through open-source approach. Active pilots in rehabilitation centers and restaurant chains (Baskin-Robbins, Subway discussions).",
+    "tags": [
+      "humanoid",
+      "mobile",
+      "restaurant"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 50
+    }
+  },
+  {
+    "id": "23f84b9377d759a2",
+    "name": "Orchard Robotics",
+    "aliases": [
+      "Orchard Robotics",
+      "orchard robotics",
+      "Vision System",
+      "Computer",
+      "Real"
+    ],
+    "description": "AI-powered precision farming with FruitScope Vision System for crop health analysis at 12 mph tractor speeds. Computer vision platform capturing fruit-level data for apples, grapes, berries, cherries, almonds. FruitScope OS farm operating system for yield forecasting and crop management. Real-time disease detection and harvest optimization. Focus on specialty crops in Pacific Northwest and California. Thiel Fellow-led startup addressing $100B+ precision agriculture market.",
+    "tags": [
+      "agriculture",
+      "farming",
+      "precision agriculture"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Seattle",
+    "hq": {
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 12
+    }
+  },
+  {
+    "id": "9008a0c51a6ff0f3",
+    "name": "Persona AI",
+    "aliases": [
+      "Persona AI",
+      "persona ai",
+      "Led",
+      "Nic Radford",
+      "Valkyrie"
+    ],
+    "description": "NASA-to-commercial humanoid robotics. Led by Nic Radford with 15-year NASA tenure, Valkyrie/Robonaut 2 leadership. Strongest NASA-to-commercial technology transfer in humanoid robotics with direct commercialization of NASA-developed technology.",
+    "tags": [
+      "humanoid"
+    ],
+    "country": "United States",
+    "region": "South",
+    "city": "Houston",
+    "hq": {
+      "lat": 29.7604,
+      "lon": -95.3698,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.615Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 67
+    }
+  },
+  {
+    "id": "e3f009614ca33a4a",
+    "name": "Physical Intelligence",
+    "aliases": [
+      "Physical Intelligence",
+      "physical intelligence",
+      "Foundation",
+      "Enables",
+      "Building"
+    ],
+    "description": "Foundation model (π0) for robot control enabling universal AI brain for physical tasks. Enables robots to perform diverse real-world tasks like laundry folding, table bussing, box assembly across 7+ robot embodiments. 10,000+ hours of real-world training data. Building general-purpose intelligence that works across different robot platforms and tasks.",
+    "tags": [
+      "foundation model",
+      "general-purpose"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 64
+    }
+  },
+  {
+    "id": "09c29529d7af935f",
+    "name": "PickNik Robotics",
+    "aliases": [
+      "PickNik Robotics",
+      "picknik robotics",
+      "Pro",
+      "Studio",
+      "Open"
+    ],
+    "description": "MoveIt Pro (formerly MoveIt Studio) robotics software platform for manipulation in unstructured environments. Open-source MoveIt motion planning framework with 80M+ downloads. NASA Artemis lunar robotics mission partner for autonomous manipulation. U.S. Space Force autonomous satellite capture systems. Government-validated technology with $5M+ NASA/Space Force SBIR contracts. Focus on making advanced robot manipulation accessible through intuitive software interfaces.",
+    "tags": [
+      "autonomous",
+      "manipulation"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Boulder",
+    "hq": {
+      "lat": 40.015,
+      "lon": -105.2705,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 26
+    }
+  },
+  {
+    "id": "49f7834ae32494d1",
+    "name": "Piggy Robotics",
+    "aliases": [
+      "Piggy Robotics",
+      "piggy robotics",
+      "Mass",
+      "Braided",
+      "Oxford"
+    ],
+    "description": "Mass-producible humanoid robots for household chores using proprietary artificial muscle technology. Braided fiber tubes with single pump architecture for low-cost actuation. $1-2K target price point (iPhone cost equivalent). 22-degree-of-freedom dexterous hands. 15+ Oxford engineers team. Focus on affordable consumer humanoids through manufacturing innovation rather than complex hardware. Y Combinator F2025 cohort targeting mass-market deployment.",
+    "tags": [
+      "consumer",
+      "dexterous",
+      "household",
+      "humanoid",
+      "manufacturing"
+    ],
+    "country": "United Kingdom",
+    "city": "Oxford",
+    "hq": {
+      "lat": 51.752,
+      "lon": -1.2577,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 33
+    }
+  },
+  {
+    "id": "b221467652331742",
+    "name": "Pivot Robotics",
+    "aliases": [
+      "Pivot Robotics",
+      "pivot robotics",
+      "Combinator",
+      "Otto Motors",
+      "Clearpath"
+    ],
+    "description": "Y Combinator-backed warehouse robotics company from F2025 or W2025 cohort developing automation solutions for logistics operations. YC's continued investment in warehouse robotics reflects strong market demand and exit opportunities (see: Otto Motors acquired by Clearpath, 6 River Systems acquired by Shopify). Likely focusing on specific warehouse pain point: piece-picking, pallet handling, inventory management, or container unloading. Competitive landscape includes Locus, 6 River, Fetch, Geek+. Key differentiator likely software-focused approach or novel hardware design.",
+    "tags": [
+      "logistics",
+      "piece-picking",
+      "warehouse"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 21
+    }
+  },
+  {
+    "id": "9ec86744ca6878c6",
+    "name": "Red Barn Robotics",
+    "aliases": [
+      "Red Barn Robotics",
+      "red barn robotics",
+      "Combinator",
+      "Carbon Robotics",
+      "Founded"
+    ],
+    "description": "Y Combinator W2025 agricultural robotics startup targeting sub-$100K autonomous farming robots - dramatically cheaper than competitors like Carbon Robotics ($500K+). Founded by ex-John Deere engineer with deep industry insights into cost structures and farmer pain points. Focus on affordability and accessibility for mid-sized farms (100-500 acres). Likely targets precision weeding, crop monitoring, or harvesting applications. Leveraging lower-cost sensors, simplified mechanical designs, and software-first approach to undercut established competitors.",
+    "tags": [
+      "agricultural",
+      "autonomous",
+      "farming",
+      "harvesting",
+      "monitoring",
+      "weeding"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "qa_fix_lon_sign"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 13
+    }
+  },
+  {
+    "id": "9325beb830baae8d",
+    "name": "RightHand Robotics",
+    "aliases": [
+      "RightHand Robotics",
+      "righthand robotics",
+      "Autonomous",
+      "Robot",
+      "Multi"
+    ],
+    "description": "Autonomous robotic piece-picking systems with RightPick platform delivering 900+ picks/hour. Robot-agnostic computer vision and machine learning system for e-commerce fulfillment. Multi-SKU handling capabilities across variable packaging types. Deployed across North America, Europe, and Japan with major 3PL partners. Focus on unstructured item manipulation in warehouse environments. Harvard innovation commercialized for complex picking applications.",
+    "tags": [
+      "autonomous",
+      "fulfillment",
+      "manipulation",
+      "piece-picking",
+      "warehouse"
+    ],
+    "country": "United States",
+    "region": "Northeast",
+    "city": "Somerville",
+    "hq": {
+      "lat": 42.3875,
+      "lon": -71.0994,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 19
+    }
+  },
+  {
+    "id": "dd858c7b70dfc4df",
+    "name": "Sanctuary AI",
+    "aliases": [
+      "Sanctuary AI",
+      "sanctuary ai",
+      "Developer"
+    ],
+    "description": "Developer of general-purpose humanoid robots powered by advanced AI to perform human-like work in human environments",
+    "tags": [
+      "general-purpose",
+      "humanoid"
+    ],
+    "country": "Canada",
+    "city": "Vancouver",
+    "hq": {
+      "lat": 49.246292,
+      "lon": -123.116226,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.615Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 69
+    }
+  },
+  {
+    "id": "9e3b38448b1568b4",
+    "name": "Scaled Robotics",
+    "aliases": [
+      "Scaled Robotics",
+      "scaled robotics",
+      "Barcelona",
+      "Robots",
+      "Building Information Models"
+    ],
+    "description": "Barcelona-based construction monitoring robotics company using autonomous mobile robots for reality capture and progress tracking on construction sites. Robots scan projects and compare against Building Information Models (BIM) using AI-powered analytics to detect deviations and track construction progress. Serves major European construction firms including ACS Group, Ferrovial, and Skanska. Focus on quality control automation and project management optimization for large-scale construction projects. Addresses $12 trillion global construction market inefficiencies through robotic data collection and analysis.",
+    "tags": [
+      "autonomous",
+      "construction",
+      "mobile",
+      "monitoring"
+    ],
+    "country": "Spain",
+    "city": "Barcelona",
+    "hq": {
+      "lat": 41.3851,
+      "lon": 2.1734,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 43
+    }
+  },
+  {
+    "id": "5ad9812abf4c9ceb",
+    "name": "Scout AI",
+    "aliases": [
+      "Scout AI",
+      "scout ai",
+      "Robotics",
+      "Focus",
+      "Targeting"
+    ],
+    "description": "Robotics AI platform. Focus on AI infrastructure for robotics and autonomous systems. Targeting $20-50B robotics & autonomous systems subset of broader AI market.",
+    "tags": [
+      "autonomous"
+    ],
+    "country": "United States",
+    "hq": {
+      "lat": 37.4069,
+      "lon": -121.9902,
+      "confidence": "high",
+      "source": "geolocation_field",
+      "rawAddress": "1225 Elko Dr"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.615Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 72
+    }
+  },
+  {
+    "id": "03eec138d9d0b566",
+    "name": "ScrubMarine",
+    "aliases": [
+      "ScrubMarine",
+      "scrubmarine",
+      "Marine",
+      "Developing"
+    ],
+    "description": "Marine robotics company focused on hull cleaning automation. Developing autonomous systems for ship hull cleaning and maintenance to improve fuel efficiency and reduce marine biofouling.",
+    "tags": [
+      "autonomous",
+      "cleaning"
+    ],
+    "country": "United Kingdom",
+    "city": "Whitehaven",
+    "hq": {
+      "lat": 54.549,
+      "lon": -3.5841,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.615Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 65
+    }
+  },
+  {
+    "id": "c50797fd25641da4",
+    "name": "Scythe Robotics",
+    "aliases": [
+      "Scythe Robotics",
+      "scythe robotics",
+      "Developer"
+    ],
+    "description": "Developer of autonomous lawn mowing and landscaping robots for commercial property maintenance, using AI and precision cutting technology",
+    "tags": [
+      "autonomous"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Boulder",
+    "hq": {
+      "lat": 39.739236,
+      "lon": -104.990251,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 47
+    }
+  },
+  {
+    "id": "33c07c71c4146680",
+    "name": "Shinkei",
+    "aliases": [
+      "Shinkei",
+      "shinkei",
+      "Combinator",
+      "Saif Khawaja",
+      "Develops"
+    ],
+    "description": "Y Combinator W22 seafood processing automation robotics company founded by Saif Khawaja. Develops robotic systems for automated fish and seafood handling, processing, and packaging. Addresses labor shortages and quality control challenges in commercial seafood processing facilities. Japanese-inspired precision (Shinkei = nervous system in Japanese). Targets $150B global seafood processing market with focus on sustainable, efficient automated processing solutions. Technology applicable to broader food processing automation.",
+    "tags": [
+      "food"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "El Segundo",
+    "hq": {
+      "lat": 33.9192,
+      "lon": -118.4165,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.615Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 70
+    }
+  },
+  {
+    "id": "b6dc03d457b6d6a1",
+    "name": "Skild AI",
+    "aliases": [
+      "Skild AI",
+      "skild ai",
+      "Building",
+      "Spatial",
+      "Targeting"
+    ],
+    "description": "Building a 'shared brain' for robotics industry - universal foundation model generalizing across robot morphologies, tasks, and environments. Spatial intelligence AI platform for physical world understanding. Targeting general-purpose robotics intelligence.",
+    "tags": [
+      "foundation model",
+      "general-purpose"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "Pittsburgh",
+    "hq": {
+      "lat": 40.4581,
+      "lon": -79.922,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 17
+    }
+  },
+  {
+    "id": "4af80bc6be73a896",
+    "name": "Soft Robotics",
+    "aliases": [
+      "Soft Robotics",
+      "soft robotics",
+      "Harvard",
+      "Patented",
+      "Focus"
+    ],
+    "description": "Harvard spinout specializing in inflatable compliant grippers (mGrip system) for delicate food handling and packaging. Patented elastomeric/pneumatic technology that conforms to object shapes without damage. Focus on fresh produce, baked goods, raw proteins, and fragile items difficult for rigid grippers. Applications in food processing, e-commerce fulfillment, and logistics automation. Strategic partnerships with FANUC, Honeywell, Yamaha for gripper integration into industrial robot arms.",
+    "tags": [
+      "food",
+      "fulfillment",
+      "gripper",
+      "industrial",
+      "logistics"
+    ],
+    "country": "United States",
+    "region": "Northeast",
+    "city": "Bedford",
+    "hq": {
+      "lat": 42.4919,
+      "lon": -71.2791,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 49
+    }
+  },
+  {
+    "id": "2748fdbdee3f62f5",
+    "name": "Starship Technologies",
+    "aliases": [
+      "Starship Technologies",
+      "starship technologies",
+      "Autonomous",
+      "Skype",
+      "Fleet"
+    ],
+    "description": "Autonomous delivery robots founded by Skype creators. Fleet of 2,700+ six-wheeled sidewalk robots delivering food, groceries, and packages. 9M+ autonomous deliveries completed across 270 locations in 7 countries. Focus on last-mile delivery for university campuses, urban neighborhoods, and business districts. Operates autonomously on sidewalks at walking speed. Partnership model with universities, cities, and retailers.",
+    "tags": [
+      "autonomous",
+      "delivery",
+      "food"
+    ],
+    "country": "Estonia",
+    "city": "Tallinn",
+    "hq": {
+      "lat": 59.437,
+      "lon": 24.7536,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 38
+    }
+  },
+  {
+    "id": "b2d38cebd7da4fc4",
+    "name": "Sunday Robotics",
+    "aliases": [
+      "First",
+      "Home",
+      "Sunday Robotics",
+      "Tesla Optimus",
+      "Toyota Research Institute",
+      "sunday robotics"
+    ],
+    "description": "Home robotics company founded by combined Tesla Optimus diaspora and Toyota Research Institute alumni. Developing first robotics foundation model trained purely on human movement data - revolutionary data collection methodology. Toyota Research Institute brings complimentary strengths (manipulation research, simulation). Tesla Optimus brings production mindset and vision AI. Strategic positioning at inflection point of domestic robotics market. Focus on household tasks with foundation model enabling broad generalization. Highly credentialed team with tier-1 venture backing.",
+    "tags": [
+      "cleaning",
+      "consumer",
+      "cooking",
+      "domestic",
+      "foundation model",
+      "household",
+      "manipulation"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.615Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 7
+    }
+  },
+  {
+    "id": "63a8f5cffc2aae45",
+    "name": "Swarm Dynamics",
+    "aliases": [
+      "Swarm Dynamics",
+      "swarm dynamics",
+      "Multi",
+      "Per",
+      "Enables"
+    ],
+    "description": "Multi-robot coordination and fleet management platform. Per-robot licensing model ($500-2,000/year per robot). Enables companies to monitor, debug, and maintain large-scale robot deployments. Similar model to Starship Technologies for last-mile delivery.",
+    "tags": [
+      "delivery"
+    ],
+    "country": "United States",
+    "region": "Northeast",
+    "hq": {
+      "lat": 33.4942,
+      "lon": -111.9261,
+      "confidence": "high",
+      "source": "geolocation_field",
+      "rawAddress": "99 Wall Street"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.615Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 68
+    }
+  },
+  {
+    "id": "c466c1e1f6089d55",
+    "name": "The Bot Company",
+    "aliases": [
+      "The Bot Company",
+      "the bot company",
+      "Non",
+      "Pre",
+      "Focus"
+    ],
+    "description": "AI-powered household robots for automating unpaid domestic labor including cleaning, laundry, cooking, and general household tasks. Non-humanoid design featuring mobile wheeled base with specialized manipulation grippers. LLM-based task adaptation enabling robots to learn and adapt to diverse household environments. Pre-product company with exceptional founder pedigree from autonomous vehicle industry. Focus on mass-market consumer robotics priced competitively.",
+    "tags": [
+      "autonomous",
+      "cleaning",
+      "consumer",
+      "cooking",
+      "domestic",
+      "gripper",
+      "household",
+      "humanoid",
+      "manipulation",
+      "mobile"
+    ],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 15
+    }
+  },
+  {
+    "id": "0cef7063f4e78c9f",
+    "name": "Tutor Intelligence",
+    "aliases": [
+      "Tutor Intelligence",
+      "tutor intelligence",
+      "Developing"
+    ],
+    "description": "MIT spinout focused on warehouse AI and automation. Developing intelligent systems for warehouse operations.",
+    "tags": [
+      "warehouse"
+    ],
+    "country": "United States",
+    "region": "Northeast",
+    "city": "Cambridge",
+    "hq": {
+      "lat": 42.3708,
+      "lon": -71.1833,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 51
+    }
+  },
+  {
+    "id": "fbdfb5f19aefac32",
+    "name": "UMA (Universal Mechanical Assistant)",
+    "aliases": [
+      "UMA (Universal Mechanical Assistant)",
+      "uma (universal mechanical assistant)",
+      "Tesla",
+      "Hugging Face"
+    ],
+    "description": "Ex-Tesla/Hugging Face/Google DeepMind team building general-purpose humanoid and mobile robots for logistics, manufacturing, and healthcare. Humanoid robotics startup with exceptional technical talent and deep domain expertise in both autonomous systems and humanoid robotics. Focus on general-purpose humanoid assistants.",
+    "tags": [
+      "autonomous",
+      "general-purpose",
+      "healthcare",
+      "humanoid",
+      "logistics",
+      "manufacturing",
+      "mobile"
+    ],
+    "country": "France",
+    "city": "Paris",
+    "hq": {
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 60
+    }
+  },
+  {
+    "id": "ba7502f6a4089a39",
+    "name": "Unitree Robotics",
+    "aliases": [
+      "Unitree Robotics",
+      "unitree robotics",
+      "Leading Chinese",
+      "Western",
+      "Chinese"
+    ],
+    "description": "Leading Chinese robotics company with profitable operations since 2020, 1B+ yuan annual revenue. Go1/Go2 quadruped robots ($1,600-$3,500) and H1/G1 humanoid robots ($16,000-$90,000). 50-90% cost advantage over Western competitors through vertical integration and Chinese manufacturing. Mass production capabilities with 10,000+ units deployed globally. Focus on consumer, industrial, and research markets with affordable yet capable robotic platforms.",
+    "tags": [
+      "consumer",
+      "humanoid",
+      "industrial",
+      "manufacturing",
+      "quadruped"
+    ],
+    "country": "China",
+    "city": "Hangzhou",
+    "hq": {
+      "lat": 30.2741,
+      "lon": 120.1551,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 34
+    }
+  },
+  {
+    "id": "58407db70bdb7167",
+    "name": "Upside Robotics",
+    "aliases": [
+      "Upside Robotics",
+      "upside robotics",
+      "Their",
+      "Upside Flex"
+    ],
+    "description": "Upside Robotics develops vision-guided robotic systems for general-purpose industrial automation. Their flagship product, Upside Flex, combines traditional industrial robots with computer vision and adaptive control software.",
+    "tags": [
+      "general-purpose",
+      "industrial"
+    ],
+    "country": "United States",
+    "city": "Columbus",
+    "hq": {
+      "lat": 39.9612,
+      "lon": -82.9988,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.613Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 23
+    }
+  },
+  {
+    "id": "9f0883ebe3402743",
+    "name": "Vecna Robotics",
+    "aliases": [
+      "Vecna Robotics",
+      "vecna robotics",
+      "Developer"
+    ],
+    "description": "Developer of autonomous mobile robots and AI-powered logistics automation for warehouses, manufacturing, and distribution centers",
+    "tags": [
+      "autonomous",
+      "logistics",
+      "manufacturing",
+      "mobile",
+      "warehouse"
+    ],
+    "country": "United States",
+    "region": "Northeast",
+    "city": "Waltham",
+    "hq": {
+      "lat": 42.360081,
+      "lon": -71.09416,
+      "confidence": "high",
+      "source": "geolocation_field"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 48
+    }
+  },
+  {
+    "id": "798cd84437c8a7aa",
+    "name": "Zeon Systems",
+    "aliases": [
+      "Zeon Systems",
+      "zeon systems",
+      "Laboratory",
+      "Natural",
+      "Focus"
+    ],
+    "description": "Laboratory automation robotics. Natural language approach to democratize laboratory automation for scientific research. Focus on reproducible experiments and accelerating scientific discovery through accessible automation technology.",
+    "tags": [],
+    "country": "United States",
+    "region": "West",
+    "city": "San Francisco",
+    "hq": {
+      "lat": 37.7879363,
+      "lon": -122.4075201,
+      "confidence": "med",
+      "source": "geocoder_nominatim"
+    },
+    "lastUpdated": "2026-01-12T22:32:29.614Z",
+    "source": {
+      "dataset": "private_companies.csv",
+      "row": 61
+    }
+  }
+]

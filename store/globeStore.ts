@@ -1,0 +1,150 @@
+import { create } from 'zustand';
+import { Company, Event, GlobeState } from '@/types';
+import type { PrivateCompany } from '@/types/companies';
+
+interface HeatmapFocus {
+  lat: number;
+  lon: number;
+}
+
+interface EventFilter {
+  companyId?: string;
+  eventId?: string;
+  regionId?: string;
+}
+
+interface GlobeStore extends GlobeState {
+  companies: Company[];
+  events: Event[];
+  filteredCompanies: Company[];
+  searchQuery: string;
+  selectedTags: string[];
+  heatmapFocus: HeatmapFocus | null;
+  eventFilter: EventFilter | null;
+  privateCompanies: PrivateCompany[];
+  selectedCompanyId: string | null;
+  hoveredPrivateCompany: PrivateCompany | null;
+  showPrivateCompanies: boolean;
+  setCompanies: (companies: Company[]) => void;
+  setEvents: (events: Event[]) => void;
+  setSelectedCompany: (company: Company | null) => void;
+  setSelectedEvent: (event: Event | null) => void;
+  setSearchQuery: (query: string) => void;
+  setSelectedTags: (tags: string[]) => void;
+  setHeatmapFocus: (focus: HeatmapFocus | null) => void;
+  setEventFilter: (filter: EventFilter | null) => void;
+  setPrivateCompanies: (companies: PrivateCompany[]) => void;
+  setSelectedCompanyId: (id: string | null) => void;
+  setHoveredPrivateCompany: (company: PrivateCompany | null) => void;
+  setShowPrivateCompanies: (show: boolean) => void;
+  setShowGrid: (show: boolean) => void;
+  setShowArcs: (show: boolean) => void;
+  setShowNodes: (show: boolean) => void;
+  updateFilteredCompanies: () => void;
+}
+
+export const useGlobeStore = create<GlobeStore>((set, get) => ({
+  companies: [],
+  events: [],
+  filteredCompanies: [],
+  selectedCompany: null,
+  selectedEvent: null,
+  rotationSpeed: 0.2,
+  showGrid: true,
+  showArcs: true,
+  showNodes: true,
+  searchQuery: '',
+  selectedTags: [],
+  heatmapFocus: null,
+  eventFilter: null,
+  privateCompanies: [],
+  selectedCompanyId: null,
+  hoveredPrivateCompany: null,
+  showPrivateCompanies: true,
+
+  setCompanies: (companies) => {
+    set({ companies, filteredCompanies: companies });
+  },
+
+  setEvents: (events) => {
+    set({ events });
+  },
+
+  setSelectedCompany: (company) => {
+    set({ selectedCompany: company });
+  },
+
+  setSelectedEvent: (event) => {
+    set({ selectedEvent: event });
+  },
+
+  setSearchQuery: (query) => {
+    set({ searchQuery: query });
+    get().updateFilteredCompanies();
+  },
+
+  setSelectedTags: (tags) => {
+    set({ selectedTags: tags });
+    get().updateFilteredCompanies();
+  },
+
+  setHeatmapFocus: (focus) => {
+    set({ heatmapFocus: focus });
+  },
+
+  setEventFilter: (filter) => {
+    set({ eventFilter: filter });
+  },
+
+  setPrivateCompanies: (companies) => {
+    set({ privateCompanies: companies });
+  },
+
+  setSelectedCompanyId: (id) => {
+    set({ selectedCompanyId: id });
+  },
+
+  setHoveredPrivateCompany: (company) => {
+    set({ hoveredPrivateCompany: company });
+  },
+
+  setShowPrivateCompanies: (show) => {
+    set({ showPrivateCompanies: show });
+  },
+
+  setShowGrid: (show) => {
+    set({ showGrid: show });
+  },
+
+  setShowArcs: (show) => {
+    set({ showArcs: show });
+  },
+
+  setShowNodes: (show) => {
+    set({ showNodes: show });
+  },
+
+  updateFilteredCompanies: () => {
+    const { companies, searchQuery, selectedTags } = get();
+    let filtered = companies;
+
+    if (searchQuery) {
+      const query = searchQuery.toLowerCase();
+      filtered = filtered.filter(
+        (c) =>
+          c.name.toLowerCase().includes(query) ||
+          c.description?.toLowerCase().includes(query) ||
+          c.tags.some((tag) => tag.toLowerCase().includes(query))
+      );
+    }
+
+    if (selectedTags.length > 0) {
+      filtered = filtered.filter((c) =>
+        selectedTags.some((tag) => c.tags.includes(tag))
+      );
+    }
+
+    set({ filteredCompanies: filtered });
+  },
+}));
+
