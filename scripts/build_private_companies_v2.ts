@@ -14,7 +14,7 @@ import * as path from 'path';
 import { parse } from 'csv-parse/sync';
 import { createHash } from 'crypto';
 import type { PrivateCompany } from '../types/companies';
-import type { FundingRoundData, FundingQAReport, FundingQAEntry, FundingIndex, FundingIndexEntry, FundingSummary, ParseStatus } from '../types/funding';
+import type { FundingRound, FundingRoundData, FundingQAReport, FundingQAEntry, FundingIndex, FundingIndexEntry, FundingSummary, ParseStatus } from '../types/funding';
 import { parseFundingCell, validateValuation } from './funding_parser_v2';
 
 interface CSVRow {
@@ -395,19 +395,21 @@ async function buildV2(): Promise<void> {
     const id = generateId(name, website);
 
     // Preserve HQ from v1 if available, otherwise parse from CSV
-    let hqCoords;
+    let hqCoords: import('../types/companies').CompanyHQ;
     const v1Company = v1Companies.get(id);
     if (v1Company && v1Company.hq && v1Company.hq.lat !== 0 && v1Company.hq.lon !== 0) {
       // Use v1 HQ coords
       hqCoords = v1Company.hq;
     } else {
       // Parse from CSV
-      hqCoords = parseCoordinates(row['Geolocation']);
-      if (!hqCoords) {
+      const parsed = parseCoordinates(row['Geolocation']);
+      if (parsed) {
+        hqCoords = parsed;
+      } else {
         hqCoords = {
           lat: 0,
           lon: 0,
-          confidence: 'low',
+          confidence: 'low' as const,
           source: 'default'
         };
       }

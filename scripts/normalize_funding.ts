@@ -302,6 +302,12 @@ async function normalizeFunding(useLLM: boolean = false): Promise<void> {
     failedCount: qaEntries.filter(e => e.parseStatus === 'FAILED').length,
     llmAssistedCount: qaEntries.filter(e => e.llmAssisted).length,
     entries: qaEntries,
+    summary: {
+      withMoneyRaised: 0,
+      withTargetValuations: 0,
+      withYearOnlyDates: 0,
+      roundsByStage: {},
+    },
   };
   const qaPath = path.join(__dirname, '../data/processed/private_companies.v2.qa.json');
   fs.writeFileSync(qaPath, JSON.stringify(qaReport, null, 2));

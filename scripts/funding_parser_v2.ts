@@ -2,7 +2,7 @@
  * Enhanced funding parser v2 - handles edge cases and complex patterns
  */
 
-import type { FundingRoundData, FundingParseResult, FundingRound, Confidence } from '../types/funding';
+import type { FundingRoundData, FundingParseResult, FundingRound, Confidence, ParseStatus } from '../types/funding';
 
 // Round name mappings with sub-round support
 const ROUND_MAP: Record<string, FundingRound> = {

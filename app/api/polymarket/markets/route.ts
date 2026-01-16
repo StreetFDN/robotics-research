@@ -192,9 +192,9 @@ export async function GET(request: NextRequest) {
         outcomes = [];
       } else {
         // Normalize: convert all outcomes to strings
-        outcomes = outcomes.map((o) => {
+        outcomes = (outcomes as unknown[]).map((o) => {
           if (typeof o === 'string') return o;
-          if (typeof o === 'object' && o !== null && 'title' in o) return String(o.title);
+          if (typeof o === 'object' && o !== null && 'title' in o) return String((o as { title: unknown }).title);
           return String(o);
         });
       }

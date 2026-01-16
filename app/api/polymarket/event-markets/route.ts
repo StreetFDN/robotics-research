@@ -118,9 +118,9 @@ function normalizeMarketData(market: any) {
     if (!Array.isArray(outcomes)) {
       outcomes = [];
     } else {
-      outcomes = outcomes.map((o) => {
+      outcomes = (outcomes as unknown[]).map((o) => {
         if (typeof o === 'string') return o;
-        if (typeof o === 'object' && o !== null && 'title' in o) return String(o.title);
+        if (typeof o === 'object' && o !== null && 'title' in o) return String((o as { title: unknown }).title);
         return String(o);
       });
     }

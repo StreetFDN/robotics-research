@@ -245,7 +245,7 @@ export default function ETFComparisonChart() {
     }
 
     // Generate paths for each ticker
-    const paths: Record<string, string> = [];
+    const paths: Record<string, string> = {};
     
     tickers.forEach(ticker => {
       // 5) x-scale uses innerW, positioned at left margin

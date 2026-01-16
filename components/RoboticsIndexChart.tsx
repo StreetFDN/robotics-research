@@ -219,7 +219,7 @@ export default function RoboticsIndexChart() {
                   textAnchor={i === 0 ? 'start' : i === chartData.xLabels.length - 1 ? 'end' : 'middle'}
                   fontFamily="monospace"
                 >
-                  {label.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                  {new Date(label.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
                 </text>
               ))}
             </g>

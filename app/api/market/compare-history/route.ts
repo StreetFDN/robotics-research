@@ -289,14 +289,12 @@ export async function GET(request: NextRequest) {
             const close = typeof closeRaw === 'number' ? closeRaw : Number(closeRaw);
             return { date, close: isFinite(close) && close > 0 ? close : null };
           })
-          .filter((p: { date: Date; close: number | null }) => {
+          .filter((p): p is { date: Date; close: number } => {
             // Filter out invalid dates and null/zero/negative prices
             return !isNaN(p.date.getTime()) && p.close !== null && p.close > 0;
           })
-          .sort((a: { date: Date; close: number }, b: { date: Date; close: number }) => 
-            a.date.getTime() - b.date.getTime()
-          )
-          .map((p: { date: Date; close: number | null }) => ({ date: p.date, close: p.close as number }));
+          .sort((a, b) => a.date.getTime() - b.date.getTime())
+          .map((p) => ({ date: p.date, close: p.close }));
         
         console.log(`[Compare History] ${ticker} processed to ${processed.length} valid points`);
         rawData[ticker] = processed;

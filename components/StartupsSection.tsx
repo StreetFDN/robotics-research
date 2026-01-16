@@ -2,7 +2,8 @@
 
 import { useMemo } from 'react';
 import { useGlobeStore } from '@/store/globeStore';
-import type { PrivateCompany, FundingRoundData } from '@/types/companies';
+import type { PrivateCompany } from '@/types/companies';
+import type { FundingRoundData } from '@/types/funding';
 import { Event } from '@/types';
 
 interface ValuationPoint {
