@@ -27,7 +27,7 @@ const TIME_RANGES = [
   { label: 'YTD', value: 'YTD' },
 ] as const;
 
-const CHART_COLOR = '#00d4ff'; // Teal/cyan to match index charts
+const CHART_COLOR = '#00FFE0'; // Primary cyan per design spec
 
 // Calculate optimal tick step for y-axis
 function calculateTickStep(min: number, max: number, targetTicks: number = 6): number {
@@ -224,17 +224,17 @@ export default function StockChartCard({ ticker, displayName, defaultRange = '1Y
   };
 
   return (
-    <div className="flex flex-col bg-[#0a0e27] border border-gray-800 rounded" style={{ height: '260px' }}>
+    <div className="flex flex-col min-w-0 bg-transparent rounded-sm min-h-[260px] h-[260px]">
       {/* Header */}
-      <div className="flex items-start justify-between px-3 py-2 border-b border-gray-800/50 flex-shrink-0">
+      <div className="flex items-start justify-between px-3 py-2 border-b border-white/[0.08] flex-shrink-0 min-w-0">
         <div className="flex flex-col">
-          <div className="text-xs font-mono text-gray-300 font-semibold">{ticker}</div>
-          <div className="text-[10px] font-mono text-gray-500">{displayName}</div>
+          <div className="text-[10px] font-mono text-white/48 uppercase">{ticker}</div>
+          <div className="text-[10px] font-mono text-white/32">{displayName}</div>
         </div>
         {data && (
           <div className="text-right">
-            <div className="text-sm font-mono text-white font-semibold">{formatPrice(data.last.v)}</div>
-            <div className={`text-xs font-mono ${data.last.changeAbs >= 0 ? 'text-[#00ff88]' : 'text-[#ff4444]'}`}>
+            <div className="text-[12px] font-mono text-white">{formatPrice(data.last.v)}</div>
+            <div className={`text-[10px] font-mono ${data.last.changeAbs >= 0 ? 'text-[#00FF88]' : 'text-[#FF3B3B]'}`}>
               {data.last.changeAbs >= 0 ? '+' : ''}{formatPrice(data.last.changeAbs)} ({formatPercent(data.last.changePct)})
             </div>
           </div>
@@ -242,10 +242,9 @@ export default function StockChartCard({ ticker, displayName, defaultRange = '1Y
       </div>
 
       {/* Chart Area */}
-      <div 
+      <div
         ref={containerRef}
-        className="flex-1 relative w-full" 
-        style={{ minHeight: 0 }}
+        className="flex-1 relative w-full min-w-0 min-h-0 overflow-hidden"
       >
         {loading ? (
           <div className="flex items-center justify-center h-full">
@@ -275,7 +274,7 @@ export default function StockChartCard({ ticker, displayName, defaultRange = '1Y
             onMouseLeave={() => setHoveredPoint(null)}
           >
             {/* Gridlines */}
-            <g opacity="0.12">
+            <g>
               {chartData.ticks.map((tick, i) => (
                 <line
                   key={i}
@@ -283,7 +282,7 @@ export default function StockChartCard({ ticker, displayName, defaultRange = '1Y
                   y1={tick.y}
                   x2={chartData.margins.left + chartData.innerW}
                   y2={tick.y}
-                  stroke="#888"
+                  stroke="rgba(255,255,255,0.04)"
                   strokeWidth="0.5"
                 />
               ))}
@@ -297,10 +296,9 @@ export default function StockChartCard({ ticker, displayName, defaultRange = '1Y
                   x={chartData.margins.left + chartData.innerW + 4}
                   y={tick.y + 3}
                   fontSize="10"
-                  fill="#888"
+                  fill="rgba(255,255,255,0.32)"
                   textAnchor="start"
                   fontFamily="monospace"
-                  opacity="0.7"
                 >
                   {tick.value.toFixed(2)}
                 </text>
@@ -314,11 +312,10 @@ export default function StockChartCard({ ticker, displayName, defaultRange = '1Y
                   key={i}
                   x={label.x}
                   y={chartData.height - 6}
-                  fontSize="9"
-                  fill="#888"
+                  fontSize="10"
+                  fill="rgba(255,255,255,0.32)"
                   textAnchor={i === 0 ? 'start' : i === chartData.xLabels.length - 1 ? 'end' : 'middle'}
                   fontFamily="monospace"
-                  opacity="0.6"
                 >
                   {label.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
                 </text>
@@ -350,26 +347,24 @@ export default function StockChartCard({ ticker, displayName, defaultRange = '1Y
                         y1={chartData.margins.top}
                         x2={x}
                         y2={chartData.margins.top + chartData.innerH}
-                        stroke="#666"
+                        stroke="rgba(255,255,255,0.16)"
                         strokeWidth="1"
-                        opacity="0.4"
                       />
-                      {/* Value readout */}
+                      {/* Tooltip */}
                       <rect
                         x={x - 30}
                         y={chartData.margins.top + 4}
                         width={60}
-                        height={14}
-                        fill="#0a0e27"
+                        height={16}
+                        fill="#14171D"
                         rx="2"
-                        stroke={CHART_COLOR}
-                        strokeWidth="0.5"
-                        opacity="0.9"
+                        stroke="rgba(255,255,255,0.08)"
+                        strokeWidth="1"
                       />
                       <text
                         x={x}
-                        y={chartData.margins.top + 13}
-                        fontSize="9"
+                        y={chartData.margins.top + 15}
+                        fontSize="12"
                         fill={CHART_COLOR}
                         textAnchor="middle"
                         fontFamily="monospace"
@@ -390,16 +385,16 @@ export default function StockChartCard({ ticker, displayName, defaultRange = '1Y
       </div>
 
       {/* Footer with time range toggles */}
-      <div className="flex items-center justify-center px-3 py-2 border-t border-gray-800/50 flex-shrink-0">
-        <div className="flex gap-1">
+      <div className="flex items-center justify-center px-3 py-2 border-t border-white/[0.08] flex-shrink-0 min-w-0">
+        <div className="flex gap-0.5 flex-shrink-0">
           {TIME_RANGES.map((range) => (
             <button
               key={range.value}
               onClick={() => setSelectedRange(range.value)}
-              className={`px-2 py-0.5 text-[10px] font-mono transition-colors ${
+              className={`px-1.5 py-0.5 text-[10px] font-mono uppercase transition-colors rounded-sm ${
                 selectedRange === range.value
-                  ? 'bg-[#00d4ff]/20 text-[#00d4ff] border border-[#00d4ff]/30'
-                  : 'text-gray-500 hover:text-gray-300 hover:bg-gray-800/30'
+                  ? 'bg-white/[0.08] text-white'
+                  : 'text-white/32 hover:text-white/48 bg-transparent'
               }`}
             >
               {range.label}
@@ -410,4 +405,5 @@ export default function StockChartCard({ ticker, displayName, defaultRange = '1Y
     </div>
   );
 }
+
 

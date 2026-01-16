@@ -34,3 +34,4 @@ export function mergePrivateCompanies(
   return [...publicCompanies, ...mappedPrivate];
 }
 
+

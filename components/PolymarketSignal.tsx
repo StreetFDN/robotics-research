@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, useMemo } from 'react';
+import ProvenanceRow, { type ProvenanceStatus } from '@/components/ui/ProvenanceRow';
 
 // Pinned market configuration
 const PINNED_CONFIG = {
@@ -636,6 +637,20 @@ export default function PolymarketSignal() {
     return null;
   }, [history, currentPrice]);
 
+  // Compute provenance status based on data freshness
+  const provenanceStatus = useMemo((): ProvenanceStatus => {
+    if (!lastUpdateTime) return 'STALE';
+    const ageMs = Date.now() - new Date(lastUpdateTime).getTime();
+    if (ageMs < 2 * 60 * 1000) return 'LIVE';      // < 2 minutes
+    if (ageMs < 10 * 60 * 1000) return 'DEGRADED'; // < 10 minutes
+    return 'STALE';
+  }, [lastUpdateTime]);
+
+  const lastUpdateTimestamp = useMemo(() => {
+    if (!lastUpdateTime) return null;
+    return new Date(lastUpdateTime).getTime();
+  }, [lastUpdateTime]);
+
   return (
     <div ref={containerRef} className="border-t border-white/10 glass-subtle">
       {/* Header */}
@@ -807,6 +822,13 @@ export default function PolymarketSignal() {
           </div>
         ) : null}
       </div>
+
+      {/* Provenance footer */}
+      <ProvenanceRow
+        sourceLabel="Polymarket CLOB"
+        updatedAt={lastUpdateTimestamp}
+        status={provenanceStatus}
+      />
     </div>
   );
 }

@@ -21,7 +21,7 @@ interface PrivateCompaniesLayerProps {
 }
 
 export default function PrivateCompaniesLayer({ radius = 1.002 }: PrivateCompaniesLayerProps) {
-  const { privateCompanies, showPrivateCompanies, setSelectedCompanyId, setSelectedCompany, setHoveredPrivateCompany, hoveredPrivateCompany } = useGlobeStore();
+  const { privateCompanies, showPrivateCompanies, setSelectedCompanyId, setSelectedCompany, setHoveredPrivateCompany, setSelectedPrivateCompany, hoveredPrivateCompany } = useGlobeStore();
   const { camera, raycaster, pointer, size } = useThree();
   const pointsRef = useRef<THREE.Points>(null);
 
@@ -125,9 +125,11 @@ export default function PrivateCompaniesLayer({ radius = 1.002 }: PrivateCompani
     }
   });
 
-  // Handle click
+  // Handle click - pin selection
   const handleClick = useCallback(() => {
     if (hoveredPrivateCompany) {
+      // Pin this company (persists when hover changes)
+      setSelectedPrivateCompany(hoveredPrivateCompany);
       setSelectedCompanyId(hoveredPrivateCompany.id);
       // Also set selectedCompany for list highlighting
       setSelectedCompany(privateCompanyToCompany(hoveredPrivateCompany));
@@ -158,7 +160,7 @@ export default function PrivateCompaniesLayer({ radius = 1.002 }: PrivateCompani
 
       animate();
     }
-  }, [hoveredPrivateCompany, setSelectedCompanyId, setSelectedCompany, camera]);
+  }, [hoveredPrivateCompany, setSelectedPrivateCompany, setSelectedCompanyId, setSelectedCompany, camera]);
 
   if (!showPrivateCompanies || validCompanies.length === 0) {
     return null;

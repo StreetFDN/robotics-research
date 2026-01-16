@@ -24,6 +24,7 @@ interface GlobeStore extends GlobeState {
   privateCompanies: PrivateCompany[];
   selectedCompanyId: string | null;
   hoveredPrivateCompany: PrivateCompany | null;
+  selectedPrivateCompany: PrivateCompany | null;
   showPrivateCompanies: boolean;
   setCompanies: (companies: Company[]) => void;
   setEvents: (events: Event[]) => void;
@@ -36,6 +37,8 @@ interface GlobeStore extends GlobeState {
   setPrivateCompanies: (companies: PrivateCompany[]) => void;
   setSelectedCompanyId: (id: string | null) => void;
   setHoveredPrivateCompany: (company: PrivateCompany | null) => void;
+  setSelectedPrivateCompany: (company: PrivateCompany | null) => void;
+  clearSelection: () => void;
   setShowPrivateCompanies: (show: boolean) => void;
   setShowGrid: (show: boolean) => void;
   setShowArcs: (show: boolean) => void;
@@ -60,6 +63,7 @@ export const useGlobeStore = create<GlobeStore>((set, get) => ({
   privateCompanies: [],
   selectedCompanyId: null,
   hoveredPrivateCompany: null,
+  selectedPrivateCompany: null,
   showPrivateCompanies: true,
 
   setCompanies: (companies) => {
@@ -106,6 +110,18 @@ export const useGlobeStore = create<GlobeStore>((set, get) => ({
 
   setHoveredPrivateCompany: (company) => {
     set({ hoveredPrivateCompany: company });
+  },
+
+  setSelectedPrivateCompany: (company) => {
+    set({ selectedPrivateCompany: company });
+  },
+
+  clearSelection: () => {
+    set({
+      selectedPrivateCompany: null,
+      selectedCompanyId: null,
+      selectedCompany: null
+    });
   },
 
   setShowPrivateCompanies: (show) => {

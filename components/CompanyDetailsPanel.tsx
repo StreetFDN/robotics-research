@@ -2,24 +2,29 @@
 
 import React from 'react';
 import { useGlobeStore } from '@/store/globeStore';
-import type { PrivateCompany } from '@/types/companies';
 import FundingChart from './FundingChart';
+import IntelPanel, { IntelPanelEmpty } from './ui/IntelPanel';
 
+/**
+ * CompanyDetailsPanel - BATCH 2 Overhaul
+ * Palantir-style company intelligence display
+ */
 export default function CompanyDetailsPanel() {
-  const { hoveredPrivateCompany } = useGlobeStore();
+  const { hoveredPrivateCompany, selectedPrivateCompany } = useGlobeStore();
 
-  // Show placeholder when nothing is hovered
-  if (!hoveredPrivateCompany) {
+  // Pinned selection takes priority over hover
+  const displayCompany = selectedPrivateCompany ?? hoveredPrivateCompany;
+
+  // Show placeholder when nothing is selected or hovered
+  if (!displayCompany) {
     return (
-      <div className="glass border-b border-white/10 p-6 min-h-[200px] flex items-center justify-center">
-        <div className="border-2 border-dashed border-white/10 rounded-lg w-full h-full min-h-[180px] flex items-center justify-center">
-          <p className="text-caption text-gray-500">Hover on a startup to see details</p>
-        </div>
-      </div>
+      <IntelPanel title="COMPANY INTEL" subtitle="Startup Profile">
+        <IntelPanelEmpty message="Hover on a startup to see details" />
+      </IntelPanel>
     );
   }
 
-  const company = hoveredPrivateCompany;
+  const company = displayCompany;
 
   const formatAmount = (val?: number): string => {
     if (!val) return '';
@@ -30,10 +35,10 @@ export default function CompanyDetailsPanel() {
   };
 
   const formatRoundLabel = (round: string): string => {
-    if (round === 'unknown') return 'Valuation';
+    if (round === 'unknown') return 'VALUATION';
     return round
       .split('-')
-      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+      .map((w) => w.toUpperCase())
       .join(' ');
   };
 
@@ -47,83 +52,96 @@ export default function CompanyDetailsPanel() {
       return new Date(bYear, bMonth - 1).getTime() - new Date(aYear, aMonth - 1).getTime();
     })[0];
 
+  // Header right content with location
+  const headerRight = company.city || company.country ? (
+    <span className="text-[10px] text-white/32 font-mono">
+      {company.city && company.country
+        ? `${company.city}, ${company.country}`
+        : company.country || company.city}
+    </span>
+  ) : undefined;
+
   return (
-    <div className="glass border-b border-white/10 p-6 space-y-4">
-      {/* Company Name */}
-      <div className="text-subheadline font-semibold text-white mb-1">{company.name}</div>
-
-      {/* Location */}
-      {(company.city || company.country) && (
-        <div className="text-caption text-gray-400">
-          {company.city && company.country
-            ? `${company.city}, ${company.country}`
-            : company.country || company.city}
+    <IntelPanel
+      title="COMPANY INTEL"
+      headerRight={headerRight}
+      showLive={!!selectedPrivateCompany}
+    >
+      <div className="space-y-3">
+        {/* Company Name - BATCH 2: text-[16px] font-semibold */}
+        <div className="text-[16px] font-semibold text-white leading-tight">
+          {company.name}
         </div>
-      )}
 
-      {/* Latest Valuation */}
-      {latestRound && (
-        <div className="pb-4 border-b border-white/10">
-          <div className="text-label text-gray-500 mb-2">
-            {formatRoundLabel(latestRound.round)}
+        {/* Latest Valuation */}
+        {latestRound && (
+          <div className="pb-3 border-b border-white/[0.08]">
+            {/* Label - BATCH 2: text-[11px] text-white/48 */}
+            <div className="text-[11px] text-white/48 mb-1 font-mono uppercase tracking-[0.05em]">
+              {formatRoundLabel(latestRound.round)}
+            </div>
+            {/* Value - BATCH 2: text-[13px] font-mono text-white */}
+            <div className="flex items-baseline gap-2">
+              <span className="text-[18px] font-mono font-medium text-[#00FFE0]">
+                {formatAmount(latestRound.valuationUsd)}
+              </span>
+              {latestRound.time && (
+                <span className="text-[11px] text-white/32 font-mono">{latestRound.time}</span>
+              )}
+            </div>
           </div>
-          <div className="text-subheadline text-red-400 font-semibold">
-            {formatAmount(latestRound.valuationUsd)}
-            {latestRound.time && (
-              <span className="text-caption text-gray-500 font-normal ml-2">{latestRound.time}</span>
+        )}
+
+        {/* Funding Chart */}
+        {company.fundingRounds && company.fundingRounds.length > 0 && (
+          <div>
+            <div className="text-[11px] text-white/48 mb-2 font-mono uppercase tracking-[0.05em]">
+              FUNDING HISTORY
+            </div>
+            <FundingChart rounds={company.fundingRounds} width={340} height={100} />
+          </div>
+        )}
+
+        {/* Description */}
+        {company.description && (
+          <div className="text-[12px] text-white/64 line-clamp-2 leading-relaxed">
+            {company.description}
+          </div>
+        )}
+
+        {/* Tags - BATCH 2: sharp corners (rounded-sm) */}
+        {company.tags && company.tags.length > 0 && (
+          <div className="flex flex-wrap gap-1">
+            {company.tags.slice(0, 6).map((tag) => (
+              <span
+                key={tag}
+                className="px-1.5 py-0.5 bg-white/[0.06] border border-white/[0.08] rounded-sm text-[10px] text-white/48 font-mono"
+              >
+                {tag}
+              </span>
+            ))}
+            {company.tags.length > 6 && (
+              <span className="px-1.5 py-0.5 text-[10px] text-white/32 font-mono">
+                +{company.tags.length - 6}
+              </span>
             )}
           </div>
-        </div>
-      )}
+        )}
 
-      {/* Funding Chart */}
-      {company.fundingRounds && company.fundingRounds.length > 0 && (
-        <div>
-          <div className="text-label text-gray-500 mb-3">
-            Funding History
-          </div>
-          <FundingChart rounds={company.fundingRounds} width={340} height={100} />
-        </div>
-      )}
-
-      {/* Description */}
-      {company.description && (
-        <div className="text-body text-gray-300 line-clamp-2 leading-relaxed">
-          {company.description}
-        </div>
-      )}
-
-      {/* Tags */}
-      {company.tags && company.tags.length > 0 && (
-        <div className="flex flex-wrap gap-1.5">
-          {company.tags.slice(0, 6).map((tag) => (
-            <span
-              key={tag}
-              className="px-2 py-1 glass-subtle border border-white/10 rounded text-caption text-gray-300"
+        {/* Website */}
+        {company.website && (
+          <div className="pt-2 border-t border-white/[0.08]">
+            <a
+              href={company.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[10px] text-[#00FFE0] hover:text-[#00FFE0]/80 font-mono truncate block transition-colors"
             >
-              {tag}
-            </span>
-          ))}
-          {company.tags.length > 6 && (
-            <span className="px-2 py-1 text-caption text-gray-600">+{company.tags.length - 6}</span>
-          )}
-        </div>
-      )}
-
-      {/* Website */}
-      {company.website && (
-        <div className="text-caption text-gray-500 pt-3 border-t border-white/10">
-          <a
-            href={company.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-red-400 hover:text-red-300 underline truncate block"
-          >
-            {company.website.replace(/^https?:\/\//, '').replace(/\/$/, '')}
-          </a>
-        </div>
-      )}
-    </div>
+              {company.website.replace(/^https?:\/\//, '').replace(/\/$/, '')}
+            </a>
+          </div>
+        )}
+      </div>
+    </IntelPanel>
   );
 }
-

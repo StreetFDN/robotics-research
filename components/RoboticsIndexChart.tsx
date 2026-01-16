@@ -130,18 +130,18 @@ export default function RoboticsIndexChart() {
   const isPositive = data ? data.dayChange >= 0 : true;
 
   return (
-    <div className="flex flex-col bg-[#0a0e27] border-b border-gray-800" style={{ height: '260px' }}>
+    <div className="flex flex-col min-w-0 bg-transparent rounded-sm min-h-[260px] h-[260px]">
       {/* Header */}
-      <div className="flex items-center justify-between px-4 py-2 border-b border-gray-800/50">
+      <div className="flex items-center justify-between px-4 py-2 border-b border-white/[0.08] flex-shrink-0 min-w-0">
         <div className="flex items-center gap-2">
-          <span className="text-xs font-semibold text-[#00d4ff] tracking-wider">ROBOTICS INDEX</span>
+          <span className="text-[10px] font-mono uppercase text-white/48 tracking-wider">ROBOTICS INDEX</span>
         </div>
         <div className="flex items-center gap-4">
           {data && (
             <div className="flex items-center gap-2 text-right">
               <div>
-                <div className="text-sm font-mono text-white">{data.latestValue.toFixed(2)}</div>
-                <div className={`text-xs font-mono ${isPositive ? 'text-[#00ff88]' : 'text-[#ff4444]'}`}>
+                <div className="text-[12px] font-mono text-white">{data.latestValue.toFixed(2)}</div>
+                <div className={`text-[10px] font-mono ${isPositive ? 'text-[#00FF88]' : 'text-[#FF3B3B]'}`}>
                   {isPositive ? '+' : ''}{data.dayChange.toFixed(2)} ({isPositive ? '+' : ''}{data.dayChangePercent.toFixed(2)}%)
                 </div>
               </div>
@@ -151,7 +151,7 @@ export default function RoboticsIndexChart() {
       </div>
 
       {/* Chart Area */}
-      <div className="flex-1 relative px-4 py-3" style={{ minHeight: 0 }}>
+      <div className="flex-1 relative px-4 py-3 min-w-0 min-h-0 overflow-hidden">
         {loading ? (
           <div className="flex items-center justify-center h-full">
             <div className="text-xs text-gray-500">Loading...</div>
@@ -170,13 +170,13 @@ export default function RoboticsIndexChart() {
           >
             <defs>
               <linearGradient id="lineGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" stopColor="#00d4ff" stopOpacity="0.3" />
-                <stop offset="100%" stopColor="#00d4ff" stopOpacity="0" />
+                <stop offset="0%" stopColor="#00FFE0" stopOpacity="0.15" />
+                <stop offset="100%" stopColor="#00FFE0" stopOpacity="0" />
               </linearGradient>
             </defs>
-            
+
             {/* Grid lines */}
-            <g opacity="0.2">
+            <g>
               {chartData.yLabels.map((label, i) => (
                 <line
                   key={i}
@@ -184,7 +184,7 @@ export default function RoboticsIndexChart() {
                   y1={label.y + 20}
                   x2={90}
                   y2={label.y + 20}
-                  stroke="#666"
+                  stroke="rgba(255,255,255,0.04)"
                   strokeWidth="0.3"
                 />
               ))}
@@ -197,8 +197,8 @@ export default function RoboticsIndexChart() {
                   key={i}
                   x={8}
                   y={label.y + 20 + 2}
-                  fontSize="2.5"
-                  fill="#888"
+                  fontSize="2.8"
+                  fill="rgba(255,255,255,0.32)"
                   textAnchor="end"
                   fontFamily="monospace"
                 >
@@ -214,8 +214,8 @@ export default function RoboticsIndexChart() {
                   key={i}
                   x={10 + label.x}
                   y={175}
-                  fontSize="2.5"
-                  fill="#888"
+                  fontSize="2.6"
+                  fill="rgba(255,255,255,0.32)"
                   textAnchor={i === 0 ? 'start' : i === chartData.xLabels.length - 1 ? 'end' : 'middle'}
                   fontFamily="monospace"
                 >
@@ -234,7 +234,7 @@ export default function RoboticsIndexChart() {
             <path
               d={chartData.pathData}
               fill="none"
-              stroke="#00d4ff"
+              stroke="#00FFE0"
               strokeWidth="0.4"
               vectorEffect="non-scaling-stroke"
             />
@@ -247,16 +247,16 @@ export default function RoboticsIndexChart() {
       </div>
 
       {/* Footer with time range toggles */}
-      <div className="flex items-center justify-between px-4 py-2 border-t border-gray-800/50">
-        <div className="flex gap-1">
+      <div className="flex items-center justify-between px-4 py-2 border-t border-white/[0.08] flex-shrink-0 min-w-0 gap-2">
+        <div className="flex gap-0.5 flex-shrink-0">
           {TIME_RANGES.map((range) => (
             <button
               key={range.value}
               onClick={() => setSelectedRange(range.value)}
-              className={`px-2 py-1 text-xs font-mono transition-colors ${
+              className={`px-1.5 py-0.5 text-[10px] font-mono uppercase transition-colors rounded-sm ${
                 selectedRange === range.value
-                  ? 'bg-[#00d4ff]/20 text-[#00d4ff] border border-[#00d4ff]/30'
-                  : 'text-gray-500 hover:text-gray-300 hover:bg-gray-800/30'
+                  ? 'bg-white/[0.08] text-white'
+                  : 'text-white/32 hover:text-white/48 bg-transparent'
               }`}
             >
               {range.label}
@@ -265,7 +265,7 @@ export default function RoboticsIndexChart() {
         </div>
         <button
           onClick={() => setShowDetails(!showDetails)}
-          className="text-xs text-gray-500 hover:text-gray-300 transition-colors"
+          className="text-[10px] font-mono uppercase text-white/32 hover:text-white/48 transition-colors flex-shrink-0"
         >
           {showDetails ? 'Hide' : 'Details'}
         </button>
@@ -273,16 +273,16 @@ export default function RoboticsIndexChart() {
 
       {/* Details drawer */}
       {showDetails && data && (
-        <div className="border-t border-gray-800/50 bg-[#0a0e27] max-h-48 overflow-y-auto">
-          <div className="p-3 text-xs">
-            <div className="text-gray-400 mb-2 font-semibold">Constituent Weights:</div>
+        <div className="border-t border-white/[0.08] bg-[#14171D] max-h-48 overflow-y-auto rounded-b-sm">
+          <div className="p-3 text-[10px]">
+            <div className="text-white/48 mb-2 font-mono uppercase">Constituent Weights:</div>
             <div className="space-y-1">
               {data.constituents
                 .sort((a, b) => b.weight - a.weight)
                 .map((constituent) => (
-                  <div key={constituent.ticker} className="flex justify-between text-gray-500">
+                  <div key={constituent.ticker} className="flex justify-between text-white/32">
                     <span className="font-mono">{constituent.ticker}</span>
-                    <span className="text-gray-400">{(constituent.weight * 100).toFixed(2)}%</span>
+                    <span className="text-white/48 font-mono">{(constituent.weight * 100).toFixed(2)}%</span>
                   </div>
                 ))}
             </div>
@@ -292,4 +292,5 @@ export default function RoboticsIndexChart() {
     </div>
   );
 }
+
 

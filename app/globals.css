@@ -2,17 +2,100 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ===========================================
+ * DESIGN TOKENS - OBSIDIAN PALETTE (Palantir/CIA)
+ * Owner: W2 | Updated: 2026-01-16 | BATCH 1
+ * Premium Intel Aesthetic for Robotics Globe
+ * =========================================== */
+
 :root {
-  --background: #0D1015;
-  --surface: #1A1F2E;
+  /* Font variables - set by next/font in layout.tsx */
+  --font-ui: var(--font-ui, 'Inter', system-ui, sans-serif);
+  --font-mono: var(--font-mono, 'JetBrains Mono', monospace);
+  --font-lcd: var(--font-lcd, 'VT323', monospace);
+
+  /* OBSIDIAN SURFACE SCALE - ultra-dark layered depth */
+  --void: #05060A;
+  --base: #08090C;
+  --raised: #0C0E12;
+  --elevated: #101318;
+  --overlay: #14171D;
+  --highlight: #1A1E26;
+
+  /* Legacy aliases */
+  --background: #08090C;
+  --surface: #101318;
+  --foreground-rgb: 255, 255, 255;
+
+  /* Surface tokens - mapped to Obsidian scale */
+  --surface-base: #08090C;
+  --surface-raised: #0C0E12;
+  --surface-overlay: #101318;
+  --surface-elevated: #14171D;
+  --surface-highlight: #1A1E26;
+
+  /* Panel tokens */
+  --panel-primary: #101318;
+  --panel-secondary: #0C0E12;
+  --panel-accent: rgba(0, 255, 224, 0.06);
+  --panel-muted: rgba(16, 19, 24, 0.8);
+
+  /* ACCENT COLORS - high-contrast signals */
+  --accent: #00FFE0;
+  --accent-cyan: #00FFE0;
+  --accent-green: #00FF88;
+  --accent-amber: #FFB800;
+  --accent-red: #FF3B3B;
+
+  /* Legacy accent aliases */
+  --teal: #00FFE0;
+  --amber: #FFB800;
+  --alert: #FF3B3B;
+
+  /* Border tokens */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-default: rgba(255, 255, 255, 0.10);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --border-accent: rgba(0, 255, 224, 0.3);
+
+  /* TEXT SCALE - precise opacity hierarchy */
+  --text-primary: #FFFFFF;
+  --text-secondary: rgba(255, 255, 255, 0.72);
+  --text-tertiary: rgba(255, 255, 255, 0.48);
+  --text-muted: rgba(255, 255, 255, 0.32);
+
+  /* Status colors */
+  --status-live: #00FF88;
+  --status-pending: #FFB800;
+  --status-offline: #FF3B3B;
+
+  /* Shadows - deeper for Obsidian */
+  --shadow-panel: 0 4px 24px rgba(0, 0, 0, 0.6);
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.5);
+  --shadow-glow-accent: 0 0 20px rgba(0, 255, 224, 0.12);
+
+  /* Spacing */
+  --panel-gap: 12px;
+  --card-gap: 8px;
+  --section-gap: 16px;
+
+  /* SHARP CORNERS - max 4px */
+  --radius-panel: 3px;
+  --radius-card: 2px;
+  --radius-button: 2px;
+  --radius-chip: 2px;
+
+  /* Transitions */
+  --transition-fast: 100ms;
+  --transition-normal: 200ms;
+  --transition-slow: 300ms;
 }
 
 @layer base {
   body {
     color: rgb(var(--foreground-rgb));
     background: var(--background);
-    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', 
-      'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', sans-serif;
+    font-family: var(--font-ui), 'Inter', system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 13px;
@@ -33,46 +116,46 @@
   }
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar - Obsidian palette */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--background);
+  background: var(--base);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2A3A4A;
-  border-radius: 3px;
+  background: var(--highlight);
+  border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #3A4A5A;
+  background: rgba(255, 255, 255, 0.16);
 }
 
-/* Glass morphism utility */
+/* Glass morphism utility - Obsidian palette */
 @layer utilities {
   .glass {
-    background: rgba(26, 31, 46, 0.6);
+    background: rgba(16, 19, 24, 0.7);
     backdrop-filter: blur(12px) saturate(180%);
     -webkit-backdrop-filter: blur(12px) saturate(180%);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.06);
   }
 
   .glass-strong {
-    background: rgba(26, 31, 46, 0.8);
+    background: rgba(16, 19, 24, 0.85);
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.10);
   }
 
   .glass-subtle {
-    background: rgba(26, 31, 46, 0.4);
+    background: rgba(16, 19, 24, 0.5);
     backdrop-filter: blur(8px) saturate(180%);
     -webkit-backdrop-filter: blur(8px) saturate(180%);
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.04);
   }
 }
 
@@ -111,6 +194,128 @@
     text-transform: uppercase;
     letter-spacing: 0.08em;
     line-height: 1.2;
+  }
+
+  /* Data display - for numbers and metrics */
+  .text-data {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 1.3;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .text-data-lg {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .text-mono {
+    font-family: var(--font-mono), 'JetBrains Mono', Menlo, Monaco, monospace;
+  }
+}
+
+/* Panel component utilities */
+@layer components {
+  .intel-panel {
+    background: var(--panel-primary);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-panel);
+    box-shadow: var(--shadow-panel);
+  }
+
+  .intel-panel-header {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .intel-panel-body {
+    padding: 12px 16px;
+  }
+
+  .intel-card {
+    background: var(--surface-overlay);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-card);
+    transition: border-color var(--transition-normal);
+  }
+
+  .intel-card:hover {
+    border-color: var(--border-default);
+  }
+
+  .intel-card-accent {
+    background: var(--panel-accent);
+    border: 1px solid var(--border-accent);
+    border-radius: var(--radius-card);
+  }
+}
+
+/* Status indicator utilities */
+@layer utilities {
+  .status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .status-dot-live {
+    background: var(--status-live);
+    box-shadow: 0 0 8px var(--status-live);
+  }
+
+  .status-dot-pending {
+    background: var(--status-pending);
+    box-shadow: 0 0 8px var(--status-pending);
+  }
+
+  .status-dot-offline {
+    background: var(--status-offline);
+  }
+
+  /* Value change indicators */
+  .value-positive {
+    color: var(--accent-green);
+  }
+
+  .value-negative {
+    color: var(--accent-red);
+  }
+
+  .value-neutral {
+    color: var(--text-secondary);
+  }
+
+  .value-warning {
+    color: var(--accent-amber);
+  }
+}
+
+/* Border utilities using tokens */
+@layer utilities {
+  .border-token-subtle {
+    border-color: var(--border-subtle);
+  }
+
+  .border-token-default {
+    border-color: var(--border-default);
+  }
+
+  .border-token-strong {
+    border-color: var(--border-strong);
+  }
+
+  .border-token-accent {
+    border-color: var(--border-accent);
+  }
+
+  .divide-token-subtle > * + * {
+    border-color: var(--border-subtle);
   }
 }
 

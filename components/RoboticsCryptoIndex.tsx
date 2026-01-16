@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, useEffect, useRef, useMemo } from 'react';
+import { IntelPanelLoading, IntelPanelError } from './ui/IntelPanel';
+import ProvenanceRow, { type ProvenanceStatus } from './ui/ProvenanceRow';
 
 interface IndexPoint {
   timestamp: number;
@@ -46,9 +48,19 @@ export default function RoboticsCryptoIndex() {
   const [timeframe, setTimeframe] = useState<TimeRange>('3M');
   const [hoverPoint, setHoverPoint] = useState<HoverPoint | null>(null);
   const [showComposition, setShowComposition] = useState(false);
+  const [lastFetchTime, setLastFetchTime] = useState<number | null>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  
+
+  // Compute provenance status based on data freshness
+  const provenanceStatus = useMemo((): ProvenanceStatus => {
+    if (!lastFetchTime) return 'STALE';
+    const ageMs = Date.now() - lastFetchTime;
+    if (ageMs < 5 * 60 * 1000) return 'LIVE';       // < 5 minutes
+    if (ageMs < 30 * 60 * 1000) return 'DEGRADED';  // < 30 minutes
+    return 'STALE';
+  }, [lastFetchTime]);
+
   // Track fetch state for backoff
   const lastSuccessRef = useRef<boolean>(false);
   const failureCountRef = useRef<number>(0);
@@ -117,7 +129,8 @@ export default function RoboticsCryptoIndex() {
       setData(indexData);
       setError(null);
       setLoading(false);
-      
+      setLastFetchTime(Date.now());
+
       // Cache the result
       apiCache.set(cacheKey, { data: indexData, timestamp: Date.now() });
       
@@ -434,25 +447,34 @@ export default function RoboticsCryptoIndex() {
     }
   };
 
+  const isLive = provenanceStatus === 'LIVE';
+
   return (
-    <div ref={containerRef} className="border-t border-white/10 glass-subtle flex-shrink-0" style={{ height: '160px' }}>
-      {/* Header */}
-      <div className="px-4 pt-3 pb-3 border-b border-white/10">
-        <div className="flex items-start justify-between gap-4 mb-2">
+    <div ref={containerRef} className="bg-black/40 backdrop-blur-xl border border-white/[0.08] rounded-sm shadow-[inset_0_1px_0_rgba(255,255,255,0.05)] h-full flex flex-col">
+      {/* Header - Glassmorphism: subtle bg separator */}
+      <div className="px-3 py-2 border-b border-white/[0.06] bg-white/[0.02] flex-shrink-0">
+        <div className="flex items-start justify-between gap-3 mb-2">
           <div className="flex-1 min-w-0 flex items-center gap-2">
             <div className="flex-1">
-              <div className="text-xs text-gray-500 uppercase tracking-wider mb-0.5 font-mono">
-                ROBOTICS CRYPTO INDEX
+              <div className="flex items-center gap-2">
+                <span className="text-[10px] font-medium uppercase tracking-[0.1em] text-white/48">
+                  ROBOTICS CRYPTO INDEX
+                </span>
+                {/* LIVE indicator */}
+                <div className="flex items-center gap-1.5">
+                  <span className={`w-1.5 h-1.5 rounded-full ${isLive ? 'bg-[#00FF88] animate-pulse' : 'bg-white/16'}`} />
+                  <span className="text-[9px] font-mono text-white/32">{isLive ? 'LIVE' : 'STALE'}</span>
+                </div>
               </div>
-              <div className="text-[10px] text-gray-600 font-mono">
+              <div className="text-[10px] text-white/32 font-mono mt-0.5">
                 Market-Cap Weighted • Base 100
               </div>
             </div>
-            {/* Info icon */}
+            {/* Info icon - BATCH 2: sharp corners */}
             {data && data.weights.length > 0 && (
               <button
                 onClick={() => setShowComposition(true)}
-                className="w-4 h-4 rounded-full border border-gray-600 hover:border-accent flex items-center justify-center transition-colors group"
+                className="w-4 h-4 rounded-sm border border-white/[0.12] hover:border-[#00FFE0] flex items-center justify-center transition-colors group"
                 title="View index composition"
               >
                 <svg
@@ -460,7 +482,7 @@ export default function RoboticsCryptoIndex() {
                   height="10"
                   viewBox="0 0 12 12"
                   fill="none"
-                  className="text-gray-500 group-hover:text-accent transition-colors"
+                  className="text-white/32 group-hover:text-[#00FFE0] transition-colors"
                 >
                   <path
                     d="M6 1C3.24 1 1 3.24 1 6s2.24 5 5 5 5-2.24 5-5S8.76 1 6 1zm0 9C3.79 10 2 8.21 2 6S3.79 2 6 2s4 1.79 4 4-1.79 4-4 4z"
@@ -474,42 +496,42 @@ export default function RoboticsCryptoIndex() {
               </button>
             )}
           </div>
-          
-          {/* Current value */}
+
+          {/* Current value - BATCH 2: refined typography */}
           {data && (
             <div className="text-right flex-shrink-0">
-              <div className="text-[9px] text-gray-600 uppercase tracking-wider font-mono mb-0.5">
+              <div className="text-[9px] text-white/32 uppercase tracking-[0.1em] font-mono mb-0.5">
                 Index
               </div>
-              <div className="text-2xl font-bold text-white tabular-nums">
+              <div className="text-[20px] font-mono font-medium text-white tabular-nums">
                 {data.currentValue.toFixed(2)}
               </div>
             </div>
           )}
         </div>
-        
-        {/* Meta stats */}
+
+        {/* Meta stats - BATCH 2: refined styling */}
         {data && (
-          <div className="flex items-center justify-between gap-4 text-caption font-mono text-gray-500 pt-2 border-t border-white/10">
-            <div className="flex items-center gap-4">
+          <div className="flex items-center justify-between gap-3 text-[10px] font-mono text-white/32 pt-2 border-t border-white/[0.06]">
+            <div className="flex items-center gap-3">
               <div>
-                <span className="text-gray-600">Δ 24h:</span>{' '}
-                <span className={data.dayChange >= 0 ? 'text-accent' : 'text-red-400'}>
+                <span className="text-white/24">Δ24H</span>{' '}
+                <span className={data.dayChange >= 0 ? 'text-[#00FF88]' : 'text-[#FF4444]'}>
                   {data.dayChange >= 0 ? '+' : ''}{data.dayChange.toFixed(2)} ({data.dayChangePercent >= 0 ? '+' : ''}{data.dayChangePercent.toFixed(2)}%)
                 </span>
               </div>
             </div>
-            
-            {/* Timeframe selector */}
-            <div className="flex items-center gap-1">
+
+            {/* Timeframe selector - BATCH 2: sharp corners */}
+            <div className="flex items-center gap-0.5">
               {(['1M', '3M', '6M', '1Y', 'YTD'] as TimeRange[]).map((tf) => (
                 <button
                   key={tf}
                   onClick={() => setTimeframe(tf)}
-                  className={`px-2 py-0.5 text-[9px] font-mono rounded transition-colors ${
+                  className={`px-1.5 py-0.5 text-[9px] font-mono uppercase rounded-sm transition-colors ${
                     timeframe === tf
-                      ? 'bg-accent/20 text-accent border border-accent/30'
-                      : 'text-gray-600 hover:text-gray-400 hover:bg-gray-800/50'
+                      ? 'bg-white/[0.08] text-white'
+                      : 'text-white/32 hover:text-white/48 hover:bg-white/[0.04]'
                   }`}
                 >
                   {tf}
@@ -520,42 +542,30 @@ export default function RoboticsCryptoIndex() {
         )}
       </div>
 
-      <div className="p-4" style={{ height: 'calc(160px - 80px)', overflow: 'hidden' }}>
+      {/* Chart area - BATCH 2: refined styling - flex-1 to fill available space */}
+      <div className="p-3 flex-1 min-h-0 overflow-hidden">
         {loading && !data ? (
-          <div className="space-y-2">
-            <div className="h-6 bg-gray-800/50 animate-pulse" />
-            <div className="h-20 bg-gray-800/50 animate-pulse" />
-          </div>
+          <IntelPanelLoading rows={2} height="30px" />
         ) : error ? (
-          <div className="space-y-1">
-            <div className="text-xs text-red-400 font-mono">
-              {error}
-            </div>
-            {failureCountRef.current > 0 && (
-              <div className="text-[9px] text-gray-600 font-mono">
-                Retrying in {Math.ceil(getBackoffDelay(failureCountRef.current) / 1000)}s...
-              </div>
-            )}
-          </div>
+          <IntelPanelError
+            message={error}
+            onRetry={() => fetchIndexData(timeframe, true)}
+          />
         ) : data ? (
           <>
-            {/* Chart */}
             {filteredHistory.length === 0 ? (
-              <div className="relative bg-[#0D1015] border border-white/10" style={{ height: '80px' }}>
+              <div className="relative bg-[#0D1015] border border-white/[0.06] rounded-sm h-full min-h-[60px]">
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="text-[10px] text-gray-600 font-mono">No history yet — collecting...</div>
-                  </div>
+                  <div className="text-[10px] text-white/24 font-mono">No history yet — collecting...</div>
                 </div>
               </div>
             ) : (
-              <div className="relative bg-[#0D1015] border border-white/10">
+              <div className="relative bg-[#0D1015] border border-white/[0.06] rounded-sm h-full min-h-[60px]">
                 <canvas
                   ref={canvasRef}
                   onMouseMove={handleMouseMove}
                   onMouseLeave={() => setHoverPoint(null)}
-                  className="w-full cursor-crosshair"
-                  style={{ height: '80px' }}
+                  className="w-full h-full cursor-crosshair"
                 />
               </div>
             )}
@@ -563,41 +573,52 @@ export default function RoboticsCryptoIndex() {
         ) : null}
       </div>
 
-      {/* Composition Modal */}
+      {/* Provenance footer */}
+      <div className="px-3 py-1 border-t border-white/[0.06] flex-shrink-0">
+        <ProvenanceRow
+          sourceLabel="CoinGecko API"
+          updatedAt={lastFetchTime}
+          status={provenanceStatus}
+        />
+      </div>
+
+      {/* Composition Modal - Glassmorphism */}
       {showComposition && data && data.weights.length > 0 && (
         <div className="fixed inset-0 z-50 flex items-center justify-center pointer-events-none">
           <div
-            className="absolute inset-0 bg-black/60 backdrop-blur-sm pointer-events-auto"
+            className="absolute inset-0 bg-black/70 backdrop-blur-md pointer-events-auto"
             onClick={() => setShowComposition(false)}
           />
           <div
-            className="relative glass-strong rounded-lg p-6 max-w-md w-full mx-4 pointer-events-auto border border-white/20"
+            className="relative bg-black/60 backdrop-blur-xl rounded-sm p-4 max-w-md w-full mx-4 pointer-events-auto border border-white/[0.12] shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="flex items-center justify-between mb-4">
-              <h3 className="text-subheadline font-semibold text-white">Index Composition</h3>
+            <div className="flex items-center justify-between mb-3 pb-2 border-b border-white/[0.06] bg-white/[0.01]">
+              <span className="text-[10px] font-medium uppercase tracking-[0.1em] text-white/48">
+                INDEX COMPOSITION
+              </span>
               <button
                 onClick={() => setShowComposition(false)}
-                className="w-6 h-6 rounded-full border border-white/20 hover:border-white/40 flex items-center justify-center transition-colors"
+                className="w-5 h-5 rounded-sm border border-white/[0.12] hover:border-white/24 flex items-center justify-center transition-colors"
               >
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="text-gray-400">
+                <svg width="12" height="12" viewBox="0 0 14 14" fill="none" className="text-white/48">
                   <path d="M11 3L3 11M3 3l8 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                 </svg>
               </button>
             </div>
-            <div className="space-y-2">
+            <div className="space-y-1">
               {data.weights.map((w) => {
                 const token = data.tokens.find((t) => t.id === w.id);
                 return (
-                  <div key={w.id} className="flex items-center justify-between text-body font-mono py-2 border-b border-white/10 last:border-0">
-                    <div className="flex items-center gap-3">
-                      <span className="text-white font-medium">{w.symbol}</span>
-                      <span className="text-gray-400">{w.name}</span>
+                  <div key={w.id} className="flex items-center justify-between font-mono py-1.5 border-b border-white/[0.06] last:border-0">
+                    <div className="flex items-center gap-2">
+                      <span className="text-[12px] text-white font-medium">{w.symbol}</span>
+                      <span className="text-[11px] text-white/32">{w.name}</span>
                     </div>
-                    <div className="flex items-center gap-3">
-                      <span className="text-gray-300">{(w.weight * 100).toFixed(1)}%</span>
+                    <div className="flex items-center gap-2">
+                      <span className="text-[12px] text-white/64">{(w.weight * 100).toFixed(1)}%</span>
                       {token && (
-                        <span className={`text-caption ${token.change24h >= 0 ? 'text-accent' : 'text-red-400'}`}>
+                        <span className={`text-[11px] ${token.change24h >= 0 ? 'text-[#00FF88]' : 'text-[#FF4444]'}`}>
                           {token.change24h >= 0 ? '+' : ''}{token.change24h.toFixed(1)}%
                         </span>
                       )}
