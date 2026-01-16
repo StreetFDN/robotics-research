@@ -103,10 +103,10 @@ export default function Home() {
         <div className="w-96 flex-shrink-0 flex flex-col">
           {/* Company Details Panel - appears when hovering over a company */}
           <CompanyDetailsPanel />
-          {/* Both sections should total 320px (h-80) to match heatmap - Index on top */}
+          {/* Both sections should total 320px (h-80) to match heatmap - ETF Index on top, Crypto below */}
           <div className="flex flex-col" style={{ height: '320px' }}>
-            <RoboticsCryptoIndex />
             <ETFComparisonChart />
+            <RoboticsCryptoIndex />
           </div>
         </div>
       </main>
