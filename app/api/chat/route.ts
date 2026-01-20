@@ -13,10 +13,20 @@ import path from 'path';
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
-// Initialize OpenAI client
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+// Lazy-initialize OpenAI client (avoid build-time errors)
+let openai: OpenAI | null = null;
+
+function getOpenAIClient(): OpenAI {
+  if (!openai) {
+    if (!process.env.OPENAI_API_KEY) {
+      throw new Error('OPENAI_API_KEY environment variable is not set');
+    }
+    openai = new OpenAI({
+      apiKey: process.env.OPENAI_API_KEY,
+    });
+  }
+  return openai;
+}
 
 // Load company data for context
 function loadCompanyContext(): string {
@@ -130,9 +140,11 @@ export async function POST(request: NextRequest) {
       ...messages.slice(-10), // Keep last 10 messages for context
     ];
 
+    const client = getOpenAIClient();
+
     if (stream) {
       // Streaming response
-      const response = await openai.chat.completions.create({
+      const response = await client.chat.completions.create({
         model: 'gpt-4-turbo-preview',
         messages: fullMessages,
         temperature: 0.7,
@@ -168,7 +180,7 @@ export async function POST(request: NextRequest) {
       });
     } else {
       // Non-streaming response
-      const response = await openai.chat.completions.create({
+      const response = await client.chat.completions.create({
         model: 'gpt-4-turbo-preview',
         messages: fullMessages,
         temperature: 0.7,
