@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect, useCallback } from 'react';
+import { useState, useRef, useEffect, useCallback, useImperativeHandle, forwardRef } from 'react';
 import { useGlobeStore } from '@/store/globeStore';
 
 interface Message {
@@ -10,8 +10,20 @@ interface Message {
   timestamp: Date;
 }
 
-export default function ChatAssistant() {
+export interface ChatAssistantRef {
+  open: () => void;
+  close: () => void;
+  toggle: () => void;
+}
+
+const ChatAssistant = forwardRef<ChatAssistantRef>((_, ref) => {
   const [isOpen, setIsOpen] = useState(false);
+
+  useImperativeHandle(ref, () => ({
+    open: () => setIsOpen(true),
+    close: () => setIsOpen(false),
+    toggle: () => setIsOpen(prev => !prev),
+  }));
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -236,4 +248,8 @@ export default function ChatAssistant() {
       </div>
     </>
   );
-}
+});
+
+ChatAssistant.displayName = 'ChatAssistant';
+
+export default ChatAssistant;

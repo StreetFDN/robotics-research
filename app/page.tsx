@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import dynamic from 'next/dynamic';
 import { useGlobeStore } from '@/store/globeStore';
 import { mockCompanies, mockEvents } from '@/data/mockData';
@@ -37,10 +37,12 @@ import NarrativeIndex from '@/components/NarrativeIndex';
 import FundingNews from '@/components/FundingNews';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import ChatAssistant from '@/components/ChatAssistant';
+import ChatAssistant, { ChatAssistantRef } from '@/components/ChatAssistant';
+import CTAButtons from '@/components/CTAButtons';
 
 export default function Home() {
   const { setCompanies, setEvents, privateCompanies, clearSelection, selectedPrivateCompany, hoveredPrivateCompany } = useGlobeStore();
+  const chatRef = useRef<ChatAssistantRef>(null);
 
   // Determine if we have a selected company for glow effect
   const hasSelection = !!selectedPrivateCompany;
@@ -206,8 +208,10 @@ export default function Home() {
       <SingleStocksSection />
       {/* Footer */}
       <Footer />
+      {/* CTA Buttons - Cluely style */}
+      <CTAButtons onOpenChat={() => chatRef.current?.open()} />
       {/* Chat Assistant - floating button + panel */}
-      <ChatAssistant />
+      <ChatAssistant ref={chatRef} />
     </div>
   );
 }

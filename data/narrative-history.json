@@ -7868,6 +7868,561 @@
           "url": "https://en.antaranews.com/news/399981/x-square-robot-secures-140-million-in-series-a-funding"
         }
       ]
+    },
+    {
+      "id": "rni-1768931006281",
+      "timestamp": "2026-01-20T17:43:26.281Z",
+      "overall": 52,
+      "components": {
+        "indexAlpha": 81,
+        "polymarket": 6,
+        "contracts": 100,
+        "github": 1,
+        "news": 45,
+        "funding": 75,
+        "technical": 0
+      },
+      "trend": "down",
+      "confidence": 0.875,
+      "signals": [
+        {
+          "id": "anduril-dod-2026-01-20",
+          "type": "contract",
+          "title": "🔴 BREAKING: Anduril Industries $250M",
+          "description": "Department of Defense: Autonomous defense systems and AI-powered surveillance techn...",
+          "impact": 3,
+          "timestamp": "2026-01-20",
+          "source": "Breaking News",
+          "url": "https://www.defense.gov/News/"
+        },
+        {
+          "id": "funding-figure",
+          "type": "funding",
+          "title": "Figure $11.0B (2d ago, 60% decay)",
+          "description": "ElevenLabs Eyes $11 Billion Valuation for Voice AI Firm",
+          "impact": 3,
+          "timestamp": "2026-01-18",
+          "source": "Sticky Signal"
+        },
+        {
+          "id": "funding-figure",
+          "type": "funding",
+          "title": "Figure $11.0B (2d ago, 60% decay)",
+          "description": "ElevenLabs Eyes $11 Billion Valuation for Voice AI Firm",
+          "impact": 3,
+          "timestamp": "2026-01-18",
+          "source": "Sticky Signal"
+        },
+        {
+          "id": "alpha-summary-1768931006169",
+          "type": "technical",
+          "title": "Weighted Alpha: +4.20% vs historical avg",
+          "description": "1D: -0.82% | 5D: +6.23% | 20D: +9.40%",
+          "impact": 2,
+          "timestamp": "2026-01-20T17:43:26.169Z",
+          "source": "Index Alpha"
+        },
+        {
+          "id": "funding-mytra-1768931005729",
+          "type": "funding",
+          "title": "Mytra: $120M",
+          "description": "5d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2026-01-15",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-physical-intelligence-1768931005730",
+          "type": "funding",
+          "title": "Physical Intelligence: $400M",
+          "description": "77d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-11-04",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-sanctuary-ai-1768931005730",
+          "type": "funding",
+          "title": "Sanctuary AI: $140M",
+          "description": "90d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-10-22",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-waymo-1768931005730",
+          "type": "funding",
+          "title": "Waymo: $5.6B",
+          "description": "87d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-10-25",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-figure-1768931005730",
+          "type": "funding",
+          "title": "Figure: $11.0B",
+          "description": "2d ago via pymnts.com",
+          "impact": 2,
+          "timestamp": "2026-01-18",
+          "source": "pymnts.com",
+          "url": "https://www.pymnts.com/artificial-intelligence-2/2026/elevenlabs-eyes-11-billion-valuation-for-voice-ai-firm/"
+        },
+        {
+          "id": "funding-x-square-robot-1768931005730",
+          "type": "funding",
+          "title": "X Square Robot: $140M",
+          "description": "5d ago via Antaranews.com",
+          "impact": 2,
+          "timestamp": "2026-01-15",
+          "source": "Antaranews.com",
+          "url": "https://en.antaranews.com/news/399981/x-square-robot-secures-140-million-in-series-a-funding"
+        }
+      ]
+    },
+    {
+      "id": "rni-1768931007947",
+      "timestamp": "2026-01-20T17:43:27.947Z",
+      "overall": 52,
+      "components": {
+        "indexAlpha": 81,
+        "polymarket": 6,
+        "contracts": 100,
+        "github": 1,
+        "news": 45,
+        "funding": 75,
+        "technical": 0
+      },
+      "trend": "down",
+      "confidence": 0.875,
+      "signals": [
+        {
+          "id": "anduril-dod-2026-01-20",
+          "type": "contract",
+          "title": "🔴 BREAKING: Anduril Industries $250M",
+          "description": "Department of Defense: Autonomous defense systems and AI-powered surveillance techn...",
+          "impact": 3,
+          "timestamp": "2026-01-20",
+          "source": "Breaking News",
+          "url": "https://www.defense.gov/News/"
+        },
+        {
+          "id": "funding-figure",
+          "type": "funding",
+          "title": "Figure $11.0B (2d ago, 60% decay)",
+          "description": "ElevenLabs Eyes $11 Billion Valuation for Voice AI Firm",
+          "impact": 3,
+          "timestamp": "2026-01-18",
+          "source": "Sticky Signal"
+        },
+        {
+          "id": "funding-figure",
+          "type": "funding",
+          "title": "Figure $11.0B (2d ago, 60% decay)",
+          "description": "ElevenLabs Eyes $11 Billion Valuation for Voice AI Firm",
+          "impact": 3,
+          "timestamp": "2026-01-18",
+          "source": "Sticky Signal"
+        },
+        {
+          "id": "alpha-summary-1768931007739",
+          "type": "technical",
+          "title": "Weighted Alpha: +4.20% vs historical avg",
+          "description": "1D: -0.82% | 5D: +6.23% | 20D: +9.40%",
+          "impact": 2,
+          "timestamp": "2026-01-20T17:43:27.739Z",
+          "source": "Index Alpha"
+        },
+        {
+          "id": "funding-mytra-1768931007442",
+          "type": "funding",
+          "title": "Mytra: $120M",
+          "description": "5d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2026-01-15",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-physical-intelligence-1768931007442",
+          "type": "funding",
+          "title": "Physical Intelligence: $400M",
+          "description": "77d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-11-04",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-sanctuary-ai-1768931007442",
+          "type": "funding",
+          "title": "Sanctuary AI: $140M",
+          "description": "90d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-10-22",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-waymo-1768931007443",
+          "type": "funding",
+          "title": "Waymo: $5.6B",
+          "description": "87d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-10-25",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-figure-1768931007443",
+          "type": "funding",
+          "title": "Figure: $11.0B",
+          "description": "2d ago via pymnts.com",
+          "impact": 2,
+          "timestamp": "2026-01-18",
+          "source": "pymnts.com",
+          "url": "https://www.pymnts.com/artificial-intelligence-2/2026/elevenlabs-eyes-11-billion-valuation-for-voice-ai-firm/"
+        },
+        {
+          "id": "funding-x-square-robot-1768931007443",
+          "type": "funding",
+          "title": "X Square Robot: $140M",
+          "description": "5d ago via Antaranews.com",
+          "impact": 2,
+          "timestamp": "2026-01-15",
+          "source": "Antaranews.com",
+          "url": "https://en.antaranews.com/news/399981/x-square-robot-secures-140-million-in-series-a-funding"
+        }
+      ]
+    },
+    {
+      "id": "rni-1768931008997",
+      "timestamp": "2026-01-20T17:43:28.997Z",
+      "overall": 52,
+      "components": {
+        "indexAlpha": 81,
+        "polymarket": 6,
+        "contracts": 100,
+        "github": 1,
+        "news": 45,
+        "funding": 75,
+        "technical": 0
+      },
+      "trend": "down",
+      "confidence": 0.875,
+      "signals": [
+        {
+          "id": "anduril-dod-2026-01-20",
+          "type": "contract",
+          "title": "🔴 BREAKING: Anduril Industries $250M",
+          "description": "Department of Defense: Autonomous defense systems and AI-powered surveillance techn...",
+          "impact": 3,
+          "timestamp": "2026-01-20",
+          "source": "Breaking News",
+          "url": "https://www.defense.gov/News/"
+        },
+        {
+          "id": "funding-figure",
+          "type": "funding",
+          "title": "Figure $11.0B (2d ago, 60% decay)",
+          "description": "ElevenLabs Eyes $11 Billion Valuation for Voice AI Firm",
+          "impact": 3,
+          "timestamp": "2026-01-18",
+          "source": "Sticky Signal"
+        },
+        {
+          "id": "funding-figure",
+          "type": "funding",
+          "title": "Figure $11.0B (2d ago, 60% decay)",
+          "description": "ElevenLabs Eyes $11 Billion Valuation for Voice AI Firm",
+          "impact": 3,
+          "timestamp": "2026-01-18",
+          "source": "Sticky Signal"
+        },
+        {
+          "id": "alpha-summary-1768931008671",
+          "type": "technical",
+          "title": "Weighted Alpha: +4.20% vs historical avg",
+          "description": "1D: -0.82% | 5D: +6.23% | 20D: +9.40%",
+          "impact": 2,
+          "timestamp": "2026-01-20T17:43:28.671Z",
+          "source": "Index Alpha"
+        },
+        {
+          "id": "funding-mytra-1768931008655",
+          "type": "funding",
+          "title": "Mytra: $120M",
+          "description": "5d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2026-01-15",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-physical-intelligence-1768931008655",
+          "type": "funding",
+          "title": "Physical Intelligence: $400M",
+          "description": "77d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-11-04",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-sanctuary-ai-1768931008655",
+          "type": "funding",
+          "title": "Sanctuary AI: $140M",
+          "description": "90d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-10-22",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-waymo-1768931008655",
+          "type": "funding",
+          "title": "Waymo: $5.6B",
+          "description": "87d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-10-25",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-figure-1768931008655",
+          "type": "funding",
+          "title": "Figure: $11.0B",
+          "description": "2d ago via pymnts.com",
+          "impact": 2,
+          "timestamp": "2026-01-18",
+          "source": "pymnts.com",
+          "url": "https://www.pymnts.com/artificial-intelligence-2/2026/elevenlabs-eyes-11-billion-valuation-for-voice-ai-firm/"
+        },
+        {
+          "id": "funding-x-square-robot-1768931008655",
+          "type": "funding",
+          "title": "X Square Robot: $140M",
+          "description": "5d ago via Antaranews.com",
+          "impact": 2,
+          "timestamp": "2026-01-15",
+          "source": "Antaranews.com",
+          "url": "https://en.antaranews.com/news/399981/x-square-robot-secures-140-million-in-series-a-funding"
+        }
+      ]
+    },
+    {
+      "id": "rni-1768931023525",
+      "timestamp": "2026-01-20T17:43:43.525Z",
+      "overall": 52,
+      "components": {
+        "indexAlpha": 81,
+        "polymarket": 6,
+        "contracts": 100,
+        "github": 1,
+        "news": 45,
+        "funding": 75,
+        "technical": 0
+      },
+      "trend": "down",
+      "confidence": 0.875,
+      "signals": [
+        {
+          "id": "anduril-dod-2026-01-20",
+          "type": "contract",
+          "title": "🔴 BREAKING: Anduril Industries $250M",
+          "description": "Department of Defense: Autonomous defense systems and AI-powered surveillance techn...",
+          "impact": 3,
+          "timestamp": "2026-01-20",
+          "source": "Breaking News",
+          "url": "https://www.defense.gov/News/"
+        },
+        {
+          "id": "funding-figure",
+          "type": "funding",
+          "title": "Figure $11.0B (2d ago, 60% decay)",
+          "description": "ElevenLabs Eyes $11 Billion Valuation for Voice AI Firm",
+          "impact": 3,
+          "timestamp": "2026-01-18",
+          "source": "Sticky Signal"
+        },
+        {
+          "id": "funding-figure",
+          "type": "funding",
+          "title": "Figure $11.0B (2d ago, 60% decay)",
+          "description": "ElevenLabs Eyes $11 Billion Valuation for Voice AI Firm",
+          "impact": 3,
+          "timestamp": "2026-01-18",
+          "source": "Sticky Signal"
+        },
+        {
+          "id": "alpha-summary-1768931023137",
+          "type": "technical",
+          "title": "Weighted Alpha: +4.20% vs historical avg",
+          "description": "1D: -0.82% | 5D: +6.23% | 20D: +9.40%",
+          "impact": 2,
+          "timestamp": "2026-01-20T17:43:43.137Z",
+          "source": "Index Alpha"
+        },
+        {
+          "id": "funding-mytra-1768931023120",
+          "type": "funding",
+          "title": "Mytra: $120M",
+          "description": "5d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2026-01-15",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-physical-intelligence-1768931023120",
+          "type": "funding",
+          "title": "Physical Intelligence: $400M",
+          "description": "77d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-11-04",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-sanctuary-ai-1768931023120",
+          "type": "funding",
+          "title": "Sanctuary AI: $140M",
+          "description": "90d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-10-22",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-waymo-1768931023120",
+          "type": "funding",
+          "title": "Waymo: $5.6B",
+          "description": "87d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-10-25",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-figure-1768931023120",
+          "type": "funding",
+          "title": "Figure: $11.0B",
+          "description": "2d ago via pymnts.com",
+          "impact": 2,
+          "timestamp": "2026-01-18",
+          "source": "pymnts.com",
+          "url": "https://www.pymnts.com/artificial-intelligence-2/2026/elevenlabs-eyes-11-billion-valuation-for-voice-ai-firm/"
+        },
+        {
+          "id": "funding-x-square-robot-1768931023120",
+          "type": "funding",
+          "title": "X Square Robot: $140M",
+          "description": "5d ago via Antaranews.com",
+          "impact": 2,
+          "timestamp": "2026-01-15",
+          "source": "Antaranews.com",
+          "url": "https://en.antaranews.com/news/399981/x-square-robot-secures-140-million-in-series-a-funding"
+        }
+      ]
+    },
+    {
+      "id": "rni-1768931049313",
+      "timestamp": "2026-01-20T17:44:09.313Z",
+      "overall": 52,
+      "components": {
+        "indexAlpha": 81,
+        "polymarket": 6,
+        "contracts": 100,
+        "github": 0,
+        "news": 45,
+        "funding": 75,
+        "technical": 0
+      },
+      "trend": "down",
+      "confidence": 0.75,
+      "signals": [
+        {
+          "id": "anduril-dod-2026-01-20",
+          "type": "contract",
+          "title": "🔴 BREAKING: Anduril Industries $250M",
+          "description": "Department of Defense: Autonomous defense systems and AI-powered surveillance techn...",
+          "impact": 3,
+          "timestamp": "2026-01-20",
+          "source": "Breaking News",
+          "url": "https://www.defense.gov/News/"
+        },
+        {
+          "id": "funding-figure",
+          "type": "funding",
+          "title": "Figure $11.0B (2d ago, 60% decay)",
+          "description": "ElevenLabs Eyes $11 Billion Valuation for Voice AI Firm",
+          "impact": 3,
+          "timestamp": "2026-01-18",
+          "source": "Sticky Signal"
+        },
+        {
+          "id": "funding-figure",
+          "type": "funding",
+          "title": "Figure $11.0B (2d ago, 60% decay)",
+          "description": "ElevenLabs Eyes $11 Billion Valuation for Voice AI Firm",
+          "impact": 3,
+          "timestamp": "2026-01-18",
+          "source": "Sticky Signal"
+        },
+        {
+          "id": "alpha-summary-1768931049312",
+          "type": "technical",
+          "title": "Weighted Alpha: +4.20% vs historical avg",
+          "description": "1D: -0.82% | 5D: +6.23% | 20D: +9.40%",
+          "impact": 2,
+          "timestamp": "2026-01-20T17:44:09.312Z",
+          "source": "Index Alpha"
+        },
+        {
+          "id": "funding-mytra-1768931048487",
+          "type": "funding",
+          "title": "Mytra: $120M",
+          "description": "5d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2026-01-15",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-physical-intelligence-1768931048487",
+          "type": "funding",
+          "title": "Physical Intelligence: $400M",
+          "description": "77d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-11-04",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-sanctuary-ai-1768931048487",
+          "type": "funding",
+          "title": "Sanctuary AI: $140M",
+          "description": "90d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-10-22",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-waymo-1768931048487",
+          "type": "funding",
+          "title": "Waymo: $5.6B",
+          "description": "87d ago via Curated Database",
+          "impact": 2,
+          "timestamp": "2025-10-25",
+          "source": "Curated Database"
+        },
+        {
+          "id": "funding-figure-1768931048487",
+          "type": "funding",
+          "title": "Figure: $11.0B",
+          "description": "2d ago via pymnts.com",
+          "impact": 2,
+          "timestamp": "2026-01-18",
+          "source": "pymnts.com",
+          "url": "https://www.pymnts.com/artificial-intelligence-2/2026/elevenlabs-eyes-11-billion-valuation-for-voice-ai-firm/"
+        },
+        {
+          "id": "funding-x-square-robot-1768931048487",
+          "type": "funding",
+          "title": "X Square Robot: $140M",
+          "description": "5d ago via Antaranews.com",
+          "impact": 2,
+          "timestamp": "2026-01-15",
+          "source": "Antaranews.com",
+          "url": "https://en.antaranews.com/news/399981/x-square-robot-secures-140-million-in-series-a-funding"
+        }
+      ]
     }
   ]
 }
