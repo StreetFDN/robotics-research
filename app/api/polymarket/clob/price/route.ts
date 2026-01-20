@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import https from 'https';
+import { buildConfidenceMeta } from '@/utils/confidence';
 
 // Force Node.js runtime (not Edge) for reliable fetch
 export const runtime = 'nodejs';
@@ -266,6 +267,10 @@ export async function GET(request: NextRequest) {
     // Wrap it in our standard format
     const wrappedData = {
       price: data.price || data,
+      _meta: buildConfidenceMeta(
+        { price: data.price, tokenId, side },
+        'Polymarket CLOB API'
+      ),
     };
 
     // Cache the result

@@ -27,8 +27,17 @@ import StartupsSection from '@/components/StartupsSection';
 import GlobeControls from '@/components/GlobeControls';
 import PrivateCompaniesBootstrap from '@/components/PrivateCompaniesBootstrap';
 import CompanyDetailsPanel from '@/components/CompanyDetailsPanel';
+import PowerExplanationPanel from '@/components/PowerExplanationPanel';
+import GovernmentContractsPanel from '@/components/GovernmentContractsPanel';
+import TechnicalMomentumPanel from '@/components/TechnicalMomentumPanel';
+import EarlyWarningPanel from '@/components/EarlyWarningPanel';
+import SimilarityPanel from '@/components/SimilarityPanel';
+import GitHubIntelSection from '@/components/GitHubIntelSection';
+import NarrativeIndex from '@/components/NarrativeIndex';
+import FundingNews from '@/components/FundingNews';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import ChatAssistant from '@/components/ChatAssistant';
 
 export default function Home() {
   const { setCompanies, setEvents, privateCompanies, clearSelection, selectedPrivateCompany, hoveredPrivateCompany } = useGlobeStore();
@@ -141,16 +150,44 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Right sidebar - Company Details + Indices - fills height */}
-        <div className="w-96 flex-shrink-0 flex flex-col h-full min-h-0">
-          {/* Full-height flex container */}
-          <div className="flex-1 min-h-0 flex flex-col gap-3">
+        {/* Right sidebar - Company Details + Power Analysis + Indices - fills height */}
+        <div className="w-96 flex-shrink-0 flex flex-col h-full min-h-0 overflow-hidden">
+          {/* Scrollable container for all right sidebar content */}
+          <div className="flex-1 min-h-0 overflow-y-auto flex flex-col gap-3 pr-1">
+            {/* Narrative Index - Hero component for robotics sentiment */}
+            <div className="flex-shrink-0">
+              <NarrativeIndex />
+            </div>
+            {/* Funding News - 2025 robotics funding rounds from NewsAPI + curated */}
+            <div className="flex-shrink-0">
+              <FundingNews />
+            </div>
             {/* Company Details Panel - fixed height based on content */}
             <div className="flex-shrink-0">
               <CompanyDetailsPanel />
             </div>
-            {/* Robotics Crypto Index - grows to fill available space */}
-            <div className="flex-1 min-h-[200px]">
+            {/* Power Explanation Panel - shows when company selected */}
+            <div className="flex-shrink-0">
+              <PowerExplanationPanel />
+            </div>
+            {/* Government Contracts Panel - USASpending.gov data */}
+            <div className="flex-shrink-0">
+              <GovernmentContractsPanel />
+            </div>
+            {/* Technical Momentum Panel - GitHub activity */}
+            <div className="flex-shrink-0">
+              <TechnicalMomentumPanel />
+            </div>
+            {/* Early Warning Panel - news velocity, sentiment, headlines */}
+            <div className="flex-shrink-0">
+              <EarlyWarningPanel />
+            </div>
+            {/* Similar Entities Panel - shows when company selected */}
+            <div className="flex-shrink-0">
+              <SimilarityPanel />
+            </div>
+            {/* Robotics Crypto Index - flexible height */}
+            <div className="flex-shrink-0 min-h-[200px]">
               <RoboticsCryptoIndex />
             </div>
             {/* ETF Comparison Chart - fixed height */}
@@ -163,10 +200,14 @@ export default function Home() {
 
       {/* Startups Section - appears below main dashboard when scrolling */}
       <StartupsSection />
+      {/* GitHub Intel Section - Open source activity tracking */}
+      <GitHubIntelSection />
       {/* Single Stocks Section - appears below main dashboard when scrolling */}
       <SingleStocksSection />
       {/* Footer */}
       <Footer />
+      {/* Chat Assistant - floating button + panel */}
+      <ChatAssistant />
     </div>
   );
 }

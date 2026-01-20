@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useMemo } from 'react';
 import ProvenanceRow, { type ProvenanceStatus } from '@/components/ui/ProvenanceRow';
+import ConfidenceBadge from './ui/ConfidenceBadge';
 
 // Pinned market configuration
 const PINNED_CONFIG = {
@@ -173,6 +174,9 @@ async function fetchPriceHistory(tokenId: string, interval: string = '1d', fidel
     if (result.ok && result.data && Array.isArray(result.data)) {
       // Proxy format: {ok: true, data: [{t, p}]}
       historyData = result.data;
+    } else if (result.ok && result.data && 'history' in result.data && Array.isArray((result.data as any).history)) {
+      // New proxy format: {ok: true, data: {history: [{t, p}], _meta: {...}}}
+      historyData = (result.data as any).history;
     } else if ('history' in result && Array.isArray((result as any).history)) {
       // Direct CLOB format: {history: [{t, p}]}
       historyData = (result as any).history;
@@ -824,11 +828,14 @@ export default function PolymarketSignal() {
       </div>
 
       {/* Provenance footer */}
-      <ProvenanceRow
-        sourceLabel="Polymarket CLOB"
-        updatedAt={lastUpdateTimestamp}
-        status={provenanceStatus}
-      />
+      <div className="px-4 py-1.5 border-t border-white/[0.06] flex items-center justify-between gap-2">
+        <ProvenanceRow
+          sourceLabel="Polymarket CLOB"
+          updatedAt={lastUpdateTimestamp}
+          status={provenanceStatus}
+        />
+        <ConfidenceBadge confidence={0.78} size="sm" />
+      </div>
     </div>
   );
 }

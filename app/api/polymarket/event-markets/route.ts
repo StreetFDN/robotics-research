@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { buildConfidenceMeta } from '@/utils/confidence';
 
 // Force Node.js runtime (not Edge) for reliable fetch
 export const runtime = 'nodejs';
@@ -448,6 +449,10 @@ export async function GET(request: NextRequest) {
         slug: eventSlug,
       },
       market: marketData,
+      _meta: buildConfidenceMeta(
+        { eventId, eventTitle, eventSlug, market: marketData },
+        'Polymarket Gamma API'
+      ),
     };
 
     // Cache the result

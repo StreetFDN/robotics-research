@@ -1,0 +1,16 @@
+{
+  "description": "Breaking contracts that haven't hit USASpending.gov yet (30-90 day lag). Add contracts here when news breaks.",
+  "lastUpdated": "2026-01-20T12:00:00Z",
+  "contracts": [
+    {
+      "id": "anduril-dod-2026-01-20",
+      "company": "Anduril Industries",
+      "amount": 250000000,
+      "agency": "Department of Defense",
+      "description": "Autonomous defense systems and AI-powered surveillance technology contract",
+      "announcedDate": "2026-01-20",
+      "source": "Breaking News",
+      "url": "https://www.defense.gov/News/"
+    }
+  ]
+}

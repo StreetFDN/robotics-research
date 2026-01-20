@@ -1,0 +1,55 @@
+{
+  "signals": [
+    {
+      "id": "anduril-dod-2026-01-20",
+      "type": "contract",
+      "title": "Anduril Industries $250M",
+      "description": "Autonomous defense systems and AI-powered surveillance technology contract",
+      "baseImpact": 3,
+      "amount": 250000000,
+      "timestamp": "2026-01-20",
+      "addedAt": "2026-01-20T13:02:57.564Z"
+    },
+    {
+      "id": "funding-mytra",
+      "type": "funding",
+      "title": "Mytra $120M",
+      "description": "Series B: Warehouse automation startup with robotic picking systems",
+      "baseImpact": 2,
+      "amount": 120000000,
+      "timestamp": "2026-01-15",
+      "addedAt": "2026-01-20T13:45:40.847Z"
+    },
+    {
+      "id": "funding-figure",
+      "type": "funding",
+      "title": "Figure $11.0B",
+      "description": "ElevenLabs Eyes $11 Billion Valuation for Voice AI Firm",
+      "baseImpact": 5,
+      "amount": 11000000000,
+      "timestamp": "2026-01-18",
+      "addedAt": "2026-01-20T13:45:40.847Z"
+    },
+    {
+      "id": "funding-x-square-robot",
+      "type": "funding",
+      "title": "X Square Robot $140M",
+      "description": "X Square Robot Secures $140 Million in Series A++ Funding",
+      "baseImpact": 2,
+      "amount": 140000000,
+      "timestamp": "2026-01-15",
+      "addedAt": "2026-01-20T13:45:40.847Z"
+    },
+    {
+      "id": "funding-skild",
+      "type": "funding",
+      "title": "Skild $1.4B",
+      "description": "Robot software startup Skild AI raises $1.4B round backed by Nvidia, Jeff Bezos",
+      "baseImpact": 5,
+      "amount": 1400000000,
+      "timestamp": "2026-01-14",
+      "addedAt": "2026-01-20T13:45:40.847Z"
+    }
+  ],
+  "updatedAt": "2026-01-20T17:31:29.201Z"
+}

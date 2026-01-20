@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import https from 'https';
+import { buildConfidenceMeta } from '@/utils/confidence';
 
 // Force Node.js runtime (not Edge) for reliable fetch
 export const runtime = 'nodejs';
@@ -276,8 +277,17 @@ export async function GET(request: NextRequest) {
     // Extract the history array and wrap it
     const historyArray = data.history || (Array.isArray(data) ? data : []);
 
+    // Build result with _meta
+    const resultData = {
+      history: historyArray,
+      _meta: buildConfidenceMeta(
+        { market, interval, fidelity, historyLength: historyArray.length },
+        'Polymarket CLOB API'
+      ),
+    };
+
     // Cache the result
-    cache.set(cacheKey, { data: historyArray, timestamp: now });
+    cache.set(cacheKey, { data: resultData, timestamp: now });
 
     // Clean up old cache entries
     if (cache.size > 100) {
@@ -289,7 +299,7 @@ export async function GET(request: NextRequest) {
       }
     }
 
-    return NextResponse.json({ ok: true, data: historyArray });
+    return NextResponse.json({ ok: true, data: resultData });
   } catch (error: any) {
     console.error('[Polymarket CLOB Proxy] Fetch error:', error);
 

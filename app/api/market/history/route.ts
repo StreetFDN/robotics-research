@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { buildConfidenceMeta } from '@/utils/confidence';
 
 export const runtime = 'nodejs';
 
@@ -256,6 +257,10 @@ export async function GET(request: NextRequest) {
         changePct,
       },
       range,
+      _meta: buildConfidenceMeta(
+        { ticker, points, lastValue, changeAbs, changePct },
+        'Tiingo API'
+      ),
     };
     
     // Cache result

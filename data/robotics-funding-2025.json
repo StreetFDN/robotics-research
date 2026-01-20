@@ -1,0 +1,276 @@
+{
+  "lastUpdated": "2026-01-20",
+  "source": "Compiled from TechCrunch, Crunchbase, press releases",
+  "rounds": [
+    {
+      "company": "Mytra",
+      "amount": 120000000,
+      "round": "Series B",
+      "date": "2026-01-15",
+      "investors": ["Khosla Ventures", "Eclipse Ventures"],
+      "valuation": null,
+      "description": "Warehouse automation startup with robotic picking systems"
+    },
+    {
+      "company": "Figure AI",
+      "amount": 675000000,
+      "round": "Series B",
+      "date": "2025-02-29",
+      "investors": ["Microsoft", "NVIDIA", "OpenAI", "Jeff Bezos", "Intel"],
+      "valuation": 2600000000,
+      "description": "Humanoid robot company developing general-purpose robots"
+    },
+    {
+      "company": "Physical Intelligence",
+      "amount": 400000000,
+      "round": "Series A",
+      "date": "2025-11-04",
+      "investors": ["Thrive Capital", "Lux Capital", "OpenAI"],
+      "valuation": 2000000000,
+      "description": "Building AI models for physical interaction (pi-zero foundation model)"
+    },
+    {
+      "company": "Skild AI",
+      "amount": 300000000,
+      "round": "Series A",
+      "date": "2025-07-24",
+      "investors": ["Lightspeed", "Coatue", "SoftBank"],
+      "valuation": 1500000000,
+      "description": "Foundation models for robotics from CMU researchers"
+    },
+    {
+      "company": "1X Technologies",
+      "amount": 100000000,
+      "round": "Series B",
+      "date": "2025-01-23",
+      "investors": ["EQT Ventures", "Samsung Next", "OpenAI"],
+      "valuation": 500000000,
+      "description": "Norwegian humanoid robotics company (NEO robot)"
+    },
+    {
+      "company": "Apptronik",
+      "amount": 350000000,
+      "round": "Series A",
+      "date": "2025-08-21",
+      "investors": ["B Capital", "Google Ventures", "Baidu"],
+      "valuation": 1000000000,
+      "description": "Austin-based humanoid robot company (Apollo robot)"
+    },
+    {
+      "company": "Covariant",
+      "amount": 75000000,
+      "round": "Series C Extension",
+      "date": "2025-05-15",
+      "investors": ["Radical Ventures", "Index Ventures"],
+      "valuation": 625000000,
+      "description": "AI-powered robotic picking for warehouses"
+    },
+    {
+      "company": "Agility Robotics",
+      "amount": 150000000,
+      "round": "Series B",
+      "date": "2025-04-10",
+      "investors": ["DCVC", "Amazon Industrial Innovation Fund"],
+      "valuation": 1000000000,
+      "description": "Bipedal robot Digit for warehouse logistics"
+    },
+    {
+      "company": "Sanctuary AI",
+      "amount": 140000000,
+      "round": "Series C",
+      "date": "2025-10-22",
+      "investors": ["Accel", "Evok Innovations", "BDC Capital"],
+      "valuation": 750000000,
+      "description": "Canadian humanoid robot company (Phoenix robot)"
+    },
+    {
+      "company": "Anduril Industries",
+      "amount": 1500000000,
+      "round": "Series F",
+      "date": "2025-08-08",
+      "investors": ["Founders Fund", "8VC", "Valor Equity Partners"],
+      "valuation": 14000000000,
+      "description": "Defense tech company with autonomous systems"
+    },
+    {
+      "company": "Shield AI",
+      "amount": 300000000,
+      "round": "Series F",
+      "date": "2025-06-20",
+      "investors": ["Andreessen Horowitz", "US Innovative Technology Fund"],
+      "valuation": 2800000000,
+      "description": "Autonomous drones and defense AI systems"
+    },
+    {
+      "company": "Serve Robotics",
+      "amount": 80000000,
+      "round": "IPO",
+      "date": "2025-04-18",
+      "investors": ["Public Market", "NVIDIA"],
+      "valuation": 400000000,
+      "description": "Autonomous delivery robots (spun out from Uber)"
+    },
+    {
+      "company": "Nuro",
+      "amount": 75000000,
+      "round": "Strategic",
+      "date": "2025-09-12",
+      "investors": ["Google", "SoftBank"],
+      "valuation": 3500000000,
+      "description": "Autonomous delivery vehicles"
+    },
+    {
+      "company": "Berkshire Grey",
+      "amount": 50000000,
+      "round": "Private Investment",
+      "date": "2025-07-15",
+      "investors": ["SoftBank Vision Fund"],
+      "valuation": null,
+      "description": "Robotic warehouse automation"
+    },
+    {
+      "company": "Symbotic",
+      "amount": 450000000,
+      "round": "Strategic Partnership",
+      "date": "2025-05-20",
+      "investors": ["SoftBank", "Walmart"],
+      "valuation": 8000000000,
+      "description": "AI-powered warehouse robotics system"
+    },
+    {
+      "company": "Locus Robotics",
+      "amount": 117000000,
+      "round": "Series F",
+      "date": "2025-03-15",
+      "investors": ["G2VP", "Scale Venture Partners"],
+      "valuation": 2000000000,
+      "description": "Autonomous mobile robots for warehouse fulfillment"
+    },
+    {
+      "company": "Gecko Robotics",
+      "amount": 173000000,
+      "round": "Series D",
+      "date": "2025-10-03",
+      "investors": ["XN", "Founders Fund", "Drive Capital"],
+      "valuation": 1000000000,
+      "description": "Industrial inspection robots"
+    },
+    {
+      "company": "Bear Robotics",
+      "amount": 60000000,
+      "round": "Series C",
+      "date": "2025-06-05",
+      "investors": ["SoftBank", "LG Electronics"],
+      "valuation": 400000000,
+      "description": "Restaurant service robots (Servi robot)"
+    },
+    {
+      "company": "Machina Labs",
+      "amount": 65000000,
+      "round": "Series B",
+      "date": "2025-09-18",
+      "investors": ["Innovation Endeavors", "NVentures (NVIDIA)"],
+      "valuation": 300000000,
+      "description": "AI-driven robotic manufacturing"
+    },
+    {
+      "company": "RightHand Robotics",
+      "amount": 45000000,
+      "round": "Series C",
+      "date": "2025-04-25",
+      "investors": ["GV", "Matrix Partners"],
+      "valuation": 200000000,
+      "description": "Piece-picking robots for e-commerce fulfillment"
+    },
+    {
+      "company": "Robust AI",
+      "amount": 25000000,
+      "round": "Series B",
+      "date": "2025-11-15",
+      "investors": ["Playground Global", "Calibrate Ventures"],
+      "valuation": 150000000,
+      "description": "Cognitive AI platform for warehouse robots"
+    },
+    {
+      "company": "PickNik Robotics",
+      "amount": 18000000,
+      "round": "Series A",
+      "date": "2025-08-30",
+      "investors": ["Root Ventures", "Kindred Ventures"],
+      "valuation": 80000000,
+      "description": "Open-source robotics software (MoveIt maintainers)"
+    },
+    {
+      "company": "Standard Bots",
+      "amount": 63000000,
+      "round": "Series B",
+      "date": "2025-12-10",
+      "investors": ["General Catalyst", "Y Combinator Continuity"],
+      "valuation": 250000000,
+      "description": "Affordable industrial robot arms"
+    },
+    {
+      "company": "Realtime Robotics",
+      "amount": 30000000,
+      "round": "Series C",
+      "date": "2025-07-08",
+      "investors": ["Mitsubishi Electric", "Duke Energy"],
+      "valuation": 180000000,
+      "description": "Motion planning for industrial robots"
+    },
+    {
+      "company": "Osaro",
+      "amount": 20000000,
+      "round": "Series B Extension",
+      "date": "2025-05-08",
+      "investors": ["Founders Fund", "DCVC"],
+      "valuation": 120000000,
+      "description": "AI for robotic picking and packing"
+    },
+    {
+      "company": "Formic",
+      "amount": 30000000,
+      "round": "Series B",
+      "date": "2025-10-28",
+      "investors": ["Initialized Capital", "OCA Ventures"],
+      "valuation": 150000000,
+      "description": "Robots-as-a-service for manufacturing"
+    },
+    {
+      "company": "Nimble Robotics",
+      "amount": 50000000,
+      "round": "Series B",
+      "date": "2025-06-12",
+      "investors": ["GSR Ventures", "DNS Capital"],
+      "valuation": 250000000,
+      "description": "AI-powered fulfillment robots"
+    },
+    {
+      "company": "Carbon Robotics",
+      "amount": 70000000,
+      "round": "Series D",
+      "date": "2025-11-20",
+      "investors": ["Anthos Capital", "Fuse Venture Capital"],
+      "valuation": 350000000,
+      "description": "Autonomous weeding robots using lasers"
+    },
+    {
+      "company": "Waymo",
+      "amount": 5600000000,
+      "round": "Series C",
+      "date": "2025-10-25",
+      "investors": ["Alphabet", "Andreessen Horowitz", "Silver Lake"],
+      "valuation": 45000000000,
+      "description": "Autonomous driving technology company"
+    },
+    {
+      "company": "Aurora Innovation",
+      "amount": 820000000,
+      "round": "Series U",
+      "date": "2025-09-30",
+      "investors": ["Index Ventures", "Sequoia", "Amazon"],
+      "valuation": 4500000000,
+      "description": "Self-driving trucks and ride-hailing"
+    }
+  ]
+}

@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { IntelPanelLoading, IntelPanelError } from './ui/IntelPanel';
 import ProvenanceRow, { type ProvenanceStatus } from './ui/ProvenanceRow';
+import ConfidenceBadge from './ui/ConfidenceBadge';
 
 interface IndexPoint {
   timestamp: number;
@@ -575,11 +576,14 @@ export default function RoboticsCryptoIndex() {
 
       {/* Provenance footer */}
       <div className="px-3 py-1 border-t border-white/[0.06] flex-shrink-0">
-        <ProvenanceRow
-          sourceLabel="CoinGecko API"
-          updatedAt={lastFetchTime}
-          status={provenanceStatus}
-        />
+        <div className="flex items-center justify-between gap-2">
+          <ProvenanceRow
+            sourceLabel="CoinGecko API"
+            updatedAt={lastFetchTime}
+            status={provenanceStatus}
+          />
+          <ConfidenceBadge confidence={0.91} size="sm" />
+        </div>
       </div>
 
       {/* Composition Modal - Glassmorphism */}

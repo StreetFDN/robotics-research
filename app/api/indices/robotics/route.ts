@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import YahooFinance from 'yahoo-finance2';
+import { buildConfidenceMeta } from '@/utils/confidence';
 
 export const runtime = 'nodejs';
 
@@ -326,6 +327,10 @@ export async function GET(request: NextRequest) {
       })),
       baseValue: INDEX_BASE_VALUE,
       range,
+      _meta: buildConfidenceMeta(
+        { indexLevels, weights, latestValue, dayChange, dayChangePercent, constituents: INDEX_TICKERS, marketCaps, currentPrices },
+        'Yahoo Finance API'
+      ),
     };
     
     // Cache result

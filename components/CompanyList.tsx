@@ -13,6 +13,8 @@ export default function CompanyList() {
     filteredCompanies,
     selectedCompany,
     setSelectedCompany,
+    selectedPrivateCompany,
+    setSelectedPrivateCompany,
     searchQuery,
     setSearchQuery,
     selectedTags,
@@ -68,6 +70,17 @@ export default function CompanyList() {
       setSelectedTags(selectedTags.filter((t) => t !== tag));
     } else {
       setSelectedTags([...selectedTags, tag]);
+    }
+  };
+
+  // Handle company click - detect if private company and set appropriate state
+  const handleCompanyClick = (company: Company) => {
+    // Check if this company is a private company by ID
+    const privateCompany = privateCompanies.find((pc) => pc.id === company.id);
+    if (privateCompany) {
+      setSelectedPrivateCompany(privateCompany);
+    } else {
+      setSelectedCompany(company);
     }
   };
 
@@ -130,8 +143,8 @@ export default function CompanyList() {
             <CompanyListItem
               key={company.id}
               company={company}
-              isSelected={selectedCompany?.id === company.id}
-              onClick={() => setSelectedCompany(company)}
+              isSelected={selectedCompany?.id === company.id || selectedPrivateCompany?.id === company.id}
+              onClick={() => handleCompanyClick(company)}
               ref={(el) => {
                 if (el) itemRefs.current.set(company.id, el);
                 else itemRefs.current.delete(company.id);

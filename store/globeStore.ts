@@ -13,6 +13,13 @@ interface EventFilter {
   regionId?: string;
 }
 
+interface CompanyFilter {
+  tags?: string[];
+  field?: string;
+  operator?: string;
+  value?: unknown;
+}
+
 interface GlobeStore extends GlobeState {
   companies: Company[];
   events: Event[];
@@ -21,6 +28,7 @@ interface GlobeStore extends GlobeState {
   selectedTags: string[];
   heatmapFocus: HeatmapFocus | null;
   eventFilter: EventFilter | null;
+  companyFilter: CompanyFilter | null;
   privateCompanies: PrivateCompany[];
   selectedCompanyId: string | null;
   hoveredPrivateCompany: PrivateCompany | null;
@@ -34,6 +42,7 @@ interface GlobeStore extends GlobeState {
   setSelectedTags: (tags: string[]) => void;
   setHeatmapFocus: (focus: HeatmapFocus | null) => void;
   setEventFilter: (filter: EventFilter | null) => void;
+  setCompanyFilter: (filter: CompanyFilter | null) => void;
   setPrivateCompanies: (companies: PrivateCompany[]) => void;
   setSelectedCompanyId: (id: string | null) => void;
   setHoveredPrivateCompany: (company: PrivateCompany | null) => void;
@@ -52,7 +61,7 @@ export const useGlobeStore = create<GlobeStore>((set, get) => ({
   filteredCompanies: [],
   selectedCompany: null,
   selectedEvent: null,
-  rotationSpeed: 0.2,
+  rotationSpeed: 5.0, // Slow smooth spin when idle
   showGrid: true,
   showArcs: true,
   showNodes: true,
@@ -60,6 +69,7 @@ export const useGlobeStore = create<GlobeStore>((set, get) => ({
   selectedTags: [],
   heatmapFocus: null,
   eventFilter: null,
+  companyFilter: null,
   privateCompanies: [],
   selectedCompanyId: null,
   hoveredPrivateCompany: null,
@@ -98,6 +108,15 @@ export const useGlobeStore = create<GlobeStore>((set, get) => ({
 
   setEventFilter: (filter) => {
     set({ eventFilter: filter });
+  },
+
+  setCompanyFilter: (filter) => {
+    set({ companyFilter: filter });
+    // Also update selectedTags if tags are in the filter
+    if (filter?.tags) {
+      set({ selectedTags: filter.tags });
+      get().updateFilteredCompanies();
+    }
   },
 
   setPrivateCompanies: (companies) => {

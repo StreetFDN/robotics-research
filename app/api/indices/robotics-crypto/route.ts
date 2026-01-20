@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import https from 'https';
+import { buildConfidenceMeta } from '@/utils/confidence';
 
 // Force Node.js runtime (not Edge) for reliable fetch
 export const runtime = 'nodejs';
@@ -628,6 +629,10 @@ export async function GET(request: NextRequest) {
           change24h: marketInfo?.price_change_percentage_24h || 0,
         };
       }),
+      _meta: buildConfidenceMeta(
+        { indexPoints, weights, currentValue, tokens: ROBOTICS_TOKENS, marketsData: tokensWithData },
+        'CoinGecko API'
+      ),
     };
     
     // Cache the result

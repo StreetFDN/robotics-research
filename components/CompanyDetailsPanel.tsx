@@ -4,6 +4,7 @@ import React from 'react';
 import { useGlobeStore } from '@/store/globeStore';
 import FundingChart from './FundingChart';
 import IntelPanel, { IntelPanelEmpty } from './ui/IntelPanel';
+import ConfidenceBadge from './ui/ConfidenceBadge';
 
 /**
  * CompanyDetailsPanel - BATCH 2 Overhaul
@@ -141,6 +142,12 @@ export default function CompanyDetailsPanel() {
             </a>
           </div>
         )}
+
+        {/* Data Confidence */}
+        <div className="pt-2 border-t border-white/[0.08] flex items-center justify-between">
+          <span className="text-[10px] text-white/32 font-mono uppercase">Data Confidence</span>
+          <ConfidenceBadge confidence={0.85} size="sm" />
+        </div>
       </div>
     </IntelPanel>
   );

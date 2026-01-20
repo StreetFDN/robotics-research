@@ -1,10 +1,33 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import { useGlobeStore } from '@/store/globeStore';
 import type { PrivateCompany } from '@/types/companies';
 import type { FundingRoundData } from '@/types/funding';
 import { Event } from '@/types';
+
+interface NewsArticle {
+  id: string;
+  title: string;
+  description: string | null;
+  source: string;
+  publishedAt: string;
+  url: string;
+  type: string;
+}
+
+function formatTimeAgo(date: Date): string {
+  const now = new Date();
+  const diffMs = now.getTime() - date.getTime();
+  const diffMins = Math.floor(diffMs / (1000 * 60));
+  const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
+  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+  if (diffMins < 60) return `${diffMins}m ago`;
+  if (diffHours < 24) return `${diffHours}h ago`;
+  if (diffDays < 7) return `${diffDays}d ago`;
+  return date.toLocaleDateString();
+}
 
 interface ValuationPoint {
   timestamp: number;
@@ -234,36 +257,42 @@ export default function StartupsSection() {
   }, [valuationHistory]);
 
   return (
-    <section className="w-full px-6 py-8 border-t border-white/10 glass-subtle">
-      <div className="mb-6">
-        <h2 className="text-subheadline font-semibold text-white mb-1">Startups</h2>
-        <div className="text-caption text-gray-500">Private robotics companies tracking</div>
+    <section className="w-full px-6 py-6 border-t border-white/[0.08] bg-[#08090C]">
+      {/* Section Header */}
+      <div className="mb-5 flex items-baseline justify-between">
+        <div>
+          <h2 className="text-[11px] font-medium text-white/48 uppercase tracking-[0.1em] mb-1">PRIVATE MARKET INTELLIGENCE</h2>
+          <div className="text-[13px] font-medium text-white">Robotics Startup Tracking</div>
+        </div>
+        <div className="text-[9px] font-mono text-white/24">{privateCompanies.length} ENTITIES</div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
-        {/* Cumulative Valuation Tracker */}
-        <div className="glass rounded-lg p-6">
-          <div className="text-label text-gray-500 mb-3">Cumulative Valuation</div>
-          <div className="text-headline font-bold text-white tabular-nums mb-1">
+      {/* Stats Grid */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 mb-5">
+        {/* Cumulative Valuation */}
+        <div className="bg-black/40 backdrop-blur-xl border border-white/[0.08] rounded-sm p-4">
+          <div className="text-[9px] font-mono text-white/32 uppercase tracking-wider mb-2">CUMULATIVE VALUATION</div>
+          <div className="text-[24px] font-mono font-medium text-[#00FFE0] leading-none mb-1">
             {formatValuation(currentValuation)}
           </div>
-          <div className="text-caption text-gray-400">
+          <div className="text-[10px] font-mono text-white/40">
             {privateCompanies.length} companies tracked
           </div>
         </div>
 
-        {/* Additional stats can go here */}
-        <div className="glass rounded-lg p-6">
-          <div className="text-label text-gray-500 mb-3">Total Rounds</div>
-          <div className="text-headline font-bold text-white tabular-nums mb-1">
+        {/* Total Rounds */}
+        <div className="bg-black/40 backdrop-blur-xl border border-white/[0.08] rounded-sm p-4">
+          <div className="text-[9px] font-mono text-white/32 uppercase tracking-wider mb-2">TOTAL ROUNDS</div>
+          <div className="text-[24px] font-mono font-medium text-white leading-none mb-1">
             {privateCompanies.reduce((sum, c) => sum + (c.fundingRounds?.length || 0), 0)}
           </div>
-          <div className="text-caption text-gray-400">Funding rounds recorded</div>
+          <div className="text-[10px] font-mono text-white/40">Funding rounds recorded</div>
         </div>
 
-        <div className="glass rounded-lg p-6">
-          <div className="text-label text-gray-500 mb-3">Avg Valuation</div>
-          <div className="text-headline font-bold text-white tabular-nums mb-1">
+        {/* Avg Valuation */}
+        <div className="bg-black/40 backdrop-blur-xl border border-white/[0.08] rounded-sm p-4">
+          <div className="text-[9px] font-mono text-white/32 uppercase tracking-wider mb-2">AVG VALUATION</div>
+          <div className="text-[24px] font-mono font-medium text-white leading-none mb-1">
             {formatValuation(
               currentValuation /
                 Math.max(
@@ -272,14 +301,14 @@ export default function StartupsSection() {
                 )
             )}
           </div>
-          <div className="text-caption text-gray-400">Per company</div>
+          <div className="text-[10px] font-mono text-white/40">Per company</div>
         </div>
       </div>
 
       {/* Cumulative Valuation Chart */}
       {chartData && (
-        <div className="glass rounded-lg p-6 mb-6">
-          <div className="text-label text-gray-500 mb-4">Cumulative Valuation History</div>
+        <div className="bg-black/40 backdrop-blur-xl border border-white/[0.08] rounded-sm p-4 mb-5">
+          <div className="text-[9px] font-mono text-white/32 uppercase tracking-wider mb-3">CUMULATIVE VALUATION HISTORY</div>
           <div className="overflow-x-auto">
             <svg width={chartData.width} height={chartData.height}>
               {/* Grid lines */}
@@ -290,9 +319,8 @@ export default function StartupsSection() {
                   y1={tick.y}
                   x2={chartData.margins.left + chartData.innerW}
                   y2={tick.y}
-                  stroke="#2A3A4A"
-                  strokeWidth="0.5"
-                  opacity="0.5"
+                  stroke="rgba(255,255,255,0.04)"
+                  strokeWidth="1"
                 />
               ))}
 
@@ -301,8 +329,8 @@ export default function StartupsSection() {
                 <path
                   d={chartData.pathData}
                   fill="none"
-                  stroke="#00D9FF"
-                  strokeWidth="2"
+                  stroke="#00FFE0"
+                  strokeWidth="1.5"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 />
@@ -314,9 +342,9 @@ export default function StartupsSection() {
                   key={i}
                   cx={point.x}
                   cy={point.y}
-                  r="3"
-                  fill="#00D9FF"
-                  stroke="#1f2937"
+                  r="2.5"
+                  fill="#00FFE0"
+                  stroke="#08090C"
                   strokeWidth="1"
                 />
               ))}
@@ -327,10 +355,10 @@ export default function StartupsSection() {
                   key={`y-label-${i}`}
                   x={chartData.margins.left - 10}
                   y={tick.y + 3}
-                  fill="#9CA3AF"
-                  fontSize="10"
+                  fill="rgba(255,255,255,0.32)"
+                  fontSize="9"
                   textAnchor="end"
-                  className="font-mono"
+                  fontFamily="monospace"
                 >
                   {tick.label}
                 </text>
@@ -342,8 +370,8 @@ export default function StartupsSection() {
                   key={`x-label-${i}`}
                   x={label.x}
                   y={chartData.height - 10}
-                  fill="#9CA3AF"
-                  fontSize="10"
+                  fill="rgba(255,255,255,0.32)"
+                  fontSize="9"
                   textAnchor={
                     i === 0
                       ? 'start'
@@ -351,7 +379,7 @@ export default function StartupsSection() {
                         ? 'end'
                         : 'middle'
                   }
-                  className="font-mono"
+                  fontFamily="monospace"
                 >
                   {label.time}
                 </text>
@@ -361,14 +389,21 @@ export default function StartupsSection() {
         </div>
       )}
 
-      {/* Newsflow Section (rebuild EventStream) */}
-      <div className="glass rounded-lg overflow-hidden">
+      {/* Newsflow Section */}
+      <div className="bg-black/40 backdrop-blur-xl border border-white/[0.08] rounded-sm overflow-hidden">
         <div className="flex flex-col h-full">
-          <div className="p-4 border-b border-white/10">
-            <h2 className="text-subheadline font-semibold text-white">Newsflow</h2>
-            <div className="text-caption text-gray-500 mt-1">Latest robotics industry events</div>
+          <div className="px-4 py-3 border-b border-white/[0.06] bg-white/[0.02]">
+            <div className="flex items-center justify-between">
+              <div>
+                <h2 className="text-[11px] font-mono text-white/72 uppercase tracking-wider">EVENT STREAM</h2>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 bg-[#00FF88] rounded-full animate-pulse" />
+                <span className="text-[9px] font-mono text-white/40">LIVE</span>
+              </div>
+            </div>
           </div>
-          <div className="flex-1 overflow-y-auto" style={{ maxHeight: '400px' }}>
+          <div className="flex-1 overflow-y-auto" style={{ maxHeight: '300px' }}>
             <EventStreamContent />
           </div>
         </div>
@@ -377,89 +412,110 @@ export default function StartupsSection() {
   );
 }
 
-// EventStream content component (extracted from EventStream for reuse)
+// EventStream content component with live NewsAPI integration
 function EventStreamContent() {
-  const { events, selectedCompany, selectedEvent, setSelectedEvent, eventFilter } = useGlobeStore();
+  const [newsArticles, setNewsArticles] = useState<NewsArticle[]>([]);
+  const [newsLoading, setNewsLoading] = useState(true);
+  const [newsError, setNewsError] = useState<string | null>(null);
 
-  const filteredEvents = useMemo(() => {
-    let filtered = events;
-    
-    if (selectedCompany) {
-      filtered = filtered.filter((e) => e.company_id === selectedCompany.id);
-    }
-    
-    if (eventFilter) {
-      if (eventFilter.companyId) {
-        filtered = filtered.filter((e) => e.company_id === eventFilter.companyId);
+  // Fetch robotics news on mount
+  useEffect(() => {
+    async function fetchNews() {
+      try {
+        setNewsLoading(true);
+        const response = await fetch('/api/news/robotics?days=7&limit=20');
+        const data = await response.json();
+
+        if (data.ok && data.data?.articles) {
+          setNewsArticles(data.data.articles);
+          setNewsError(null);
+        } else {
+          setNewsError(data.error || 'Failed to fetch news');
+        }
+      } catch (err) {
+        console.error('[EventStream] News fetch error:', err);
+        setNewsError('Failed to fetch news');
+      } finally {
+        setNewsLoading(false);
       }
-      if (eventFilter.eventId) {
-        filtered = filtered.filter((e) => e.id === eventFilter.eventId);
-      }
     }
-    
-    return filtered;
-  }, [events, selectedCompany, eventFilter]);
 
-  const sortedEvents = [...filteredEvents].sort(
-    (a, b) => b.timestamp.getTime() - a.timestamp.getTime()
-  );
+    fetchNews();
+    // Refresh every 5 minutes
+    const interval = setInterval(fetchNews, 5 * 60 * 1000);
+    return () => clearInterval(interval);
+  }, []);
 
-  const typeColors = {
-    funding: 'bg-accent/20 text-accent',
-    product: 'bg-teal/20 text-teal',
-    partnership: 'bg-amber/20 text-amber',
-    hiring: 'bg-white/20 text-white',
-    research: 'bg-accent/20 text-accent',
-    patent: 'bg-gray-600/20 text-gray-400',
-    other: 'bg-gray-700/20 text-gray-500',
+  const typeColors: Record<string, string> = {
+    funding: 'bg-[#00FFE0]/10 text-[#00FFE0] border-[#00FFE0]/20',
+    product: 'bg-[#00FF88]/10 text-[#00FF88] border-[#00FF88]/20',
+    partnership: 'bg-[#FFB800]/10 text-[#FFB800] border-[#FFB800]/20',
+    acquisition: 'bg-[#FF6B6B]/10 text-[#FF6B6B] border-[#FF6B6B]/20',
+    hiring: 'bg-white/10 text-white/72 border-white/20',
+    research: 'bg-[#00FFE0]/10 text-[#00FFE0] border-[#00FFE0]/20',
+    patent: 'bg-white/5 text-white/48 border-white/10',
+    news: 'bg-[#8B5CF6]/10 text-[#8B5CF6] border-[#8B5CF6]/20',
+    other: 'bg-white/5 text-white/32 border-white/10',
   };
 
+  if (newsLoading) {
+    return (
+      <div className="p-4 flex items-center justify-center">
+        <div className="w-4 h-4 border border-[#00FFE0]/50 border-t-[#00FFE0] rounded-full animate-spin" />
+        <span className="ml-2 text-[10px] font-mono text-white/32">Loading news...</span>
+      </div>
+    );
+  }
+
+  if (newsError || newsArticles.length === 0) {
+    return (
+      <div className="p-4 text-[11px] font-mono text-white/32">
+        {newsError || 'No news found'}
+      </div>
+    );
+  }
+
   return (
-    <>
-      {sortedEvents.length === 0 ? (
-        <div className="p-4 text-gray-500 text-body">No events found</div>
-      ) : (
-        <div className="divide-y divide-white/10">
-          {sortedEvents.map((event) => (
-            <div
-              key={event.id}
-              onClick={() => setSelectedEvent(event)}
-              className={`p-4 cursor-pointer transition-all hover:glass-subtle ${
-                selectedEvent?.id === event.id ? 'glass' : ''
-              }`}
-            >
-              <div className="flex items-start justify-between mb-2">
-                <div className="flex items-center gap-2">
-                  <span
-                    className={`text-caption px-2 py-1 rounded ${typeColors[event.type]}`}
-                  >
-                    {event.type}
-                  </span>
-                </div>
-                <span className="text-caption text-gray-600 font-mono">
-                  {event.timestamp.toLocaleDateString()}
+    <div className="divide-y divide-white/[0.06]">
+      {newsArticles.map((article) => {
+        const publishedDate = new Date(article.publishedAt);
+        return (
+          <a
+            key={article.id}
+            href={article.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block px-4 py-3 cursor-pointer transition-all hover:bg-white/[0.02]"
+          >
+            <div className="flex items-start justify-between mb-1.5">
+              <div className="flex items-center gap-1.5">
+                <span
+                  className={`text-[9px] font-mono uppercase px-1.5 py-0.5 rounded-sm border ${typeColors[article.type] || typeColors.news}`}
+                >
+                  {article.type}
+                </span>
+                <span className="text-[9px] text-white/32 font-mono">
+                  {article.source}
                 </span>
               </div>
-              <h3 className="text-body font-medium text-white mb-1">{event.title}</h3>
-              {event.description && (
-                <p className="text-caption text-gray-400 mb-2">{event.description}</p>
-              )}
-              {event.source_url && (
-                <a
-                  href={event.source_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-caption text-accent hover:underline"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  Source →
-                </a>
-              )}
+              <span className="text-[9px] text-white/24 font-mono">
+                {formatTimeAgo(publishedDate)}
+              </span>
             </div>
-          ))}
-        </div>
-      )}
-    </>
+            <h3 className="text-[12px] font-medium text-white/88 mb-1 leading-snug line-clamp-2">{article.title}</h3>
+            {article.description && (
+              <p className="text-[10px] text-white/48 mb-1.5 line-clamp-2">{article.description}</p>
+            )}
+            <div className="flex items-center gap-1 text-[9px] font-mono text-[#00FFE0]/72">
+              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+              READ MORE
+            </div>
+          </a>
+        );
+      })}
+    </div>
   );
 }
 
