@@ -58,7 +58,7 @@
       "baseImpact": 4,
       "amount": 400000000,
       "timestamp": "2025-11-04",
-      "addedAt": "2026-01-20T17:44:08.474Z"
+      "addedAt": "2026-01-20T17:49:02.620Z"
     },
     {
       "id": "funding-sanctuary-ai",
@@ -68,7 +68,7 @@
       "baseImpact": 2,
       "amount": 140000000,
       "timestamp": "2025-10-22",
-      "addedAt": "2026-01-20T17:44:08.474Z"
+      "addedAt": "2026-01-20T17:49:02.620Z"
     },
     {
       "id": "funding-waymo",
@@ -78,8 +78,8 @@
       "baseImpact": 5,
       "amount": 5600000000,
       "timestamp": "2025-10-25",
-      "addedAt": "2026-01-20T17:44:08.474Z"
+      "addedAt": "2026-01-20T17:49:02.620Z"
     }
   ],
-  "updatedAt": "2026-01-20T17:44:08.487Z"
+  "updatedAt": "2026-01-20T17:49:02.622Z"
 }

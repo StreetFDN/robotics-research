@@ -38,7 +38,6 @@ import FundingNews from '@/components/FundingNews';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ChatAssistant, { ChatAssistantRef } from '@/components/ChatAssistant';
-import CTAButtons from '@/components/CTAButtons';
 
 export default function Home() {
   const { setCompanies, setEvents, privateCompanies, clearSelection, selectedPrivateCompany, hoveredPrivateCompany } = useGlobeStore();
@@ -206,11 +205,9 @@ export default function Home() {
       <GitHubIntelSection />
       {/* Single Stocks Section - appears below main dashboard when scrolling */}
       <SingleStocksSection />
-      {/* Footer */}
-      <Footer />
-      {/* CTA Buttons - Cluely style */}
-      <CTAButtons onOpenChat={() => chatRef.current?.open()} />
-      {/* Chat Assistant - floating button + panel */}
+      {/* Footer with CTA buttons */}
+      <Footer onOpenChat={() => chatRef.current?.open()} />
+      {/* Chat Assistant - panel only, button in footer */}
       <ChatAssistant ref={chatRef} />
     </div>
   );

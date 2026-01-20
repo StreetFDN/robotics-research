@@ -128,42 +128,33 @@ const ChatAssistant = forwardRef<ChatAssistantRef>((_, ref) => {
 
   return (
     <>
-      {/* Floating Chat Button */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className={`fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 ${
-          isOpen
-            ? 'bg-white/10 border border-white/20 rotate-0'
-            : 'bg-[#00FFE0] hover:bg-[#00FFE0]/90 hover:scale-105'
-        }`}
-        title={isOpen ? 'Close chat' : 'Ask about robotics'}
-      >
-        {isOpen ? (
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-white">
-            <path d="M18 6L6 18M6 6l12 12" />
-          </svg>
-        ) : (
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-black">
-            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" fill="currentColor" />
-          </svg>
-        )}
-      </button>
-
       {/* Chat Panel */}
       <div
-        className={`fixed bottom-24 right-6 z-40 w-96 max-h-[600px] bg-[#0A0B0F] border border-white/10 rounded-lg shadow-2xl flex flex-col overflow-hidden transition-all duration-300 ${
+        className={`fixed bottom-14 right-6 z-40 w-96 max-h-[600px] bg-[#0A0B0F] border border-white/10 rounded-lg shadow-2xl flex flex-col overflow-hidden transition-all duration-300 ${
           isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'
         }`}
       >
         {/* Header */}
-        <div className="px-4 py-3 border-b border-white/10 bg-white/[0.02] flex items-center gap-3">
-          <div className="w-8 h-8 rounded-full bg-[#00FFE0]/20 flex items-center justify-center">
-            <span className="text-[#00FFE0] text-sm">AI</span>
+        <div className="px-4 py-3 border-b border-white/10 bg-white/[0.02] flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 rounded-full bg-[#10a37f]/20 flex items-center justify-center">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#10a37f">
+                <path d="M22.282 9.821a5.985 5.985 0 0 0-.516-4.91 6.046 6.046 0 0 0-6.51-2.9A6.065 6.065 0 0 0 4.981 4.18a5.985 5.985 0 0 0-3.998 2.9 6.046 6.046 0 0 0 .743 7.097 5.98 5.98 0 0 0 .51 4.911 6.051 6.051 0 0 0 6.515 2.9A5.985 5.985 0 0 0 13.26 24a6.056 6.056 0 0 0 5.772-4.206 5.99 5.99 0 0 0 3.997-2.9 6.056 6.056 0 0 0-.747-7.073zM13.26 22.43a4.476 4.476 0 0 1-2.876-1.04l.141-.081 4.779-2.758a.795.795 0 0 0 .392-.681v-6.737l2.02 1.168a.071.071 0 0 1 .038.052v5.583a4.504 4.504 0 0 1-4.494 4.494zM3.6 18.304a4.47 4.47 0 0 1-.535-3.014l.142.085 4.783 2.759a.771.771 0 0 0 .78 0l5.843-3.369v2.332a.08.08 0 0 1-.033.062L9.74 19.95a4.5 4.5 0 0 1-6.14-1.646zM2.34 7.896a4.485 4.485 0 0 1 2.366-1.973V11.6a.766.766 0 0 0 .388.676l5.815 3.355-2.02 1.168a.076.076 0 0 1-.071 0l-4.83-2.786A4.504 4.504 0 0 1 2.34 7.872zm16.597 3.855l-5.833-3.387L15.119 7.2a.076.076 0 0 1 .071 0l4.83 2.791a4.494 4.494 0 0 1-.676 8.105v-5.678a.79.79 0 0 0-.407-.667zm2.01-3.023l-.141-.085-4.774-2.782a.776.776 0 0 0-.785 0L9.409 9.23V6.897a.066.066 0 0 1 .028-.061l4.83-2.787a4.5 4.5 0 0 1 6.68 4.66zm-12.64 4.135l-2.02-1.164a.08.08 0 0 1-.038-.057V6.075a4.5 4.5 0 0 1 7.375-3.453l-.142.08-4.778 2.758a.795.795 0 0 0-.393.681zm1.097-2.365l2.602-1.5 2.607 1.5v2.999l-2.597 1.5-2.607-1.5z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 className="text-sm font-medium text-white">Robotics Terminal</h3>
+              <p className="text-[10px] text-white/40">Powered by GPT-4</p>
+            </div>
           </div>
-          <div>
-            <h3 className="text-sm font-medium text-white">Robotics Assistant</h3>
-            <p className="text-[10px] text-white/40">Powered by GPT-4</p>
-          </div>
+          <button
+            onClick={() => setIsOpen(false)}
+            className="w-6 h-6 flex items-center justify-center rounded hover:bg-white/10 transition-colors"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-white/60">
+              <path d="M18 6L6 18M6 6l12 12" />
+            </svg>
+          </button>
         </div>
 
         {/* Messages */}
