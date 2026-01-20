@@ -22,10 +22,10 @@ export default function Footer({ onOpenChat }: FooterProps) {
           <div className="flex items-center gap-3">
             {/* Telegram Button */}
             <a
-              href="https://t.me/roboticsindex"
+              href="https://t.me/roboticsstreet_bot"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 px-3 py-1 rounded-full text-[10px] font-medium text-white transition-all hover:scale-105"
+              className="flex items-center gap-1.5 px-3 py-1 rounded-md text-[10px] font-medium text-white transition-all hover:scale-105"
               style={{
                 background: 'linear-gradient(180deg, #00a0e4 0%, #0077b5 50%, #005a8c 100%)',
               }}
@@ -39,7 +39,8 @@ export default function Footer({ onOpenChat }: FooterProps) {
             {/* OpenAI Chat Button */}
             <button
               onClick={onOpenChat}
-              className="flex items-center gap-1.5 px-3 py-1 rounded-full text-[10px] font-medium text-white transition-all hover:scale-105"
+              data-tutorial="terminal"
+              className="flex items-center gap-1.5 px-3 py-1 rounded-md text-[10px] font-medium text-white transition-all hover:scale-105"
               style={{
                 background: 'linear-gradient(180deg, #1cc99a 0%, #10a37f 50%, #0d8a6a 100%)',
               }}

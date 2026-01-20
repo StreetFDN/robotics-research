@@ -38,6 +38,7 @@ import FundingNews from '@/components/FundingNews';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ChatAssistant, { ChatAssistantRef } from '@/components/ChatAssistant';
+import OnboardingTutorial from '@/components/OnboardingTutorial';
 
 export default function Home() {
   const { setCompanies, setEvents, privateCompanies, clearSelection, selectedPrivateCompany, hoveredPrivateCompany } = useGlobeStore();
@@ -85,7 +86,7 @@ export default function Home() {
         {/* Center column - Globe and Heatmap */}
         <div className="flex-1 flex flex-col min-w-0 min-h-0 overflow-hidden">
           {/* Globe section */}
-          <div className="flex-1 relative min-h-0">
+          <div className="flex-1 relative min-h-0" data-tutorial="globe">
             <div
               className={`absolute inset-0 rounded-none border bg-[#08090C] transition-all duration-300 ${
                 hasSelection
@@ -131,7 +132,7 @@ export default function Home() {
           </div>
 
           {/* Heatmap section - clearly separated */}
-          <div className="h-80 flex-shrink-0 border-t border-white/[0.06] flex flex-col overflow-hidden">
+          <div className="h-80 flex-shrink-0 border-t border-white/[0.06] flex flex-col overflow-hidden" data-tutorial="heatmap">
             <div className="px-4 py-3 border-b border-white/[0.06] glass-subtle flex-shrink-0">
               <h2 className="text-subheadline font-semibold text-white">
                 Global Robotics Power Concentration
@@ -156,11 +157,11 @@ export default function Home() {
           {/* Scrollable container for all right sidebar content */}
           <div className="flex-1 min-h-0 overflow-y-auto flex flex-col gap-3 pr-1">
             {/* Narrative Index - Hero component for robotics sentiment */}
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0" data-tutorial="narrative-index">
               <NarrativeIndex />
             </div>
             {/* Funding News - 2025 robotics funding rounds from NewsAPI + curated */}
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0" data-tutorial="funding">
               <FundingNews />
             </div>
             {/* Company Details Panel - fixed height based on content */}
@@ -209,6 +210,8 @@ export default function Home() {
       <Footer onOpenChat={() => chatRef.current?.open()} />
       {/* Chat Assistant - panel only, button in footer */}
       <ChatAssistant ref={chatRef} />
+      {/* Onboarding Tutorial - shows on first visit */}
+      <OnboardingTutorial />
     </div>
   );
 }
