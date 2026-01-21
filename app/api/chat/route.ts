@@ -145,7 +145,7 @@ export async function POST(request: NextRequest) {
     if (stream) {
       // Streaming response
       const response = await client.chat.completions.create({
-        model: 'gpt-4-turbo-preview',
+        model: 'gpt-4o',
         messages: fullMessages,
         temperature: 0.7,
         max_tokens: 1000,
@@ -181,7 +181,7 @@ export async function POST(request: NextRequest) {
     } else {
       // Non-streaming response
       const response = await client.chat.completions.create({
-        model: 'gpt-4-turbo-preview',
+        model: 'gpt-4o',
         messages: fullMessages,
         temperature: 0.7,
         max_tokens: 1000,
