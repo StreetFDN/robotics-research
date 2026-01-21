@@ -75,8 +75,17 @@ export default function CompanyList() {
 
   // Handle company click - detect if private company and set appropriate state
   const handleCompanyClick = (company: Company) => {
-    // Check if this company is a private company by ID
-    const privateCompany = privateCompanies.find((pc) => pc.id === company.id);
+    // Check if this company is a private company by ID first, then by name
+    let privateCompany = privateCompanies.find((pc) => pc.id === company.id);
+
+    // If ID lookup fails, try matching by name (handles mockCompanies with numeric IDs)
+    if (!privateCompany) {
+      const companyNameLower = company.name.toLowerCase();
+      privateCompany = privateCompanies.find(
+        (pc) => pc.name.toLowerCase() === companyNameLower
+      );
+    }
+
     if (privateCompany) {
       setSelectedPrivateCompany(privateCompany);
     } else {
